@@ -1,0 +1,64 @@
+{
+  "redirects": [
+    {
+      "from": "/pdx_code_guild_courses",
+      "to": "/courses",
+      "status": 302
+    },
+    {
+      "from": "/pdx_code_guild_day_licensed_developer_bootcamps",
+      "to": "/courses/day",
+      "status": 302
+    },
+    {
+      "from": "/pdx_code_guild_licensed_developer_bootcamps",
+      "to": "/courses/evening",
+      "status": 302
+    },
+    {
+      "from": "/javascript_course_pdx_code_guild",
+      "to": "/courses/advanced-js",
+      "status": 302
+    },
+    {
+      "from": "/pdx_code_guild_intro_courses",
+      "to": "/programming-101",
+      "status": 302
+    },
+    {
+      "from": "/pdx_code_guild_portfolio_bootcamp",
+      "to": "/courses",
+      "status": 302
+    },
+    {
+      "from": "/prospective_students",
+      "to": "/prospective",
+      "status": 302
+    },
+    {
+      "from": "/capstone_gallery",
+      "to": "/capstones",
+      "status": 302
+    },
+    {
+      "from": "/pdx_code_financial_aid",
+      "to":  "/financial-aid",
+      "status": 302
+    },
+    {
+      "from": "/contact_pdx_code_guild",
+      "to": "/contact",
+      "status": 302
+    },
+    {
+      "from": "/apply_to_pdx_code_guild",
+      "to": "/apply",
+      "status": 302
+    },
+    {
+      "from": "/schedule_appointment_pdx_code_guild",
+      "to": "/contact",
+      "status": 302
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "link": [
+        {
+            "hid": "icon",
+            "rel": "icon",
+            "type": "image/x-icon",
+            "href": "/favicon.ico"
+        },
+        {
+            "hid": "home",
+            "rel": "home",
+            "href": "https://pdxcodeguild.com/"
+        },
+        {
+            "hid": "canonical",
+            "rel": "canonical",
+            "href": "https://pdxcodeguild.com/"
+        },
+        {
+            "hid": "author",
+            "rel": "author",
+            "href": "https://pdxcodeguild.com/humans.txt"
+        }
+    ]
+}

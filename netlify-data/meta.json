@@ -1,0 +1,161 @@
+{
+    "meta": [
+        { "charset": "utf-8" },
+        {
+            "hid": "X-UA-Compatible",
+            "http-equiv": "X-UA-Compatible",
+            "content": "IE=edge, chrome=1"
+        },
+        {
+            "hid": "Content-Type",
+            "http-equiv": "Content-Type",
+            "content": "text/html; charset=utf-8"
+        },
+        {
+            "hid": "viewport",
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+        },
+        {
+            "hid": "theme-color",
+            "name": "theme-color",
+            "content": "#f37024"
+        },
+        {
+        "hid": "description",
+        "name": "description",
+        "content":
+            "PDX Code Guild Programming BootCamps; Portland Coding Bootcamps; Online Coding Bootcamps"
+        },
+        {
+            "hid": "referrer",
+            "name": "referrer",
+            "content": "no-referrer-when-downgrade"
+        },
+        {
+            "hid": "robots",
+            "name": "robots",
+            "content": "all"
+        },
+        {
+            "hid": "fp:profile_id",
+            "property": "fp:profile_id",
+            "content": "https://www.facebook.com/PDXCodeGuild/"
+        },
+        {
+            "hid": "og:locale",
+            "property": "og:locale",
+            "content": "en_US"
+        },
+        {
+            "hid": "og:site_name",
+            "property": "og:site_name",
+            "content": "PDX Code Guild"
+        },
+        {
+            "hid": "og:type",
+            "property": "og:type",
+            "content": "website"
+        },
+        {
+            "hid": "og:url",
+            "property": "og:url",
+            "content": "https://pdxcodeguild.com/"
+        },
+        {
+            "hid": "og:title",
+            "property": "og:title",
+            "content": "PDX Code Guild Programming BootCamp"
+        },
+        {
+            "hid": "og:description",
+            "property": "og:description",
+            "content": "PDX Code Guild Programming BootCamp.  Covid19: Online coding classes with expert one-on-one instruction"
+        },
+        {
+            "hid": "og:image",
+            "property": "og:image",
+            "content": "https://pdxcodeguild.com/images/MondayNightPython.jpg"
+        },
+        {
+            "hid": "og:image:width",
+            "property": "og:image:width",
+            "content": "2048"
+        },
+        {
+            "hid": "og:image:height",
+            "property": "og:image:height",
+            "content": "1536"
+        },
+        {
+            "hid": "og:see_also-ig",
+            "property": "og:see_also",
+            "content": "https://www.instagram.com/pdxcodeguild/"
+        },
+        {
+            "hid": "og:see_also-yt",
+            "property": "og:see_also",
+            "content": "https://www.youtube.com/pdxcodeguild"
+        },
+        {
+            "hid": "og:see_also-li",
+            "property": "og:see_also",
+            "content": "https://www.linkedin.com/school/pdx-code-guild/"
+        },
+        {
+            "hid": "og:see_also-fb",
+            "property": "og:see_also",
+            "content": "https://www.facebook.com/PDXCodeGuild/"
+        },
+        {
+            "hid": "og:see_also-tw",
+            "property": "og:see_also",
+            "content": "https://twitter.com/pdxcodeguild/"
+        },
+        {
+            "hid": "twitter:card",
+            "property": "twitter:card",
+            "content": "summary_large_image"
+        },
+        {
+            "hid": "twitter:site",
+            "property": "twitter:site",
+            "content": "@PDXCodeGuild"
+        },
+        {
+            "hid": "twitter:creator",
+            "property": "twitter:creator",
+            "content": "@PDXCodeGuild"
+        },
+        {
+            "hid": "twitter:title",
+            "property": "twitter:title",
+            "content": "PDX Code Guild Programming BootCamp"
+        },
+        {
+            "hid": "twitter:description",
+            "property": "twitter:description",
+            "content": "PDX Code Guild Programming BootCamp.  Covid19: Online coding classes with expert one-on-one instruction"
+        },
+        {
+            "hid": "twitter:image",
+            "property": "twitter:image",
+            "content": "https://pdxcodeguild.com/images/MondayNightPython.jpg"
+        },
+        {
+            "hid": "twitter:image:width",
+            "property": "twitter:image:width",
+            "content": "2048"
+        },
+        {
+            "hid": "twitter:image:height",
+            "property": "twitter:image:height",
+            "content": "1536"
+        },
+        {
+            "hid": "google-site-verification",
+            "property": "google-site-verification",
+            "content": "vrEnJjQRMJK_yWZ_7bDELlx9sPk_rMRbdUkyrHTtY2I"
+        }
+  ]
+}
