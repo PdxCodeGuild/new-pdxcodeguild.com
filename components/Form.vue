@@ -6,7 +6,7 @@
     netlify
     netlify-honeypot="bot-field"
   >
-    <input type="hidden" name="form-name" value="apply">
+    <input type="hidden" name="form-name" value="apply" />
     <div>
       <div class="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
         <div class="sm:col-span-3">
@@ -94,7 +94,7 @@
             >Phone Number</label
           >
           <div class="mt-1 relative rounded-md shadow-sm">
-            <div class="absolute inset-y-0 left-0 flex items-center">
+            <!-- <div class="absolute inset-y-0 left-0 flex items-center">
               <label for="country" class="sr-only">Country</label>
               <select
                 id="country"
@@ -117,17 +117,16 @@
                 <option>CA</option>
                 <option>EU</option>
               </select>
-            </div>
+            </div> -->
             <input
               id="phone_number"
-              type="text"
+              type="tel"
               name="phone_number"
               class="
                 focus:ring-orange-500
                 focus:border-orange-500
                 block
                 w-full
-                pl-16
                 sm:text-sm
                 border-gray-300
                 rounded-md
@@ -198,8 +197,8 @@
               <div class="mt-4 space-y-4">
                 <div class="flex items-center">
                   <input
-                    id="push_everything"
-                    name="vet-benefits-type"
+                    id="vet-tec"
+                    name="vet-tec"
                     type="checkbox"
                     value="vet-tec"
                     class="
@@ -212,7 +211,7 @@
                     "
                   />
                   <label
-                    for="push_everything"
+                    for="vet-tec"
                     class="ml-3 block text-sm font-medium text-gray-700"
                   >
                     VET TEC
@@ -220,8 +219,8 @@
                 </div>
                 <div class="flex items-center">
                   <input
-                    id="push_email"
-                    name="vet-benefits-type"
+                    id="gi-bill"
+                    name="gi-bill"
                     type="checkbox"
                     value="gi-bill"
                     class="
@@ -234,7 +233,7 @@
                     "
                   />
                   <label
-                    for="push_email"
+                    for="gi-bill"
                     class="ml-3 block text-sm font-medium text-gray-700"
                   >
                     GI Bill™
@@ -242,8 +241,8 @@
                 </div>
                 <div class="flex items-center">
                   <input
-                    id="push_nothing"
-                    name="vet-benefits-type"
+                    id="voc-rehab"
+                    name="voc-rehab"
                     type="checkbox"
                     value="voc-rehab"
                     class="
@@ -256,7 +255,7 @@
                     "
                   />
                   <label
-                    for="push_nothing"
+                    for="voc-rehab"
                     class="ml-3 block text-sm font-medium text-gray-700"
                   >
                     VOC Rehab
