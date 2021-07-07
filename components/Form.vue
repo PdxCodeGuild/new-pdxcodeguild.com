@@ -6,7 +6,7 @@
     netlify
     netlify-honeypot="bot-field"
   >
-    <input type="hidden" name="form-name" value="apply" />
+    <input type="hidden" name="form-name" value="application" />
     <input name="bot-field" class="hidden" />
     <div>
       <div class="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
