@@ -198,7 +198,7 @@
                 <div class="flex items-center">
                   <input
                     id="vet-tec"
-                    name="vet-tec"
+                    name="benefits-type"
                     type="checkbox"
                     value="vet-tec"
                     class="
@@ -220,7 +220,7 @@
                 <div class="flex items-center">
                   <input
                     id="gi-bill"
-                    name="gi-bill"
+                    name="benefits-typs"
                     type="checkbox"
                     value="gi-bill"
                     class="
@@ -242,7 +242,7 @@
                 <div class="flex items-center">
                   <input
                     id="voc-rehab"
-                    name="voc-rehab"
+                    name="benefits-type"
                     type="checkbox"
                     value="voc-rehab"
                     class="
@@ -264,7 +264,7 @@
                 <div class="flex items-center">
                   <input
                     id="vrrap"
-                    name="vrrap"
+                    name="benefits-type"
                     type="checkbox"
                     value="vrrap"
                     class="
