@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+    <form name="application" netlify netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="application" />
+      <input type="hidden" name="bot-field" />
+      <input type="text" name="first_name" />
+      <input type="text" name="last_name" />
+      <input type="text" name="email" />
+      <input type="text" name="phone_number" />
+      <input type="radio" name="vet-benefits" value="yes" />
+      <input type="radio" name="vet-benefits" value="no" />
+      <input type="checkbox" name="benefits-type" value="vet-tec" />
+      <input type="checkbox" name="benefits-type" value="gi-bill" />
+      <input type="checkbox" name="benefits-type" value="voc-rehab" />
+      <textarea name="about"></textarea>
+    </form>
+    {{ APP }}
+  </body>
+</html>
