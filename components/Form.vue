@@ -2,11 +2,12 @@
   <form
     method="POST"
     class="space-y-8 divide-y divide-gray-200 px-2 md:px-8 lg:mx-auto lg:w-2/3"
-    name="apply"
+    name="application"
     netlify
     netlify-honeypot="bot-field"
   >
     <input type="hidden" name="form-name" value="apply" />
+    <input name="bot-field" class="hidden" />
     <div>
       <div class="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
         <div class="sm:col-span-3">
