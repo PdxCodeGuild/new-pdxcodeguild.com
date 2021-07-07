@@ -220,7 +220,7 @@
                 <div class="flex items-center">
                   <input
                     id="gi-bill"
-                    name="benefits-typs"
+                    name="benefits-type"
                     type="checkbox"
                     value="gi-bill"
                     class="
