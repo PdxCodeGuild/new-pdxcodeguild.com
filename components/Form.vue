@@ -1,5 +1,6 @@
 <template>
   <form
+    action="/apply/success"
     method="POST"
     class="space-y-8 divide-y divide-gray-200 px-2 md:px-8 lg:mx-auto lg:w-2/3"
     name="application"
