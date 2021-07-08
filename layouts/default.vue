@@ -1,6 +1,6 @@
 <template>
   <div class="font-default">
-    <!-- <Banner /> -->
+    <Banner />
     <Nav />
     <Nuxt />
     <Footer />
