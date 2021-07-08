@@ -25,7 +25,7 @@
           <p class="ml-3 font-medium text-white truncate">
             <span class="md:hidden">Covid 19: Boot Camps have adapted.</span>
             <span class="hidden md:inline">
-              Covid 19: Online coding classes with expert one-on-one instruction
+              Covid 19: Live online coding classes with expert one-on-one instruction
             </span>
           </p>
         </div>
