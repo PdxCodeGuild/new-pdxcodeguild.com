@@ -38,6 +38,8 @@ export default {
     '@nuxtjs/google-fonts',
     // https://github.com/nuxt-community/netlify-files-module
     '@nuxtjs/netlify-files',
+    // https://google-analytics.nuxtjs.org/
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -87,5 +89,10 @@ export default {
   // https://github.com/WilliamDASILVA/nuxt-facebook-pixel-module#readme
   facebook: {
     pixelId: '182969095929775',
+  },
+
+  // https://google-analytics.nuxtjs.org/
+  googleAnalytics: {
+    id: 'UA-49506024-1',
   },
 }
