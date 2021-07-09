@@ -45,22 +45,22 @@ export default {
 }
 </script>
 <style>
-/* https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+/* https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp
 @media (min-width: 1280px) {
-  /* Hide scrollbar for Chrome, Safari and Opera */
+  Hide scrollbar for Chrome, Safari and Opera
   body::-webkit-scrollbar {
     display: none;
   }
 
-  /* Hide scrollbar for IE, Edge and Firefox */
+  Hide scrollbar for IE, Edge and Firefox
   body {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; IE and Edge
+    scrollbar-width: none; Firefox
   }
-}
+} */
 </style>
 <style scoped>
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
   main {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -71,5 +71,5 @@ export default {
   main >>> .scroll-snap-last-child {
     scroll-snap-align: end;
   }
-}
+} */
 </style>
