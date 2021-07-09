@@ -1,9 +1,8 @@
 <template>
   <div>
     <PageHeader
-      header-text="No gimmicks or tricks"
-      post-header-text="We strive to be as honest and transparent as possible. We're
-            authentic, local, and committed to serving our community."
+      header-text="Authentic, Local &amp; Commited"
+      post-header-text="Our passion is serving our community by making tech jobs accessible to as many people as possible."
     />
 
     <div class="max-w-7xl mx-auto mt-16 px-4 sm:px-6 lg:px-8">
