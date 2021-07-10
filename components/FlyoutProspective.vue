@@ -40,7 +40,7 @@
           <ul class="mt-4 space-y-4">
             <li class="text-base truncate">
               <nuxt-link
-                to="/prospective"
+                to="/prospective#what-will-i-learn"
                 class="
                   font-medium
                   text-gray-900
@@ -55,7 +55,7 @@
             </li>
             <li class="text-base truncate">
               <nuxt-link
-                to="/prospective"
+                to="/prospective#enrollment-process"
                 class="
                   font-medium
                   text-gray-900
@@ -70,7 +70,7 @@
             </li>
             <li class="text-base truncate">
               <nuxt-link
-                to="/prospective"
+                to="/prospective#what-is-the-path"
                 class="
                   font-medium
                   text-gray-900
@@ -85,7 +85,7 @@
             </li>
             <li class="text-base truncate">
               <nuxt-link
-                to="/prospective"
+                to="/prospective#why-pdx-code-guild"
                 class="
                   font-medium
                   text-gray-900
@@ -100,7 +100,7 @@
             </li>
             <li class="text-base truncate">
               <nuxt-link
-                to="/prospective"
+                to="/prospective#veterans"
                 class="
                   font-medium
                   text-gray-900
