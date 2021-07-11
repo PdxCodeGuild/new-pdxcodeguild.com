@@ -246,7 +246,7 @@
               <span class="font-bold text-lg">
                 Career Services Specialists
               </span>
-              are commited to supporting grads with
+              are committed to supporting grads with
               <span class="font-bold text-lg"
                 >technical and informational interview</span
               >
