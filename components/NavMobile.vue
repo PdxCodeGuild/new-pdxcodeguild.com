@@ -166,8 +166,8 @@
               </div>
             </nuxt-link>
 
-            <a
-              href="#"
+            <nuxt-link
+              to="/financial-aid"
               class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
             >
               <div
@@ -202,10 +202,10 @@
               <div class="ml-4 text-base font-medium text-gray-900">
                 Financial Aid
               </div>
-            </a>
+            </nuxt-link>
 
-            <a
-              href="#"
+            <nuxt-link
+              to="/contact"
               class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
             >
               <div
@@ -237,13 +237,10 @@
                   />
                 </svg>
               </div>
-              <NuxtLink
-                to="contact"
-                class="ml-4 text-base font-medium text-gray-900"
-              >
+              <div class="ml-4 text-base font-medium text-gray-900">
                 Contact
-              </NuxtLink>
-            </a>
+              </div>
+            </nuxt-link>
           </nav>
         </div>
       </div>

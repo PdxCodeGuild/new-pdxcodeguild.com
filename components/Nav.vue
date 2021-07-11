@@ -120,6 +120,7 @@
               />
             </svg>
           </button>
+
           <FlyoutCourses v-if="coursesOpen" />
 
           <button
@@ -168,7 +169,9 @@
               />
             </svg>
           </button>
+
           <FlyoutProspective v-if="prospectiveOpen" />
+
           <button
             type="button"
             class="
@@ -189,6 +192,30 @@
             }"
           >
             <nuxt-link to="/financial-aid">Financial Aid</nuxt-link>
+          </button>
+
+          <button
+            type="button"
+            class="
+              group
+              rounded-md
+              inline-flex
+              items-center
+              text-base
+              font-medium
+              hover:text-gray-900
+              focus:outline-none
+              focus:ring-2 focus:ring-offset-2 focus:ring-orange-500
+              mx-2
+            "
+            :class="{
+              'text-gray-200': transparent,
+              'text-gray-500': !transparent,
+            }"
+          >
+            <a href="https://www.meetup.com/portland-programmer-network"
+              >Events</a
+            >
           </button>
         </div>
       </nav>
