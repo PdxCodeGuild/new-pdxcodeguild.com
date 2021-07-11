@@ -3,11 +3,17 @@
     <Nav scroll-snap="true" />
     <PageHeader header-text="Prospective Students" />
     <WhoIsThisProgramRightFor />
-    <EnrollmentProcess />
+    <hr />
+    <EnrollmentProcess ref="enrollment" />
+    <hr />
     <Veterans />
+    <hr />
     <WhatIsThePath1 />
+    <hr />
     <WhatIsThePath2 />
+    <hr />
     <WhatWillILearn />
+    <hr />
     <WhyPDXCodeGuild />
     <Footer scroll-snap="true" />
   </main>
@@ -41,6 +47,14 @@ export default {
           "PDX Code Guild Course Information, Enrollment Information, Veteran's Benefits & More.  Coding Bootcamps. Programming Bootcamps. Portland Coding Bootcamps. Online Coding Bootcamps.",
       },
     ],
+  },
+  mounted() {
+    // console.log(this.$refs.enrollment.$el)
+    // const enrollment = this.$refs.enrollment.$el
+    // Window.scrollTo({
+    //   x: enrollment.getClient
+    // })
+    // this.$refs.enrollment.$el.scrollTo()
   },
 }
 </script>

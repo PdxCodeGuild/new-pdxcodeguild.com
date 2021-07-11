@@ -1,6 +1,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <section
+    id="why-pdx-code-guild"
     class="
       py-16
       bg-gray-50

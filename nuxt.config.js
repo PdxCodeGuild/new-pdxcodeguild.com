@@ -1,6 +1,7 @@
 import { redirects } from './netlify-data/redirects.json'
 import { meta } from './netlify-data/meta.json'
 import { link } from './netlify-data/link.json'
+import router from './config-modules/router.js'
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -95,4 +96,6 @@ export default {
   googleAnalytics: {
     id: 'UA-49506024-1',
   },
+
+  router,
 }
