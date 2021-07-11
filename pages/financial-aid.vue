@@ -1,7 +1,7 @@
 <template>
   <div>
     <PageHeader
-      header-text="Authentic, Local &amp; Commited"
+      header-text="Authentic, Local &amp; Committed"
       post-header-text="Our passion is serving our community by making tech jobs accessible to as many people as possible."
     />
 
