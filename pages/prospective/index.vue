@@ -3,11 +3,17 @@
     <Nav scroll-snap="true" />
     <PageHeader header-text="Prospective Students" />
     <WhoIsThisProgramRightFor />
+    <hr />
     <EnrollmentProcess ref="enrollment" />
+    <hr />
     <Veterans />
+    <hr />
     <WhatIsThePath1 />
+    <hr />
     <WhatIsThePath2 />
+    <hr />
     <WhatWillILearn />
+    <hr />
     <WhyPDXCodeGuild />
     <Footer scroll-snap="true" />
   </main>
