@@ -250,7 +250,7 @@
             hover:bg-orange-600
           "
         >
-          Apply
+          Get Started
         </nuxt-link>
       </div>
     </div>

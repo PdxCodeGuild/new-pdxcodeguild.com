@@ -1,9 +1,16 @@
 <template>
   <main class="relative">
-    <PageHeader
+    <!-- <PageHeader
       pre-header-text="We're here for you"
       header-text="Drop us a line."
       post-header-text="Let us know how we can help!"
+    /> -->
+    <TailwindUIHeader1
+      title="Get Started"
+      subtitle="If you're ready to apply, we'll send you the official application and
+        invite you to an informal interview. If you'd like more information
+        first, simply put a note in the last field."
+      img-src="images/grayscale/Frog.jpg"
     />
 
     <!-- <div class="pt-10 relative mx-auto lg:w-6/12 px-2 md:px-8">
