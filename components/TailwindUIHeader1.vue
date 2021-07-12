@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <header class="relative bg-gray-500">
+  <header class="relative bg-orange-500">
     <div class="absolute inset-0">
       <img class="w-full h-full object-cover" :src="imgSrc" :alt="imgAlt" />
       <div
