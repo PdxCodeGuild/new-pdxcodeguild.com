@@ -7,10 +7,9 @@
     /> -->
     <TailwindUIHeader1
       title="Get Started"
-      subtitle="If you're ready to apply, we'll send you the official application and
-        invite you to an informal interview. If you'd like more information
-        first, simply put a note in the last field."
-      img-src="images/grayscale/Frog.jpg"
+      subtitle="Ready to start your coding adventure?  Tell us a litle bit about yourself and we'll follow up with an informational interview."
+      img-src="images/orange/Frog.jpg"
+      img-alt="A stuffed animal sits on a a shelf among books, a flowerpot, a model airplane, and a sign reading 'YOUR FUTURE STARTS TODAY'"
     />
 
     <!-- <div class="pt-10 relative mx-auto lg:w-6/12 px-2 md:px-8">
