@@ -1,10 +1,8 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <footer
-    class="bg-white"
-    :class="{ 'scroll-snap-last-child': scrollSnap }"
-    aria-labelledby="footerHeading"
-  >
+  <!-- :class="{ 'scroll-snap-last-child': scrollSnap }"
+  put this class in the footer to enable scroll-snap -->
+  <footer class="bg-white" aria-labelledby="footerHeading">
     <h2 id="footerHeading" class="sr-only">Footer</h2>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:pt-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -77,38 +75,41 @@
               PDX Code Guild
             </h3>
             <ul class="mt-4 space-y-4">
-              <li>
+              <!-- <li>
                 <a href="#" class="text-base text-gray-500 hover:text-gray-900">
                   About
                 </a>
-              </li>
+              </li> -->
 
               <li>
-                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                <nuxt-link
+                  to="/articles"
+                  class="text-base text-gray-500 hover:text-gray-900"
+                >
                   Blog
-                </a>
+                </nuxt-link>
               </li>
 
-              <li>
+              <!-- <li>
                 <a href="#" class="text-base text-gray-500 hover:text-gray-900">
                   Jobs
                 </a>
-              </li>
+              </li> -->
 
-              <li>
+              <!-- <li>
                 <a href="#" class="text-base text-gray-500 hover:text-gray-900">
                   Press
                 </a>
-              </li>
+              </li> -->
 
-              <li>
+              <!-- <li>
                 <a href="#" class="text-base text-gray-500 hover:text-gray-900">
                   Partners
                 </a>
-              </li>
+              </li> -->
             </ul>
           </div>
-          <div class="mt-12 md:mt-0">
+          <!-- <div class="mt-12 md:mt-0">
             <h3
               class="
                 text-sm
@@ -139,7 +140,7 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="mt-12 border-t border-gray-200 pt-8">
