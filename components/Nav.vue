@@ -84,13 +84,14 @@
               items-center
               text-base
               font-medium
-              hover:text-gray-900
               focus:outline-none
               focus:ring-2 focus:ring-offset-2 focus:ring-orange-500
               mx-2
             "
             :aria-expanded="coursesOpen"
             :class="{
+              'hover:text-gray-900': !transparent,
+              'hover:text-orange': transparent,
               'text-gray-200': transparent,
               'text-gray-500': !transparent,
             }"
@@ -133,12 +134,13 @@
               items-center
               text-base
               font-medium
-              hover:text-gray-900
               focus:outline-none
               focus:ring-2 focus:ring-offset-2 focus:ring-orange-500
               mx-2
             "
             :class="{
+              'hover:text-gray-900': !transparent,
+              'hover:text-orange': transparent,
               'text-gray-200': transparent,
               'text-gray-500': !transparent,
             }"
@@ -181,12 +183,13 @@
               items-center
               text-base
               font-medium
-              hover:text-gray-900
               focus:outline-none
               focus:ring-2 focus:ring-offset-2 focus:ring-orange-500
               mx-2
             "
             :class="{
+              'hover:text-gray-900': !transparent,
+              'hover:text-orange': transparent,
               'text-gray-200': transparent,
               'text-gray-500': !transparent,
             }"
@@ -203,12 +206,13 @@
               items-center
               text-base
               font-medium
-              hover:text-gray-900
               focus:outline-none
               focus:ring-2 focus:ring-offset-2 focus:ring-orange-500
               mx-2
             "
             :class="{
+              'hover:text-gray-900': !transparent,
+              'hover:text-orange': transparent,
               'text-gray-200': transparent,
               'text-gray-500': !transparent,
             }"
@@ -222,8 +226,10 @@
       <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
         <NuxtLink
           to="contact"
-          class="whitespace-nowrap text-base font-medium hover:text-gray-900"
+          class="whitespace-nowrap text-base font-medium"
           :class="{
+            'hover:text-gray-900': !transparent,
+            'hover:text-orange': transparent,
             'text-gray-200': transparent,
             'text-gray-500': !transparent,
           }"
