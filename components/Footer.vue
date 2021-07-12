@@ -2,10 +2,7 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <!-- :class="{ 'scroll-snap-last-child': scrollSnap }"
   put this class in the footer to enable scroll-snap -->
-  <footer
-    class="bg-white"
-    aria-labelledby="footerHeading"
-  >
+  <footer class="bg-white" aria-labelledby="footerHeading">
     <h2 id="footerHeading" class="sr-only">Footer</h2>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:pt-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -85,7 +82,10 @@
               </li> -->
 
               <li>
-                <nuxt-link to="/articles" class="text-base text-gray-500 hover:text-gray-900">
+                <nuxt-link
+                  to="/articles"
+                  class="text-base text-gray-500 hover:text-gray-900"
+                >
                   Blog
                 </nuxt-link>
               </li>
