@@ -1,10 +1,10 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <header class="relative bg-orange-500">
+  <header :class="`relative bg-${colorFilter}-${colorFilterWeight}`">
     <div class="absolute inset-0">
       <img class="w-full h-full object-cover" :src="imgSrc" :alt="imgAlt" />
       <div
-        class="absolute inset-0 bg-gray-500 mix-blend-multiply"
+        :class="`absolute inset-0 bg-${colorFilter}-${colorFilterWeight} mix-blend-multiply`"
         aria-hidden="true"
       />
     </div>
@@ -29,6 +29,13 @@
 </template>
 <script>
 export default {
-  props: ['title', 'subtitle', 'imgSrc', 'imgAlt'],
+  props: [
+    'title',
+    'subtitle',
+    'imgSrc',
+    'imgAlt',
+    'colorFilter',
+    'colorFilterWeight',
+  ],
 }
 </script>
