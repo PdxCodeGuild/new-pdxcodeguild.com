@@ -75,11 +75,14 @@
               PDX Code Guild
             </h3>
             <ul class="mt-4 space-y-4">
-              <!-- <li>
-                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+              <li>
+                <nuxt-link
+                  to="/about"
+                  class="text-base text-gray-500 hover:text-gray-900"
+                >
                   About
-                </a>
-              </li> -->
+                </nuxt-link>
+              </li>
 
               <li>
                 <nuxt-link
