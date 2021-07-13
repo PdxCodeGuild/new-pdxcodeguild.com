@@ -1,9 +1,15 @@
 <template>
   <main class="relative">
-    <PageHeader
+    <!-- <PageHeader
       pre-header-text="We're here for you"
       header-text="Drop us a line."
       post-header-text="Let us know how we can help!"
+    /> -->
+    <TailwindUIHeader1
+      title="Get Started"
+      subtitle="Ready to start your coding adventure?  Tell us a litle bit about yourself and we'll follow up with an informational interview."
+      img-src="images/orange/Frog.jpg"
+      img-alt="A stuffed animal sits on a a shelf among books, a flowerpot, a model airplane, and a sign reading 'YOUR FUTURE STARTS TODAY'"
     />
 
     <!-- <div class="pt-10 relative mx-auto lg:w-6/12 px-2 md:px-8">

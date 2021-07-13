@@ -294,7 +294,7 @@
             for="about"
             class="block text-base lg:text-lg font-medium text-gray-700"
           >
-            Why do you want to join the PDX Code Guild?
+            Why do you want to join PDX Code Guild?
           </label>
           <div class="mt-2">
             <textarea
