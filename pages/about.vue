@@ -47,7 +47,7 @@ const team = [
     name: 'Pete Jones (he/him/his)',
     role: 'Instructor',
     imageUrl: '/images/team/Pete.jpg',
-    bio: 'Hi, I’m Keegan! I am the Programming 101 & 102 Instructor here at PDX Code Guild. I’m here to help you get your coding career off to a good start by building a solid foundation in the basics of Python before beginning with one of our boot camps. My coding journey began in 2019 with Ruby on Rails, but I switched to Python & Javascript when I began my boot camp program with the Guild. I graduated in February, 2020 and have continued learning and building full-stack web apps ever since. I am also a musician of twenty years, multimedia artist, gardener, amateur mycologist and father of two. I love to learn and to teach and I believe that no matter what your background and interests are, you’ll be able to find a way to compliment them with code. Welcome to PDX Code Guild!',
+    bio: 'After visiting Oregon with family in 2019, Pete moved to Portland the next month.',
   },
 ]
 
