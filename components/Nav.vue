@@ -237,7 +237,7 @@
           Contact
         </NuxtLink>
         <nuxt-link
-          to="apply"
+          to="/apply"
           class="
             ml-8
             whitespace-nowrap
