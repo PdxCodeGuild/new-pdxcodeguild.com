@@ -1,76 +1,12 @@
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ]
-  }
-  ```
--->
 <template>
-  <div class="bg-white">
-    <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
-      <div class="space-y-12">
-        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
-          Our Team
-        </h2>
-
-        <ul
-          class="
-            space-y-12
-            lg:grid lg:grid-cols-2
-            lg:items-start
-            lg:gap-x-8 lg:gap-y-12
-            lg:space-y-0
-          "
-        >
-          <li v-for="person in people" :key="person.name">
-            <div
-              class="
-                space-y-4
-                sm:grid sm:grid-cols-3
-                sm:gap-6
-                sm:space-y-0
-                lg:gap-8
-              "
-            >
-              <div
-                class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4"
-              >
-                <img
-                  class="object-cover shadow-lg rounded-lg"
-                  :src="person.imageUrl"
-                  alt=""
-                />
-              </div>
-              <div class="sm:col-span-2">
-                <div class="space-y-4">
-                  <div class="text-lg leading-6 font-medium space-y-1">
-                    <h3>{{ person.name }}</h3>
-                    <p class="text-orange-600">{{ person.role }}</p>
-                  </div>
-                  <div class="text-lg">
-                    <p class="text-gray-500">{{ person.bio }}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <main>
+    <Team1 :team="team" />
+    <Team2 :team="team" />
+  </main>
 </template>
 
 <script>
-const people = [
+const team = [
   {
     name: 'Sheri Dover',
     role: 'Director',
@@ -95,13 +31,30 @@ const people = [
     imageUrl: 'https://placekitten.com/770/1024',
     bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
   },
-  // More people...
+  {
+    name: 'Alexander de Michieli (he/him/his)',
+    role: 'Instructor',
+    imageUrl: '/images/team/Alex.jpg',
+    bio: 'Alexander is originally from Italy. He has a past in photography and design and enjoys combining his technical and creative skills. He is currently working as an engineer for Squarespace and is a former graduate of PDX Code Guild. ',
+  },
+  {
+    name: 'Keegan Good',
+    role: 'Programming 101 & 102 Instructor',
+    imageUrl: '/images/team/Keegan.jpg',
+    bio: 'Hi, I’m Keegan! I am the Programming 101 & 102 Instructor here at PDX Code Guild. I’m here to help you get your coding career off to a good start by building a solid foundation in the basics of Python before beginning with one of our boot camps. My coding journey began in 2019 with Ruby on Rails, but I switched to Python & Javascript when I began my boot camp program with the Guild. I graduated in February, 2020 and have continued learning and building full-stack web apps ever since. I am also a musician of twenty years, multimedia artist, gardener, amateur mycologist and father of two. I love to learn and to teach and I believe that no matter what your background and interests are, you’ll be able to find a way to compliment them with code. Welcome to PDX Code Guild!',
+  },
+  {
+    name: 'Pete Jones (he/him/his)',
+    role: 'Instructor',
+    imageUrl: '/images/team/Pete.jpg',
+    bio: 'Hi, I’m Keegan! I am the Programming 101 & 102 Instructor here at PDX Code Guild. I’m here to help you get your coding career off to a good start by building a solid foundation in the basics of Python before beginning with one of our boot camps. My coding journey began in 2019 with Ruby on Rails, but I switched to Python & Javascript when I began my boot camp program with the Guild. I graduated in February, 2020 and have continued learning and building full-stack web apps ever since. I am also a musician of twenty years, multimedia artist, gardener, amateur mycologist and father of two. I love to learn and to teach and I believe that no matter what your background and interests are, you’ll be able to find a way to compliment them with code. Welcome to PDX Code Guild!',
+  },
 ]
 
 export default {
   data() {
     return {
-      people,
+      team,
     }
   },
 }
