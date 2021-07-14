@@ -1,24 +1,15 @@
 <template>
   <main class="relative">
-    <!-- <PageHeader
-      pre-header-text="We're here for you"
-      header-text="Drop us a line."
-      post-header-text="Let us know how we can help!"
-    /> -->
     <TailwindUIHeader1
       title="Get Started"
       subtitle="Ready to start your coding adventure?  Tell us a litle bit about yourself and we'll follow up with an informational interview."
-      img-src="images/orange/Frog.jpg"
-      img-alt="A stuffed animal sits on a a shelf among books, a flowerpot, a model airplane, and a sign reading 'YOUR FUTURE STARTS TODAY'"
+      img-src="images/grayscale/InstructorAndStudent.jpg"
+      img-alt="In a classroom, an instructor assists a student with coding at a podium."
+      color-filter="orange"
+      color-filter-weight="500"
     />
-
-    <!-- <div class="pt-10 relative mx-auto lg:w-6/12 px-2 md:px-8">
-      <p class="mt-4 max-w-2xl lg:mx-auto text-gray-500">
-        If you're ready to apply, we'll send you the official application and
-        invite you to an informal interview. If you'd like more information
-        first, simply put a note in the last field.
-      </p>
-    </div> -->
+    <!-- frog alt text: -->
+    <!-- img-alt="A stuffed animal sits on a a shelf among books, a flowerpot, a model airplane, and a sign reading 'YOUR FUTURE STARTS TODAY'" -->
 
     <div
       class="

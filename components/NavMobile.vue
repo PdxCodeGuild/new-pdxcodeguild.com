@@ -282,7 +282,7 @@
       <div class="py-6 px-5">
         <div>
           <nuxt-link
-            to="apply"
+            to="/apply"
             class="
               w-full
               flex
