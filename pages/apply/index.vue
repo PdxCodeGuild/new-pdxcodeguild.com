@@ -3,7 +3,7 @@
     <TailwindUIHeader1
       title="Get Started"
       subtitle="Ready to start your coding adventure?  Tell us a litle bit about yourself and we'll follow up with an informational interview."
-      img-src="images/grayscale/InstructorAndStudent.jpg"
+      img-src="images/orange/InstructorAndStudent.jpg"
       img-alt="In a classroom, an instructor assists a student with coding at a podium."
       color-filter="orange"
       color-filter-weight="500"

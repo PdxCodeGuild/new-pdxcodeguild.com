@@ -45,8 +45,8 @@
         class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8"
       >
         <div
-          v-for="link in supportLinks"
-          :key="link.name"
+          v-for="section in sections"
+          :key="section.name"
           class="flex flex-col bg-white rounded-2xl shadow-xl"
         >
           <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
@@ -56,7 +56,7 @@
                 top-0
                 p-5
                 inline-block
-                bg-orange-600
+                bg-orange-500
                 rounded-xl
                 shadow-lg
                 transform
@@ -64,24 +64,28 @@
               "
             >
               <component
-                :is="link.icon"
+                :is="section.icon"
                 class="h-6 w-6 text-white"
                 aria-hidden="true"
               />
             </div>
-            <h3 class="text-xl font-medium text-gray-900">{{ link.name }}</h3>
-            <p class="mt-4 text-base text-gray-500">{{ link.description }}</p>
+            <h3 class="text-xl font-medium text-gray-900">
+              {{ section.name }}
+            </h3>
+            <p class="mt-4 text-base text-gray-500">
+              {{ section.description }}
+            </p>
           </div>
           <div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-            <a
-              :href="link.href"
+            <nuxt-link
+              :to="section.hash"
               class="
                 text-base
                 font-medium
                 text-orange-700
                 hover:text-orange-600
               "
-              >Contact us<span aria-hidden="true"> &rarr;</span></a
+              >Learn more<span aria-hidden="true"> &darr;</span></nuxt-link
             >
           </div>
         </div>
@@ -92,37 +96,46 @@
 
 <script>
 // import { NewspaperIcon, PhoneIcon, SupportIcon } from '@heroicons/vue/outline'
-import TerminalIcon from '~/components/heroicons/TerminalIcon.vue'
+import PencilAltIcon from '~/components/heroicons/PencilAltIcon.vue'
+import CodeIcon from '~/components/heroicons/CodeIcon.vue'
+import AcademicCap from '~/components/heroicons/AcademicCapIcon.vue'
 
-const supportLinks = [
+const sections = [
   {
-    name: 'Sales',
-    href: '#',
+    name: 'Enrollment',
+    hash: '#enrollment-process',
     description:
       'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    icon: TerminalIcon,
+    icon: PencilAltIcon,
   },
   {
-    name: 'Technical Support',
-    href: '#',
+    name: 'Students',
+    hash: '#',
     description:
       'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    icon: TerminalIcon,
+    icon: CodeIcon,
   },
   {
-    name: 'Media Inquiries',
-    href: '#',
+    name: 'Alumni',
+    hash: '#',
     description:
       'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    icon: TerminalIcon,
+    icon: AcademicCap,
   },
 ]
 
 export default {
-  props: ['title', 'subtitle', 'imgSrc', 'imgAlt'],
+  props: [
+    'title',
+    'subtitle',
+    'imgSrc',
+    'imgAlt',
+    'colorFilter',
+    'colorFilterWeight',
+  ],
   data() {
     return {
-      supportLinks,
+      sections,
     }
   },
 }
