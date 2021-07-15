@@ -30,7 +30,7 @@
           sm:text-4xl
         "
       >
-        You are not done
+        Graduation is just the beginning
       </p>
       <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
         Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan
@@ -91,12 +91,12 @@
 import AcademicCapIcon from '~/components/heroicons/AcademicCapIcon.vue'
 
 const features = [
-  { name: 'Push to Deploy', icon: AcademicCapIcon },
-  { name: 'SSL Certificates', icon: AcademicCapIcon },
-  { name: 'Simple Queues', icon: AcademicCapIcon },
-  { name: 'Advanced Security', icon: AcademicCapIcon },
-  { name: 'Powerful API', icon: AcademicCapIcon },
-  { name: 'Database Backups', icon: AcademicCapIcon },
+  { name: 'Career Services', icon: AcademicCapIcon },
+  { name: 'Mock Technical Interviews', icon: AcademicCapIcon },
+  { name: 'Study Hall', icon: AcademicCapIcon },
+  { name: 'Tech Talks', icon: AcademicCapIcon },
+  { name: 'Advanced JavaScript Course', icon: AcademicCapIcon },
+  { name: 'In-Person Events... Soon', icon: AcademicCapIcon },
 ]
 
 export default {

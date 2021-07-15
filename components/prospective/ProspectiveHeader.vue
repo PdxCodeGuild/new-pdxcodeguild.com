@@ -109,16 +109,16 @@ const sections = [
   },
   {
     name: 'Students',
-    hash: '#what-is-the-path',
+    hash: '#students',
     description:
-      'Our students get the best one-on-one instruction from experienced web developers.  Our immersive bootcamps will teach you the practical skills you need to break into tech.',
+      'Our students get expert one-on-one instruction from experienced web developers.  Our immersive bootcamps will teach you the practical skills you need to break into tech.',
     icon: CodeIcon,
   },
   {
     name: 'Alumni',
     hash: '#alumni',
     description:
-      "Graduation is not the end.  We're here for our grads with a dedicated Career Services Specialist, technical interview workshops, and 90 minutes of Study Hall every weekday.",
+      "Graduation is just the beginning.  We're here for our grads with a dedicated Career Services Specialist, technical interview workshops, and 90 minutes of Study Hall every weekday.",
     icon: AcademicCap,
   },
 ]
