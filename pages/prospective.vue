@@ -1,7 +1,21 @@
 <template>
   <main class="lg:h-screen">
     <Nav scroll-snap="true" />
-    <PageHeader header-text="Prospective Students" />
+    <!-- <PageHeader header-text="Prospective Students" /> -->
+    <TailwindUIHeader2
+      title="Prospective Students"
+      img-src="images/grayscale/StudentsConcentrating.jpg"
+      img-alt="TODO"
+      color-filter="orange"
+      color-filter-weight="500"
+    />
+    <TailwindUIHeader2
+      title="Prospective Students"
+      img-src="images/orange/StudentsConcentrating.jpg"
+      img-alt="TODO"
+      color-filter="orange"
+      color-filter-weight="500"
+    />
     <WhoIsThisProgramRightFor />
     <hr />
     <EnrollmentProcess ref="enrollment" />
