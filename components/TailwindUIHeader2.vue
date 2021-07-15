@@ -95,7 +95,6 @@
 </template>
 
 <script>
-// import { NewspaperIcon, PhoneIcon, SupportIcon } from '@heroicons/vue/outline'
 import PencilAltIcon from '~/components/heroicons/PencilAltIcon.vue'
 import CodeIcon from '~/components/heroicons/CodeIcon.vue'
 import AcademicCap from '~/components/heroicons/AcademicCapIcon.vue'
@@ -105,21 +104,21 @@ const sections = [
     name: 'Enrollment',
     hash: '#enrollment-process',
     description:
-      'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
+      'Enrollment is easy.  Fill out a simple form and an advisor will reach out to you for an informal interview.  Then, take our free Programming 101 course as a preqrequisite to the bootcamp.',
     icon: PencilAltIcon,
   },
   {
     name: 'Students',
-    hash: '#',
+    hash: '#what-is-the-path',
     description:
-      'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
+      'Our students get the best one-on-one instruction from experienced web developers.  Our immersive bootcamps will teach you the practical skills you need to break into tech.',
     icon: CodeIcon,
   },
   {
     name: 'Alumni',
-    hash: '#',
+    hash: '#alumni',
     description:
-      'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
+      "Graduation is not the end.  We're here for our grads with a dedicated Career Services Specialist, technical interview workshops, and 90 minutes of Study Hall every weekday.",
     icon: AcademicCap,
   },
 ]
