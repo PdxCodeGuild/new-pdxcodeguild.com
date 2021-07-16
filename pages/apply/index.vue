@@ -3,10 +3,10 @@
     <TailwindUIHeader1
       title="Get Started"
       subtitle="Ready to start your coding adventure?  Tell us a litle bit about yourself and we'll follow up with an informational interview."
-      img-src="images/orange/InstructorAndStudent.jpg"
+      img-src="images/orange/AlumniHackerspace.jpg"
       img-alt="In a classroom, an instructor assists a student with coding at a podium."
       color-filter="orange"
-      color-filter-weight="500"
+      color-filter-weight="300"
     />
     <!-- frog alt text: -->
     <!-- img-alt="A stuffed animal sits on a a shelf among books, a flowerpot, a model airplane, and a sign reading 'YOUR FUTURE STARTS TODAY'" -->
