@@ -102,7 +102,7 @@ import AcademicCap from '~/components/heroicons/AcademicCapIcon.vue'
 const sections = [
   {
     name: 'Enrollment',
-    hash: '#enrollment-process',
+    hash: '#enrollment',
     description:
       'Enrollment is easy.  Fill out a simple form and an advisor will reach out to you for an informal interview.  Then, take our free Programming 101 course as a preqrequisite to the bootcamp.',
     icon: PencilAltIcon,

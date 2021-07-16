@@ -8,8 +8,8 @@
       color-filter="orange"
       color-filter-weight="500"
     />
-    <WhoIsThisProgramRightFor />
-    <EnrollmentProcess />
+    <!-- <WhoIsThisProgramRightFor /> -->
+    <Enrollment />
     <Students />
     <WhatWillILearn />
     <Alumni />
@@ -18,8 +18,8 @@
 </template>
 <script>
 import ProspectiveHeader from '~/components/prospective/ProspectiveHeader.vue'
-import WhoIsThisProgramRightFor from '~/components/prospective/WhoIsThisProgramRightFor.vue'
-import EnrollmentProcess from '~/components/prospective/EnrollmentProcess.vue'
+// import WhoIsThisProgramRightFor from '~/components/prospective/WhoIsThisProgramRightFor.vue'
+import Enrollment from '~/components/prospective/Enrollment.vue'
 import Students from '~/components/prospective/Students.vue'
 import WhatWillILearn from '~/components/prospective/WhatWillILearn.vue'
 import Alumni from '~/components/prospective/Alumni.vue'
@@ -27,10 +27,10 @@ import Alumni from '~/components/prospective/Alumni.vue'
 export default {
   components: {
     ProspectiveHeader,
-    WhoIsThisProgramRightFor,
+    // WhoIsThisProgramRightFor,
+    Enrollment,
     Students,
     WhatWillILearn,
-    EnrollmentProcess,
     Alumni,
   },
   layout: 'prospective',
