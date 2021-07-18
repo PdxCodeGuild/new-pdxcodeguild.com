@@ -10,10 +10,10 @@
     <TailwindUIHeader1
       title="About Us"
       subtitle="More than a school"
-      img-src="/images/grayscale/AlumniHackerspace.jpg"
+      img-src="/images/orange/Frog.jpg"
       imag-alt="Programmers gather to work and socialize at a long table."
       color-filter="orange"
-      color-filter-weight="500"
+      color-filter-weight="300"
     />
     <Team1 :team="team" />
     <!-- <Team2 :team="team" /> -->
@@ -40,12 +40,12 @@ const team = [
     imageUrl: '/images/team/Merritt.jpg',
     bio: "Merritt is a web developer and educator who teaches computer science and programming to students from kindergarten to adult. His favorite development projects use data visualizations and maps to tell stories. When he's not behind the computer, you can find Merritt exploring the city, leading architectural history tours, or watching a movie.",
   },
-  // {
-  //   name: 'June Bremmer',
-  //   role: 'Career Services Specialist',
-  //   imageUrl: 'https://placekitten.com/770/1024',
-  //   bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-  // },
+  {
+    name: 'June Bremmer',
+    role: 'Career Services Specialist',
+    imageUrl: '/images/team/June.png',
+    bio: 'Guided by personal job search experience, mentorship, corporate experience in workforce transition, years of technical staffing agency experience placing professionals into jobs and supporting hundreds of students with career and academic options, June has developed a career services curriculum that enables students to quickly realize their potential as programmers by providing opportunities to grow skills, network, develop job search strategies and define goals.  Upon graduating, our students experience what it is like to be a strong competitor in the technical hiring community.  With her MS in Adult Education, June’s work is supportive, empowering students with job search information, connections, strategies and resources.  It is her personal goal to move students beyond job seekers into new and exciting technical opportunities.',
+  },
   {
     name: 'Alexander de Michieli (he/him/his)',
     role: 'Instructor',
