@@ -22,12 +22,12 @@
 
 <script>
 const team = [
-  // {
-  //   name: 'Sheri Dover',
-  //   role: 'Director',
-  //   imageUrl: 'https://placekitten.com/768/1024',
-  //   bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-  // },
+  {
+    name: 'Sheri Dover',
+    role: 'Director',
+    imageUrl: '/images/team/Sheri.jpg',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+  },
   // {
   //   name: 'Matthew Cooper',
   //   role: 'Lead Instructor',
