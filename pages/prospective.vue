@@ -11,7 +11,13 @@
     <Enrollment />
     <TheBootcamp />
     <AfterGraduation />
-    <BrandPanelCTA />
+    <BrandPanelCTA
+      title="Start your coding adventure today"
+      subtitle="It's easy"
+      href="/apply"
+      img-src="/images/InstructorAndStudent2.jpg"
+      button-text="Get started"
+    />
     <Footer scroll-snap="true" />
   </main>
 </template>

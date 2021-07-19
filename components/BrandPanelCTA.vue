@@ -57,8 +57,8 @@
             >
               <img
                 class="object-cover object-center rounded-3xl shadow-2xl"
-                src="https://images.unsplash.com/photo-1507207611509-ec012433ff52?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80"
-                alt=""
+                :src="imgSrc"
+                :alt="imgAlt"
               />
             </div>
           </div>
@@ -180,12 +180,10 @@
             "
           >
             <h2 id="join-heading" class="text-3xl font-extrabold text-white">
-              Join our team
+              {{ title }}
             </h2>
             <p class="text-lg text-white">
-              Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
-              id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
-              fames.
+              {{ subtitle }}
             </p>
             <nuxt-link
               class="
@@ -205,8 +203,8 @@
                 sm:inline-block
                 sm:w-auto
               "
-              to="/apply"
-              >Get started</nuxt-link
+              :to="href"
+              >{{ buttonText }}</nuxt-link
             >
           </div>
         </div>
@@ -216,6 +214,6 @@
 </template>
 <script>
 export default {
-  props: ['title', 'subtitle', 'href', 'alt'],
+  props: ['title', 'subtitle', 'href', 'imgSrc', 'imgAlt', 'buttonText'],
 }
 </script>
