@@ -11,6 +11,7 @@
     <Enrollment />
     <TheBootcamp />
     <AfterGraduation />
+    <BrandPanelCTA />
     <Footer scroll-snap="true" />
   </main>
 </template>

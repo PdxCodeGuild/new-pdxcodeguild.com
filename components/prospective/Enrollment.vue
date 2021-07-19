@@ -103,7 +103,7 @@
 </template>
 
 <script>
-import StarIcon from '~/components/heroicons/StarIcon.vue'
+import PencilAltIcon from '~/components/heroicons/PencilAltIcon.vue'
 import GettingStarted from '~/components/prospective/enrollment/GettingStarted.vue'
 import Programming101 from '~/components/prospective/enrollment/Programming101.vue'
 import FormalApplication from '~/components/prospective/enrollment/FormalApplication.vue'
@@ -113,22 +113,22 @@ const features = [
   {
     name: 'Getting started',
     description: GettingStarted,
-    icon: StarIcon,
+    icon: PencilAltIcon,
   },
   {
-    name: 'Programming 101',
+    name: 'Programming 101/102',
     description: Programming101,
-    icon: StarIcon,
+    icon: PencilAltIcon,
   },
   {
     name: 'Formal application',
     description: FormalApplication,
-    icon: StarIcon,
+    icon: PencilAltIcon,
   },
   {
     name: 'Tuition',
     description: Tuition,
-    icon: StarIcon,
+    icon: PencilAltIcon,
   },
 ]
 

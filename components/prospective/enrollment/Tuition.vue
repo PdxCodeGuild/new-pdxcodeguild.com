@@ -5,7 +5,7 @@
     <nuxt-link to="/financial-aid" class="text-orange"
       >income-based discounts</nuxt-link
     >
-    and are VA certified. Enroll with your
+    and are VA-certified. Enroll with your
     <nuxt-link to="/veterans" class="text-orange"
       >veteran's benefits!</nuxt-link
     >

@@ -57,8 +57,8 @@
           The Bootcamp
         </h2>
         <p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          magnam voluptatum cupiditate veritatis in, accusamus quisquam.
+          Our goal is to take students of all levels of programming experience
+          and turn them into capable web developers. Our imme
         </p>
       </div>
 
@@ -82,7 +82,7 @@
               sm:text-3xl
             "
           >
-            One-on-one instruction
+            Become a web developer
           </h3>
           <p class="mt-3 text-lg text-gray-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
@@ -92,11 +92,7 @@
           </p>
 
           <dl class="mt-10 space-y-10">
-            <div
-              v-for="item in transferFeatures"
-              :key="item.id"
-              class="relative"
-            >
+            <div v-for="item in webDevFeatures" :key="item.id" class="relative">
               <dt>
                 <div
                   class="
@@ -107,7 +103,7 @@
                     h-12
                     w-12
                     rounded-md
-                    bg-indigo-500
+                    bg-orange-500
                     text-white
                   "
                 >
@@ -172,7 +168,7 @@
             class="relative mx-auto rounded-lg shadow-lg"
             width="490"
             src="images/InstructorAndStudent.jpg"
-            alt=""
+            alt="A PDX Code Guild instructor assists a student at a lectern."
           />
         </div>
       </div>
@@ -239,14 +235,13 @@
               Get immersed in tech
             </h3>
             <p class="mt-3 text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              ex obcaecati natus eligendi delectus, cum deleniti sunt in labore
-              nihil quod quibusdam expedita nemo.
+              In our bootcamps, you will be writing code every day, learning the
+              practical skills that developers use every day.
             </p>
 
             <dl class="mt-10 space-y-10">
               <div
-                v-for="item in communicationFeatures"
+                v-for="item in techImmersionFeatures"
                 :key="item.id"
                 class="relative"
               >
@@ -260,7 +255,7 @@
                       h-12
                       w-12
                       rounded-md
-                      bg-indigo-500
+                      bg-orange-500
                       text-white
                     "
                   >
@@ -279,6 +274,15 @@
                 </dd>
               </div>
             </dl>
+            <div class="mt-10">
+              <nuxt-link
+                to="/courses"
+                class="text-base font-medium text-orange-600"
+              >
+                Learn more about our courses
+                <span aria-hidden="true">&rarr;</span>
+              </nuxt-link>
+            </div>
           </div>
 
           <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
@@ -326,7 +330,7 @@
               class="relative mx-auto rounded-lg shadow-lg"
               width="490"
               src="images/coursecards/talking.jpg"
-              alt=""
+              alt="PDX Code Guild students chat on a couch.  A stuffed frog looks on."
             />
           </div>
         </div>
@@ -338,51 +342,51 @@
 <script>
 // import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/vue/outline'
 import CodeIcon from '~/components/heroicons/CodeIcon.vue'
-const transferFeatures = [
+const webDevFeatures = [
   {
     id: 1,
-    name: 'Competitive exchange rates',
+    name: 'One-on-one instruction',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'With small class sizes and hours of lab time each week, our students have access to instant help from Instructors and Teaching Assistants.  Get extra help outside of class at Study Hall––90 minutes every weekday.',
     icon: CodeIcon,
   },
   {
     id: 2,
-    name: 'No hidden fees',
+    name: 'All levels of experience',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      "Whether you have prior programming experience, or you've never opened a terminal, our bootcamps are designed to turn all of our students into Full Stack Web Developers.",
     icon: CodeIcon,
   },
   {
     id: 3,
-    name: 'Transfers are instant',
+    name: "We're here to help",
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
     icon: CodeIcon,
   },
 ]
-const communicationFeatures = [
+const techImmersionFeatures = [
   {
     id: 1,
-    name: 'Mobile notifications',
+    name: 'Practical programming skills',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
     icon: CodeIcon,
   },
   {
     id: 2,
-    name: 'Reminder emails',
+    name: 'Hands-on learning',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'In our bootcamps, you will be writing code every day, learning the practical skills that developers use in the tech industry.',
     icon: CodeIcon,
   },
 ]
 
 export default {
-  return() {
+  data() {
     return {
-      transferFeatures,
-      communicationFeatures,
+      webDevFeatures,
+      techImmersionFeatures,
     }
   },
 }
