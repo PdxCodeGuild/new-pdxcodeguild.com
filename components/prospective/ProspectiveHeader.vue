@@ -108,15 +108,15 @@ const sections = [
     icon: PencilAltIcon,
   },
   {
-    name: 'Students',
-    hash: '#students',
+    name: 'The Bootcamp',
+    hash: '#bootcamp',
     description:
       'Our students get expert one-on-one instruction from experienced web developers.  Our immersive bootcamps will teach you the practical skills you need to break into tech.',
     icon: CodeIcon,
   },
   {
-    name: 'Alumni',
-    hash: '#alumni',
+    name: 'After Graduation',
+    hash: '#after',
     description:
       "Graduation is just the beginning.  We're here for our grads with a dedicated Career Services Specialist, technical interview workshops, and 90 minutes of Study Hall every weekday.",
     icon: AcademicCap,
