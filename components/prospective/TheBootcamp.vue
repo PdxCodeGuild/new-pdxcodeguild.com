@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <section id="students" class="py-16 bg-gray-50 overflow-hidden lg:py-24">
+  <section id="bootcamp" class="py-16 bg-gray-50 overflow-hidden lg:py-24">
     <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
       <svg
         class="
@@ -54,7 +54,7 @@
             sm:text-4xl
           "
         >
-          Students
+          The Bootcamp
         </h2>
         <p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus

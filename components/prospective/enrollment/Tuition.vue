@@ -6,6 +6,8 @@
       >income-based discounts</nuxt-link
     >
     and are VA certified. Enroll with your
-    <nuxt-link to="#" class="text-orange">veteran's benefits!</nuxt-link>
+    <nuxt-link to="/veterans" class="text-orange"
+      >veteran's benefits!</nuxt-link
+    >
   </dd>
 </template>
