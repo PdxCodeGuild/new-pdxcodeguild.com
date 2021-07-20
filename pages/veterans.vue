@@ -3,9 +3,8 @@
   <main>
     <TailwindUIHeader1
       title="Veterans"
-      subtitle="Attend PDX Code Guild with your veteran's benefits.  GI Bill, VetTec, VRAAP and more."
       img-src="images/orange/Flag.jpg"
-      img-alt="TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO"
+      img-alt="Two students discuss code with an American flag in the background."
       color-filter="orange"
       color-filter-weight="200"
     />
@@ -160,7 +159,7 @@
                   <footer class="mt-4">
                     <p class="text-base font-semibold text-orange-200">
                       Austen Cote, Data Engineer at TISTA Science and Technology
-                      &amp; PDX Code Guild Alumnus
+                      &amp; PDX Code Guild Graduate
                     </p>
                   </footer>
                 </blockquote>
@@ -182,11 +181,11 @@
                 sm:text-4xl
               "
             >
-              On a mission to empower teams
+              Attend PDX Code Guild with your veteran's benefits
             </h2>
             <div class="mt-6 text-gray-500 space-y-6">
               <p class="text-lg">
-                Having worked with numerous successful beterans in the past, PDX
+                Having worked with numerous successful veterans in the past, PDX
                 Code Guild is thrilled that students can use their GI Bill
                 &#174; to attend bootcamps st PDX Code Guild!
               </p>
@@ -228,10 +227,13 @@
               </div>
             </dl>
             <div class="mt-10">
-              <a href="#" class="text-base font-medium text-orange-600">
-                Learn more about how we're changing the world
+              <nuxt-link
+                to="/apply"
+                class="text-base font-medium text-orange-600"
+              >
+                Get started today
                 <span aria-hidden="true">&rarr;</span>
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -242,10 +244,14 @@
 
 <script>
 const stats = [
-  { label: 'Founded', value: '2021' },
-  { label: 'Employees', value: '5' },
-  { label: 'Beta Users', value: '521' },
-  { label: 'Raised', value: '$25M' },
+  { label: '', value: 'GI Bill™' },
+  { label: '', value: 'VetTec' },
+  { label: '', value: 'VRRAP' },
+  { label: '', value: 'VOC Rehab' },
+  // { label: 'Founded', value: '2021' },
+  // { label: 'Employees', value: '5' },
+  // { label: 'Beta Users', value: '521' },
+  // { label: 'Raised', value: '$25M' },
 ]
 
 export default {
