@@ -103,7 +103,7 @@
             >
               <img
                 class="absolute inset-0 h-full w-full object-cover"
-                src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100"
+                src="/images/team/Austen2.jpeg"
                 alt=""
               />
               <div class="absolute inset-0 bg-orange-500 mix-blend-multiply" />
@@ -118,13 +118,13 @@
                 "
               />
               <div class="relative px-8">
-                <div>
+                <!-- <div>
                   <img
                     class="h-12"
                     src="https://tailwindui.com/img/logos/workcation.svg?color=white"
                     alt="Workcation"
                   />
-                </div>
+                </div> -->
                 <blockquote class="mt-8">
                   <div
                     class="relative text-lg font-medium text-white md:flex-grow"
@@ -149,15 +149,18 @@
                       />
                     </svg>
                     <p class="relative">
-                      Tincidunt integer commodo, cursus etiam aliquam neque, et.
-                      Consectetur pretium in volutpat, diam. Montes, magna
-                      cursus nulla feugiat dignissim id lobortis amet.
+                      PDX Code Guild is a magical place! Life after the military
+                      can be hard, but PDX Code Guild gives you a top level
+                      education built by amazing staff and a place to connect
+                      with current students and alumni to help you excel into a
+                      successful tech career.
                     </p>
                   </div>
 
                   <footer class="mt-4">
                     <p class="text-base font-semibold text-orange-200">
-                      Sarah Williams, CEO at Workcation
+                      Austen Cote, Data Engineer at TISTA Science and Technology
+                      &amp; PDX Code Guild Alumnus
                     </p>
                   </footer>
                 </blockquote>
