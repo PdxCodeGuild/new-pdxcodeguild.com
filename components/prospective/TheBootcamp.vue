@@ -235,7 +235,7 @@
             </h3>
             <p class="mt-3 text-lg text-gray-500">
               In our bootcamps, you will be writing code every day, learning the
-              practical skills that developers use every day.
+              real-world skills that developers use in the industry.
             </p>
 
             <dl class="mt-10 space-y-10">
@@ -367,16 +367,16 @@ const webDevFeatures = [
 const techImmersionFeatures = [
   {
     id: 1,
-    name: 'Practical programming skills',
+    name: 'Hands-on learning',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'At PDX Code Guild, we believe learning is best done by doing.  Our student write code every day, each new concept building off the last.',
     icon: CodeIcon,
   },
   {
     id: 2,
-    name: 'Hands-on learning',
+    name: 'Think like a programmer',
     description:
-      'In our bootcamps, you will be writing code every day, learning the practical skills that developers use in the tech industry.',
+      'Write, test, debug.  Learn to see every problem as a potential solution.  Find the joy in problem solving.',
     icon: CodeIcon,
   },
 ]

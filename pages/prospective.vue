@@ -12,8 +12,8 @@
     <TheBootcamp />
     <AfterGraduation />
     <BrandPanelCTA
-      title="Start your coding adventure today"
-      subtitle="What are you waiting for?  Fill out a simple form and you could be on your way to a world of new possibilities."
+      title="Ready to level up?"
+      subtitle="Start your coding adventure today.  Fill out a simple form and we'll reach out to you about next steps."
       href="/apply"
       img-src="/images/InstructorAndStudent2.jpg"
       button-text="Get started"
