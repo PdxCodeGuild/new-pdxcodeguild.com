@@ -4,7 +4,7 @@
     <ProspectiveHeader
       title="Prospective Students"
       img-src="images/orange/StudentsConcentrating.jpg"
-      img-alt="TODO"
+      img-alt="Two students study code at a table."
       color-filter="orange"
       color-filter-weight="500"
     />
@@ -13,7 +13,7 @@
     <AfterGraduation />
     <BrandPanelCTA
       title="Start your coding adventure today"
-      subtitle="It's easy"
+      subtitle="What are you waiting for?  Fill out a simple form and you could be on your way to a world of new possibilities."
       href="/apply"
       img-src="/images/InstructorAndStudent2.jpg"
       button-text="Get started"

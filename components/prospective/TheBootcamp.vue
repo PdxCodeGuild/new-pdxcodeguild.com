@@ -57,8 +57,9 @@
           The Bootcamp
         </h2>
         <p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-          Our goal is to take students of all levels of programming experience
-          and turn them into capable web developers. Our imme
+          From the programming fundamentals of Python, to a full-stack Django
+          project, our goal is to take students of all levels of programming
+          experience and turn them into capable web developers.
         </p>
       </div>
 
@@ -85,10 +86,8 @@
             Become a web developer
           </h3>
           <p class="mt-3 text-lg text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            minima sequi recusandae, porro maiores officia assumenda aliquam
-            laborum ab aliquid veritatis impedit odit adipisci optio iste
-            blanditiis facere. Totam, velit.
+            Learn Python, JavaScript, HTML, CSS &amp; Django. Build a full-stack
+            web application, even if you start with zero experience.
           </p>
 
           <dl class="mt-10 space-y-10">
@@ -359,9 +358,9 @@ const webDevFeatures = [
   },
   {
     id: 3,
-    name: "We're here to help",
+    name: 'Build a portfolio project',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      "Our bootcamp culminates in a Capstone Project––perfect for showing off everything you've learned!",
     icon: CodeIcon,
   },
 ]

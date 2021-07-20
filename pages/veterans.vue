@@ -187,7 +187,7 @@
               <p class="text-lg">
                 Having worked with numerous successful veterans in the past, PDX
                 Code Guild is thrilled that students can use their GI Bill
-                &#174; to attend bootcamps st PDX Code Guild!
+                &#174; to attend bootcamps at PDX Code Guild!
               </p>
               <p class="text-sm leading-7">
                 GI Bill&#174; is a registered trademark of the U.S. Department
