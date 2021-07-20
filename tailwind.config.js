@@ -10,6 +10,8 @@ module.exports = {
     fontFamily: {
       sans: ['Raleway', 'sans-serif', 'ui-sans-serif', 'system-ui'],
       default: ['Raleway', 'sans-serif'],
+      // sans: ['Inter', 'sans-serif', 'ui-sans-serif', 'system-ui'],
+      // default: ['Inter', 'sans-serif'],
     },
     extend: {
       colors: {

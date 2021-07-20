@@ -1,11 +1,6 @@
 <template>
   <main>
     <PageHeader :header-text="tableProps.courseDescriptionHeader" />
-    <!-- <CoursesHeader
-      :title="tableProps.courseDescriptionHeader"
-      :center="true"
-      :mt-hood-bg="true"
-    /> -->
     <section
       class="xl:grid xl:grid-cols-2 justify-between pt-20 pb-12 px-4 md:px-16"
     >
@@ -23,17 +18,12 @@
       />
     </section>
     <div class="bg-orange-500 px-4 py-14 sm:px-6"></div>
-    <!-- <section class="p-12"> -->
-    <!-- <CourseOverviewTable :course-concepts="courseConcepts" /> -->
     <CourseOverviewNew :course-concepts="courseConcepts" />
-    <!-- </section> -->
-    <CTA
-      title="Invest In Your Future Today"
-      cta="Apply"
+    <CTALight
+      line1="Ready to level up?"
+      line2="Invest in your future today"
       href="/apply"
-      cta-alt="Schedule A Tour"
-      href-alt="#"
-      color="orange"
+      button-text="Get started"
     />
   </main>
 </template>

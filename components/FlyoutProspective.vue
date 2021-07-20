@@ -38,7 +38,7 @@
             For Prospective Students
           </h3>
           <ul class="mt-4 space-y-4">
-            <li class="text-base truncate">
+            <!-- <li class="text-base truncate">
               <nuxt-link
                 to="/prospective#what-will-i-learn"
                 class="
@@ -52,10 +52,10 @@
               >
                 What will I learn?
               </nuxt-link>
-            </li>
+            </li> -->
             <li class="text-base truncate">
               <nuxt-link
-                to="/prospective#enrollment-process"
+                to="/prospective#enrollment"
                 class="
                   font-medium
                   text-gray-900
@@ -65,10 +65,40 @@
                   duration-150
                 "
               >
-                The Enrollment Process
+                Enrollment
               </nuxt-link>
             </li>
             <li class="text-base truncate">
+              <nuxt-link
+                to="/prospective#bootcamp"
+                class="
+                  font-medium
+                  text-gray-900
+                  hover:text-gray-700
+                  transition
+                  ease-in-out
+                  duration-150
+                "
+              >
+                The Bootcamp
+              </nuxt-link>
+            </li>
+            <li class="text-base truncate">
+              <nuxt-link
+                to="/prospective#after"
+                class="
+                  font-medium
+                  text-gray-900
+                  hover:text-gray-700
+                  transition
+                  ease-in-out
+                  duration-150
+                "
+              >
+                After Graduation
+              </nuxt-link>
+            </li>
+            <!-- <li class="text-base truncate">
               <nuxt-link
                 to="/prospective#what-is-the-path"
                 class="
@@ -82,8 +112,8 @@
               >
                 What is the path?
               </nuxt-link>
-            </li>
-            <li class="text-base truncate">
+            </li> -->
+            <!-- <li class="text-base truncate">
               <nuxt-link
                 to="/prospective#why-pdx-code-guild"
                 class="
@@ -97,10 +127,11 @@
               >
                 Why PDX Code Guild?
               </nuxt-link>
-            </li>
+            </li> -->
+
             <li class="text-base truncate">
               <nuxt-link
-                to="/prospective#veterans"
+                to="/veterans"
                 class="
                   font-medium
                   text-gray-900
@@ -113,7 +144,6 @@
                 For Veterans
               </nuxt-link>
             </li>
-
             <li class="text-base truncate">
               <nuxt-link
                 to="/capstones"
