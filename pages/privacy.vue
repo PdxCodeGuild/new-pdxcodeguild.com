@@ -1,5 +1,5 @@
 <template>
-  <main class="px-12">
+  <main class="px-2 sm:px-12">
     <h1 class="text-2xl py-6">Privacy Policy</h1>
     <p>Last updated: July 22, 2021</p>
     <p>
