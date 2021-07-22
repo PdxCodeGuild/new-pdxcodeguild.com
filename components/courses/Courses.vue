@@ -1,14 +1,13 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <section class="bg-white">
-    <div class="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <div class="sm:flex sm:flex-col sm:align-center">
         <h1 class="text-5xl font-extrabold text-gray-900 sm:text-center">
           Bootcamps
         </h1>
         <p class="mt-5 text-xl text-gray-500 sm:text-center">
-          Start building for free, then add a site plan to go live. Account
-          plans unlock additional features.
+          Are courses are really really good don't ya know it
         </p>
         <div
           class="

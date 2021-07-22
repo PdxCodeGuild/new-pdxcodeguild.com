@@ -3,11 +3,11 @@
     <HeaderSimpleCentered
       title="Courses"
       subtitle="PDX Code Guild Developer Bootcamps"
-      description="Until further notice, every bootcamp at PDX Code Guild will be remote."
+      description="Until further notice, every bootcamp at PDX Code Guild will be remote.  Attend classes virtually."
     />
-    <CoursesFeatures />
+    <!-- <CoursesFeatures /> -->
     <Courses :courses="courses" />
-    <courses-header title="Cost & Financial Aid">
+    <courses-header title="Cost &amp; Financial Aid">
       <p>
         PDX Code Guild works with a variety of organizations to provide
         financial aid for our students. Over half of our students have qualified
@@ -29,7 +29,7 @@
     </courses-header>
 
     <courses-header
-      title="Resources, Equipment & Facilities"
+      title="Resources, Equipment &amp; Facilities"
       text-color="text-white"
       bg-color="bg-orange-500"
     >
@@ -68,13 +68,13 @@
 </template>
 <script>
 import Courses from '~/components/courses/Courses.vue'
-import CoursesFeatures from '~/components/courses/CoursesFeatures.vue'
+// import CoursesFeatures from '~/components/courses/CoursesFeatures.vue'
 // import NewCourseCards from '~/components/courses/NewCourseCards.vue'
 const courses = [
   {
     name: 'Programming 101/102',
     description:
-      'Programming 101/102 starts with the fundamentals of programming.  This course is a preqrequisite to the other bootcamps.',
+      'Programming 101/102 starts with the fundamentals of programming.  Absolute beginners are welcome here.  This course is a prerequisite to the other bootcamps.',
     imgSrc: '/images/coursecards/talking.jpg',
     imgAlt: 'PDX Code Guild Lounge Area',
     href: '/programming-101',
@@ -87,7 +87,7 @@ const courses = [
   {
     name: 'Full Stack Day',
     description:
-      'This is the course.  Transform yourself into a web developer.',
+      'This is the course.  Transform yourself into a web developer.  Learn and practice over months with a small group of students and teachers.',
     imgSrc: '/images/coursecards/laugh.jpg',
     imgAlt: 'PDX Code Guild Classroom',
     href: '/courses/day',
@@ -106,7 +106,7 @@ const courses = [
   {
     name: 'Full Stack Evening',
     description:
-      'This part time, 18 week, Python developer bootcamp is a splendid way to learn programming while keeping your day gig.',
+      'Like the Full Stack Day course, but designed for students busy during the day.  Learn the same concepts and technologies with our excellent evening instructors.',
     imgSrc: '/images/coursecards/couch.jpg',
     imgAlt: 'PDX Code Guild Lounge Area',
     href: '/courses/evening',
@@ -125,7 +125,7 @@ const courses = [
   {
     name: 'Advanced JavaScript',
     description:
-      'This course is the perfect way to take a deeper dive into Javascript with React and Node!',
+      'Our Advanced JavaScript course is for graduates of our Full Stack Bootcamps.  Take your web development skills to the next level learning the MERN stack.',
     imgSrc: '/images/coursecards/startup.jpg',
     imgAlt: 'Laptop and Notepad',
     href: '/courses/advanced-js',
@@ -145,7 +145,7 @@ const courses = [
 ]
 
 export default {
-  components: { Courses, CoursesFeatures }, // NewCourseCards },
+  components: { Courses }, // CoursesFeatures }, // NewCourseCards },
   layout: 'courses',
   data() {
     return { courses }
