@@ -112,7 +112,7 @@
               </li> -->
             </ul>
           </div>
-          <!-- <div class="mt-12 md:mt-0">
+          <div class="mt-12 md:mt-0">
             <h3
               class="
                 text-sm
@@ -125,25 +125,28 @@
               Legal
             </h3>
             <ul class="mt-4 space-y-4">
-              <li>
+              <!-- <li>
                 <a href="#" class="text-base text-gray-500 hover:text-gray-900">
                   Claim
                 </a>
-              </li>
+              </li> -->
 
               <li>
-                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                <nuxt-link
+                  to="/privacy"
+                  class="text-base text-gray-500 hover:text-gray-900"
+                >
                   Privacy
-                </a>
+                </nuxt-link>
               </li>
 
-              <li>
+              <!-- <li>
                 <a href="#" class="text-base text-gray-500 hover:text-gray-900">
                   Terms
                 </a>
-              </li>
+              </li> -->
             </ul>
-          </div> -->
+          </div>
         </div>
       </div>
       <div class="mt-12 border-t border-gray-200 pt-8">
