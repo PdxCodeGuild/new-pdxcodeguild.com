@@ -52,7 +52,9 @@
             <h2 class="text-lg leading-6 font-medium text-gray-900">
               {{ course.name }}
             </h2>
-            <p class="mt-4 text-sm text-gray-500">{{ course.description }}</p>
+            <p class="mt-4 text-sm text-gray-500 min-h-full">
+              {{ course.description }}
+            </p>
             <p v-if="course[101]" class="mt-8 text-base">Every 2 weeks</p>
             <p v-else class="mt-8">
               Next course:
