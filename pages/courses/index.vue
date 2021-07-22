@@ -1,50 +1,13 @@
 <template>
   <main>
-    <PageHeader header-text="PDX Code Guild Courses" />
-    <!-- <CoursesHeader
-      title="PDX Code Guild Courses"
-      :center="true"
-      :mt-hood-bg="true"
-    /> -->
-
-    <CoursesFeatures />
-
-    <CTA
-      title="With both full-time day and part-time evening bootcamps, we have a program to fit your schedule."
-      description="Already know programming? Want to dive deeper? The Advanced JavaScript and Advanced Portfolio classes are accepting applications. These classes will fill fast - apply now!"
-      color="orange"
-      cta="Take the Free 101/102 Course"
-      href="https://www.eventbrite.com/o/pdx-code-guild-17959456298"
-      cta-alt="Contact Us"
-      href-alt="/contact"
+    <HeaderSimpleCentered
+      title="Courses"
+      subtitle="PDX Code Guild Developer Bootcamps"
+      description="Until further notice, every bootcamp at PDX Code Guild will be remote.  Attend classes virtually."
     />
-    <!-- TODO: note these are placeholders -->
-    <div
-      class="
-        max-w-7xl
-        mx-auto
-        sm:px-6
-        lg:px-8
-        md:grid md:grid-cols-2
-        md:
-        gap-11
-        my-2
-        justify-around
-      "
-    >
-      <!-- <CourseCard
-        v-for="(course, i) in courses"
-        :key="i"
-        :title="course.title"
-        :description="course.description"
-        :img-src="course.imgSrc"
-        :read-more-href="course.readMoreHref || '#'"
-        :apply-href="course.applyHref || '#'"
-        :more-link="course.more"
-      /> -->
-    </div>
-    <NewCourseCards :courses="courses" />
-    <courses-header title="Cost & Financial Aid">
+    <!-- <CoursesFeatures /> -->
+    <Courses :courses="courses" />
+    <courses-header title="Cost &amp; Financial Aid">
       <p>
         PDX Code Guild works with a variety of organizations to provide
         financial aid for our students. Over half of our students have qualified
@@ -66,7 +29,7 @@
     </courses-header>
 
     <courses-header
-      title="Resources, Equipment & Facilities"
+      title="Resources, Equipment &amp; Facilities"
       text-color="text-white"
       bg-color="bg-orange-500"
     >
@@ -104,52 +67,86 @@
   </main>
 </template>
 <script>
-import CoursesHeader from '~/components/courses/CoursesHeader.vue'
-import CoursesFeatures from '~/components/courses/CoursesFeatures.vue'
-// import CourseCard from '~/components/courses/CourseCard.vue'
-import NewCourseCards from '~/components/courses/NewCourseCards.vue'
-// TODO: better copy for imgAlt text
+import Courses from '~/components/courses/Courses.vue'
+// import CoursesFeatures from '~/components/courses/CoursesFeatures.vue'
+// import NewCourseCards from '~/components/courses/NewCourseCards.vue'
 const courses = [
   {
-    title: 'Full-Stack Developer BootCamp: Day',
+    name: 'Programming 101/102',
     description:
-      'This full time, 14 week, Python-based developer bootcamp is an immerse, hands on way to launch your tech career.',
-    imgSrc: '/images/coursecards/laugh.jpg',
-    imgAlt: 'PDX Code Guild Classroom',
-    link: '/courses/day',
-    stack: 'Python, JavaScript, HTML, CSS, Django',
-  },
-  {
-    title: 'Full-Stack Developer Bootcamp: Evening',
-    description:
-      'This part time, 18 week, Python developer bootcamp is a splendid way to learn programming while keeping your day gig.',
-    imgSrc: '/images/coursecards/couch.jpg',
-    imgAlt: 'PDX Code Guild Lounge Area',
-    link: '/courses/evening',
-    stack: 'Python, JavaScript, HTML, CSS, Django',
-  },
-  {
-    title: 'Advanced JavaScript - React and Node',
-    description:
-      'This course is the perfect way to take a deeper dive into Javascript with React and Node!',
-    imgSrc: '/images/coursecards/startup.jpg',
-    imgAlt: 'Laptop and Notepad',
-    link: '/courses/advanced-js',
-    stack: 'Mongo, Express, Node, React',
-  },
-  {
-    title: 'Intro to Programming',
-    description:
-      'Intro to Programming is a great way to dip your toe into programming and learn the basic fundamentals through Python',
+      'Programming 101/102 starts with the fundamentals of programming.  Absolute beginners are welcome here.  This course is a prerequisite to the other bootcamps.',
     imgSrc: '/images/coursecards/talking.jpg',
     imgAlt: 'PDX Code Guild Lounge Area',
-    link: '/programming-101',
+    href: '/programming-101',
     stack: 'Python',
+    nextCourse: 'soon',
+    buttonText: 'Programming 101/102',
+    info: ['2 weeks', 'Beginner friendly', 'Python', 'Evenings'],
+    101: true,
+  },
+  {
+    name: 'Full Stack Day',
+    description:
+      'This is the course.  Transform yourself into a web developer.  Learn and practice over months with a small group of students and teachers.',
+    imgSrc: '/images/coursecards/laugh.jpg',
+    imgAlt: 'PDX Code Guild Classroom',
+    href: '/courses/day',
+    stack: 'Python, JavaScript, HTML, CSS, Django',
+    nextCourse: 'Aug. 2',
+    buttonText: 'Day Courses',
+    info: [
+      '14 weeks',
+      'Full time',
+      'Days',
+      'Python & JavaScript',
+      'HTML & CSS',
+      'Django',
+    ],
+  },
+  {
+    name: 'Full Stack Evening',
+    description:
+      'Like the Full Stack Day course, but designed for students busy during the day.  Learn the same concepts and technologies with our excellent evening instructors.',
+    imgSrc: '/images/coursecards/couch.jpg',
+    imgAlt: 'PDX Code Guild Lounge Area',
+    href: '/courses/evening',
+    stack: 'Python, JavaScript, HTML, CSS, Django',
+    nextCourse: 'Sept. 13',
+    buttonText: 'Evening Courses',
+    info: [
+      '18 weeks',
+      'Part time',
+      'Evenings',
+      'Python & JavaScript',
+      'HTML & CSS',
+      'Django',
+    ],
+  },
+  {
+    name: 'Advanced JavaScript',
+    description:
+      'Our Advanced JavaScript course is for graduates of our Full Stack Bootcamps.  Take your web development skills to the next level learning the MERN stack.',
+    imgSrc: '/images/coursecards/startup.jpg',
+    imgAlt: 'Laptop and Notepad',
+    href: '/courses/advanced-js',
+    stack: 'Mongo, Express, Node, React',
+    nextCourse: 'Oct. 4',
+    buttonText: 'Advanced Courses',
+    info: [
+      '11 weeks',
+      'Part time',
+      'Evenings',
+      'MongoDB',
+      'Express',
+      'Node',
+      'React',
+    ],
   },
 ]
 
 export default {
-  components: { CoursesHeader, CoursesFeatures, NewCourseCards },
+  components: { Courses }, // CoursesFeatures }, // NewCourseCards },
+  layout: 'courses',
   data() {
     return { courses }
   },

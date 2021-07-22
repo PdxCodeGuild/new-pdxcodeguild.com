@@ -248,6 +248,7 @@
 </template>
 <script>
 export default {
+  layout: 'courses',
   head: {
     title: 'PDX Code Guild | Programming 101',
     meta: [
