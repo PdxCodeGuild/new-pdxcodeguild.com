@@ -12,11 +12,7 @@ const tableProps = {
   courseTimes: '9:30 am - 4:30 pm',
   scheduledCourses: [
     {
-      startDate: 'June 14, 2021',
-      endDate: 'Sept. 24, 2021',
-    },
-    {
-      startDate: 'July 26, 2021',
+      startDate: 'Aug 2, 2021',
       endDate: 'Nov. 5, 2021',
     },
     {
@@ -115,6 +111,7 @@ const courseConcepts = [
 
 export default {
   components: { CourseDetail },
+  layout: 'courses',
   data() {
     return { tableProps, tuitionProps, courseConcepts }
   },
