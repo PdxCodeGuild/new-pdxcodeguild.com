@@ -7,7 +7,8 @@
           Bootcamps
         </h1>
         <p class="mt-5 text-xl text-gray-500 sm:text-center">
-          Are courses are really really good don't ya know it
+          Our courses are designed to turn complete beginners into professional
+          web developers.
         </p>
         <div
           class="
