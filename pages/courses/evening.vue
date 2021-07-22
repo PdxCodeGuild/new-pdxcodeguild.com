@@ -1,5 +1,6 @@
 <template>
   <CourseDetail
+    :header-props="headerProps"
     :table-props="tableProps"
     :tuition-props="tuitionProps"
     :course-concepts="courseConcepts"
@@ -7,6 +8,11 @@
 </template>
 <script>
 import CourseDetail from '~/components/courses/CourseDetail.vue'
+const headerProps = {
+  title: 'Full Stack Developer Day Bootcamps',
+  subtitle: 'This is a test for the subtitle',
+  description: 'This is a test for the description',
+}
 const tableProps = {
   courseDays: 'Monday - Friday',
   courseTimes: '6:00 pm - 9:36 pm',
@@ -101,7 +107,7 @@ export default {
   components: { CourseDetail },
   layout: 'courses',
   data() {
-    return { tableProps, tuitionProps, courseConcepts }
+    return { headerProps, tableProps, tuitionProps, courseConcepts }
   },
   head: {
     title: 'PDX Code Guild | Full Stack Developer Bootcamp: Evening',

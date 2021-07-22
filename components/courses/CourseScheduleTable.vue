@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col">
+  <figure class="flex flex-col">
     <div class="pb-5 px-6 border-b border-gray-200">
       <h3
         class="
@@ -12,10 +12,9 @@
           text-gray-900
           sm:text-4xl
           text-center
-          xl:text-left
         "
       >
-        {{ courseDescriptionTable }}
+        Upcoming Bootcamps
       </h3>
     </div>
     <div class="w-full flex justify-center">
@@ -116,7 +115,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </figure>
 </template>
 
 <script>

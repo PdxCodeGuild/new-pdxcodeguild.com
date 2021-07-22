@@ -1,9 +1,11 @@
 <template>
   <main>
-    <PageHeader :header-text="tableProps.courseDescriptionHeader" />
-    <section
-      class="xl:grid xl:grid-cols-2 justify-between pt-20 pb-12 px-4 md:px-16"
-    >
+    <HeaderSimpleCentered
+      :title="headerProps.title"
+      :subtitle="headerProps.subtitle"
+      :description="headerProps.description"
+    />
+    <section class="xl:grid xl:grid-cols-2 justify-between py-12 px-4 md:px-16">
       <CourseScheduleTable
         :course-days="tableProps.courseDays"
         :course-times="tableProps.courseTimes"
@@ -17,7 +19,6 @@
         :needs-based-high="tuitionProps.needsBasedHigh"
       />
     </section>
-    <div class="bg-orange-500 px-4 py-14 sm:px-6"></div>
     <CourseOverviewNew :course-concepts="courseConcepts" />
     <CTALight
       line1="Ready to level up?"
@@ -41,6 +42,6 @@ export default {
     // CourseOverviewTable,
     CourseOverviewNew,
   },
-  props: ['tableProps', 'tuitionProps', 'courseConcepts'],
+  props: ['headerProps', 'tableProps', 'tuitionProps', 'courseConcepts'],
 }
 </script>
