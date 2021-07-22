@@ -1,49 +1,12 @@
 <template>
   <main>
-    <PageHeader header-text="PDX Code Guild Courses" />
-    <!-- <CoursesHeader
-      title="PDX Code Guild Courses"
-      :center="true"
-      :mt-hood-bg="true"
-    /> -->
-
-    <CoursesFeatures />
-
-    <CTA
-      title="With both full-time day and part-time evening bootcamps, we have a program to fit your schedule."
-      description="Already know programming? Want to dive deeper? The Advanced JavaScript and Advanced Portfolio classes are accepting applications. These classes will fill fast - apply now!"
-      color="orange"
-      cta="Take the Free 101/102 Course"
-      href="https://www.eventbrite.com/o/pdx-code-guild-17959456298"
-      cta-alt="Contact Us"
-      href-alt="/contact"
+    <HeaderSimpleCentered
+      title="Courses"
+      subtitle="PDX Code Guild Developer Bootcamps"
+      description="Until further notice, every bootcamp at PDX Code Guild will be remote."
     />
-    <!-- TODO: note these are placeholders -->
-    <div
-      class="
-        max-w-7xl
-        mx-auto
-        sm:px-6
-        lg:px-8
-        md:grid md:grid-cols-2
-        md:
-        gap-11
-        my-2
-        justify-around
-      "
-    >
-      <!-- <CourseCard
-        v-for="(course, i) in courses"
-        :key="i"
-        :title="course.title"
-        :description="course.description"
-        :img-src="course.imgSrc"
-        :read-more-href="course.readMoreHref || '#'"
-        :apply-href="course.applyHref || '#'"
-        :more-link="course.more"
-      /> -->
-    </div>
-    <NewCourseCards :courses="courses" />
+    <CoursesFeatures />
+    <Courses :courses="courses" />
     <courses-header title="Cost & Financial Aid">
       <p>
         PDX Code Guild works with a variety of organizations to provide
@@ -104,52 +67,86 @@
   </main>
 </template>
 <script>
-import CoursesHeader from '~/components/courses/CoursesHeader.vue'
+import Courses from '~/components/courses/Courses.vue'
 import CoursesFeatures from '~/components/courses/CoursesFeatures.vue'
-// import CourseCard from '~/components/courses/CourseCard.vue'
-import NewCourseCards from '~/components/courses/NewCourseCards.vue'
-// TODO: better copy for imgAlt text
+// import NewCourseCards from '~/components/courses/NewCourseCards.vue'
 const courses = [
   {
-    title: 'Full-Stack Developer BootCamp: Day',
+    name: 'Programming 101/102',
     description:
-      'This full time, 14 week, Python-based developer bootcamp is an immerse, hands on way to launch your tech career.',
-    imgSrc: '/images/coursecards/laugh.jpg',
-    imgAlt: 'PDX Code Guild Classroom',
-    link: '/courses/day',
-    stack: 'Python, JavaScript, HTML, CSS, Django',
+      'Programming 101/102 starts with the fundamentals of programming.  This course is a preqrequisite to the other bootcamps.',
+    imgSrc: '/images/coursecards/talking.jpg',
+    imgAlt: 'PDX Code Guild Lounge Area',
+    href: '/programming-101',
+    stack: 'Python',
+    nextCourse: 'soon',
+    buttonText: 'Programming 101/102',
+    info: ['2 weeks', 'Beginner friendly', 'Python', 'Evenings'],
+    101: true,
   },
   {
-    title: 'Full-Stack Developer Bootcamp: Evening',
+    name: 'Full Stack Day',
+    description:
+      'This is the course.  Transform yourself into a web developer.',
+    imgSrc: '/images/coursecards/laugh.jpg',
+    imgAlt: 'PDX Code Guild Classroom',
+    href: '/courses/day',
+    stack: 'Python, JavaScript, HTML, CSS, Django',
+    nextCourse: 'Aug. 2',
+    buttonText: 'Day Courses',
+    info: [
+      '14 weeks',
+      'Full time',
+      'Days',
+      'Python & JavaScript',
+      'HTML & CSS',
+      'Django',
+    ],
+  },
+  {
+    name: 'Full Stack Evening',
     description:
       'This part time, 18 week, Python developer bootcamp is a splendid way to learn programming while keeping your day gig.',
     imgSrc: '/images/coursecards/couch.jpg',
     imgAlt: 'PDX Code Guild Lounge Area',
-    link: '/courses/evening',
+    href: '/courses/evening',
     stack: 'Python, JavaScript, HTML, CSS, Django',
+    nextCourse: 'Sept. 13',
+    buttonText: 'Evening Courses',
+    info: [
+      '18 weeks',
+      'Part time',
+      'Evenings',
+      'Python & JavaScript',
+      'HTML & CSS',
+      'Django',
+    ],
   },
   {
-    title: 'Advanced JavaScript - React and Node',
+    name: 'Advanced JavaScript',
     description:
       'This course is the perfect way to take a deeper dive into Javascript with React and Node!',
     imgSrc: '/images/coursecards/startup.jpg',
     imgAlt: 'Laptop and Notepad',
-    link: '/courses/advanced-js',
+    href: '/courses/advanced-js',
     stack: 'Mongo, Express, Node, React',
-  },
-  {
-    title: 'Intro to Programming',
-    description:
-      'Intro to Programming is a great way to dip your toe into programming and learn the basic fundamentals through Python',
-    imgSrc: '/images/coursecards/talking.jpg',
-    imgAlt: 'PDX Code Guild Lounge Area',
-    link: '/programming-101',
-    stack: 'Python',
+    nextCourse: 'Oct. 4',
+    buttonText: 'Advanced Courses',
+    info: [
+      '11 weeks',
+      'Part time',
+      'Evenings',
+      'MongoDB',
+      'Express',
+      'Node',
+      'React',
+    ],
   },
 ]
 
 export default {
-  components: { CoursesHeader, CoursesFeatures, NewCourseCards },
+  components: { Courses, CoursesFeatures }, // NewCourseCards },
+  layout: 'courses',
   data() {
     return { courses }
   },
