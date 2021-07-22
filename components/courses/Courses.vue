@@ -52,7 +52,7 @@
             <h2 class="text-lg leading-6 font-medium text-gray-900">
               {{ course.name }}
             </h2>
-            <p class="mt-4 text-sm text-gray-500 min-h-full">
+            <p class="mt-4 text-sm text-gray-500 description">
               {{ course.description }}
             </p>
             <p v-if="course[101]" class="mt-8 text-base">Every 2 weeks</p>
@@ -108,67 +108,17 @@
 
 <script>
 import CheckIcon from '~/components/heroicons/CheckIcon.vue'
-
-// const courses = [
-//   {
-//     name: 'Hobby',
-//     href: '#',
-//     priceMonthly: 12,
-//     description: 'All the basics for starting a new business',
-//     includedFeatures: [
-//       'Potenti felis, in cras at at ligula nunc.',
-//       'Orci neque eget pellentesque.',
-//     ],
-//   },
-//   {
-//     name: 'Freelancer',
-//     href: '#',
-//     priceMonthly: 24,
-//     description: 'All the basics for starting a new business',
-//     includedFeatures: [
-//       'Potenti felis, in cras at at ligula nunc. ',
-//       'Orci neque eget pellentesque.',
-//       'Donec mauris sit in eu tincidunt etiam.',
-//     ],
-//   },
-//   {
-//     name: 'Startup',
-//     href: '#',
-//     priceMonthly: 32,
-//     description: 'All the basics for starting a new business',
-//     includedFeatures: [
-//       'Potenti felis, in cras at at ligula nunc. ',
-//       'Orci neque eget pellentesque.',
-//       'Donec mauris sit in eu tincidunt etiam.',
-//       'Faucibus volutpat magna.',
-//     ],
-//   },
-//   {
-//     name: 'Enterprise',
-//     href: '#',
-//     priceMonthly: 48,
-//     description: 'All the basics for starting a new business',
-//     includedFeatures: [
-//       'Potenti felis, in cras at at ligula nunc. ',
-//       'Orci neque eget pellentesque.',
-//       'Donec mauris sit in eu tincidunt etiam.',
-//       'Faucibus volutpat magna.',
-//       'Id sed tellus in varius quisque.',
-//       'Risus egestas faucibus.',
-//       'Risus cursus ullamcorper.',
-//     ],
-//   },
-// ]
-
 export default {
   components: {
     CheckIcon,
   },
   props: ['courses'],
-  // data() {
-  //   return {
-  //     courses,
-  //   }
-  // },
 }
 </script>
+<style scoped>
+@media (min-width: 1024px) {
+  .description {
+    height: 120px;
+  }
+}
+</style>
