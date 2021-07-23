@@ -35,7 +35,7 @@ const tableProps = {
     },
   ],
   courseDescriptionHeader: 'Full Stack Developer Day Bootcamps',
-  courseDescriptionTable: 'Upcoming Full-Time Day Bootcamps',
+  tableHeading: 'Upcoming Day Bootcamps',
 }
 // tableProps.scheduledCourses.forEach((course) => {
 //   course.time = '9:30 am - 4:30 pm'

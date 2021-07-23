@@ -14,7 +14,7 @@
           text-center
         "
       >
-        Upcoming Bootcamps
+        {{ tableHeading }}
       </h3>
     </div>
     <div class="w-full flex justify-center">
@@ -120,11 +120,6 @@
 
 <script>
 export default {
-  props: [
-    'scheduledCourses',
-    'courseDays',
-    'courseTimes',
-    'courseDescriptionTable',
-  ],
+  props: ['scheduledCourses', 'courseDays', 'courseTimes', 'tableHeading'],
 }
 </script>

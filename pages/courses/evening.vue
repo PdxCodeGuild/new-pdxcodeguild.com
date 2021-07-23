@@ -9,7 +9,7 @@
 <script>
 import CourseDetail from '~/components/courses/CourseDetail.vue'
 const headerProps = {
-  title: 'Full Stack Developer Day Bootcamps',
+  title: 'Full Stack Developer Evening Bootcamps',
   subtitle: 'This is a test for the subtitle',
   description: 'This is a test for the description',
 }
@@ -23,7 +23,7 @@ const tableProps = {
     },
   ],
   courseDescriptionHeader: 'Full Stack Developer Evening Bootcamps',
-  courseDescriptionTable: 'Upcoming Full-Time Evening Bootcamps',
+  tableHeading: 'Upcoming Evening Bootcamps',
 }
 // tableProps.scheduledCourses.forEach((course) => {
 //   course.time = '6:00 pm - 9:36 pm'

@@ -10,8 +10,7 @@
         :course-days="tableProps.courseDays"
         :course-times="tableProps.courseTimes"
         :scheduled-courses="tableProps.scheduledCourses"
-        :course-description-header="tableProps.courseDescriptionHeader"
-        :course-description-table="tableProps.courseDescriptionTable"
+        :table-heading="tableProps.tableHeading"
       />
       <CourseDetailTuitionInfo
         :full-tuition="tuitionProps.fullTuition"
