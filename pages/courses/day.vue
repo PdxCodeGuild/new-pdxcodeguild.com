@@ -18,7 +18,7 @@ const tableProps = {
   courseTimes: '9:30 am - 4:30 pm',
   scheduledCourses: [
     {
-      startDate: 'Aug 2, 2021',
+      startDate: 'July 6, 2021',
       endDate: 'Nov. 5, 2021',
     },
     {
