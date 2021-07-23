@@ -79,7 +79,7 @@ const courses = [
     imgAlt: 'PDX Code Guild Lounge Area',
     href: '/programming-101',
     stack: 'Python',
-    nextCourse: 'soon',
+    nextCourse: 'Every 2 weeks',
     buttonText: 'Programming 101/102',
     info: ['2 weeks', 'Beginner friendly', 'Python', 'Evenings'],
     101: true,
@@ -92,7 +92,7 @@ const courses = [
     imgAlt: 'PDX Code Guild Classroom',
     href: '/courses/day',
     stack: 'Python, JavaScript, HTML, CSS, Django',
-    nextCourse: 'Aug. 2',
+    nextCourse: 'July 26',
     buttonText: 'Day Courses',
     info: [
       '14 weeks',
@@ -111,7 +111,7 @@ const courses = [
     imgAlt: 'PDX Code Guild Lounge Area',
     href: '/courses/evening',
     stack: 'Python, JavaScript, HTML, CSS, Django',
-    nextCourse: 'Sept. 13',
+    nextCourse: 'Aug. 2',
     buttonText: 'Evening Courses',
     info: [
       '18 weeks',
