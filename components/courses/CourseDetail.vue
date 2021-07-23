@@ -5,13 +5,12 @@
       :subtitle="headerProps.subtitle"
       :description="headerProps.description"
     />
-    <section class="xl:grid xl:grid-cols-2 justify-between py-12 px-4 md:px-16">
+    <section class="xl:grid xl:grid-cols-2 justify-between px-4 md:px-16">
       <CourseScheduleTable
         :course-days="tableProps.courseDays"
         :course-times="tableProps.courseTimes"
         :scheduled-courses="tableProps.scheduledCourses"
-        :course-description-header="tableProps.courseDescriptionHeader"
-        :course-description-table="tableProps.courseDescriptionTable"
+        :table-heading="tableProps.tableHeading"
       />
       <CourseDetailTuitionInfo
         :full-tuition="tuitionProps.fullTuition"

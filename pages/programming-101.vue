@@ -1,11 +1,11 @@
 <template>
-  <div class="relative bg-white">
-    <PageHeader
-      pre-header-text="Dive in"
-      header-text="Programming 101 & 102"
-      post-header-text="The quickest way to get started writing code"
+  <main class="relative bg-white">
+    <HeaderSimpleCentered
+      title="Programming 101/102"
+      subtitle="Dive in"
+      description="The quickest way to get started writing code"
     />
-    <div class="relative bg-white mt-20">
+    <div class="relative bg-white">
       <div class="lg:absolute lg:inset-0 rounded-2">
         <div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
           <img
@@ -221,8 +221,8 @@
         </h2>
         <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <button class="inline-flex rounded-md shadow">
-            <a
-              href="/apply"
+            <nuxt-link
+              to="/apply"
               class="
                 inline-flex
                 items-center
@@ -239,12 +239,12 @@
               "
             >
               Apply
-            </a>
+            </nuxt-link>
           </button>
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 <script>
 export default {
