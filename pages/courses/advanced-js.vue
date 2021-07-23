@@ -1,12 +1,21 @@
 <template>
   <CourseDetail
+    :header-props="headerProps"
     :table-props="tableProps"
     :tuition-props="tuitionProps"
     :course-concepts="courseConcepts"
   />
 </template>
+
 <script>
 import CourseDetail from '~/components/courses/CourseDetail.vue'
+const headerProps = {
+  title: 'Advanced JavaScript Bootcamps',
+  subtitle: 'Take your skills to the next level',
+  description:
+    'Learn the MERN stack: Mongo, Express, React & Node.  Build another portfolio project and reach new coding heights.',
+}
+
 const tableProps = {
   courseDays: 'Monday - Friday',
   courseTimes: '6:00 pm - 9:36 pm',
@@ -17,12 +26,8 @@ const tableProps = {
     },
   ],
   courseDescriptionHeader: 'Full Stack Web Development with Node and React',
-  courseDescriptionTable: 'Upcoming Node and React Bootcamps',
+  tableHeading: 'Upcoming Advanced JS Bootcamps',
 }
-tableProps.scheduledCourses.forEach((course) => {
-  course.time = '6:00 pm - 9:36 pm'
-  course.days = 'M - F'
-})
 
 const tuitionProps = {
   fullTuition: '11,500',
@@ -30,7 +35,6 @@ const tuitionProps = {
   needsBasedHigh: '8,000',
 }
 
-/* new copy */
 const courseConcepts = [
   { concept: 'Languages', areaOfStudy: 'Javascript, JSX' },
   {
@@ -50,40 +54,11 @@ const courseConcepts = [
   },
 ]
 
-/* old copy */
-// const courseConcepts = [
-//   {
-//     concept: 'Intermediate functional programming in ES5/ES6',
-//     areaOfStudy:
-//       'Functional programming, Destructuring and rest parameters, Asynchrony, Discuss prevalent frameworks and libraries and why we chose the MERN stack',
-//   },
-//   {
-//     concept: 'Get React running using Create React App (CRA)',
-//     areaOfStudy:
-//       'Connect earlier lessons with React environment, Discuss benefits of small reusable components, Discuss state; props and rendering, Classes vs. Presentational components, Single page applications, Forms in React ',
-//   },
-//   {
-//     concept: 'Beginner server-side concepts with Node.js',
-//     areaOfStudy:
-//       'Basic request-response, client-server concepts, Application architecture, Async I/O, Abstracting and chaining callbacks ',
-//   },
-//   {
-//     concept: 'Node Express with MongoDB',
-//     areaOfStudy:
-//       'API construction, Connect our client (React) with our server (Node Express), Discuss fetch and how it works with API endpoints, Error-handling discussion with examples, Cover database concepts using Mongoose',
-//   },
-//   {
-//     concept: 'Build features towards final project',
-//     areaOfStudy:
-//       'Project management (Agile), High level web application architecture, lan, design and implement a full stack project that demonstrates an understanding of all the topics covered',
-//   },
-// ]
-
 export default {
   components: { CourseDetail },
   layout: 'courses',
   data() {
-    return { tableProps, tuitionProps, courseConcepts }
+    return { headerProps, tableProps, tuitionProps, courseConcepts }
   },
   head: {
     title: 'PDX Code Guild | Advanced JavaScript Bootcamp: React & Node',

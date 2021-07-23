@@ -1,35 +1,8 @@
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/typography'),
-    ]
-  }
-  ```
--->
 <template>
   <div class="px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
     <div class="max-w-max lg:max-w-7xl mx-auto">
       <div class="relative z-10 mb-8 md:mb-2 md:px-6">
         <div class="text-base max-w-prose lg:max-w-none">
-          <!-- <h2
-            class="
-              leading-6
-              text-indigo-600
-              font-semibold
-              tracking-wide
-              uppercase
-            "
-          >
-            Transactions
-          </h2> -->
           <p
             class="
               mt-20
@@ -41,8 +14,7 @@
               sm:text-4xl
             "
           >
-            Financial Aid, Scholarships and Grants Available to Make Tuition
-            Affordable.
+            Tuition &amp; Financial Aid
           </p>
         </div>
       </div>
@@ -126,14 +98,14 @@
                   >${{ needsBasedLow }}-${{ needsBasedHigh }}</span
                 >
               </p>
-              <br />
+              <!-- <br /> -->
               <p>
                 Qualifying students may be eligible for third party
                 <span class="text-orange">grants</span>
                 that pay for a portion or all of tuition, on top of the
                 previously mentioned discounts.
               </p>
-              <br />
+              <!-- <br /> -->
               <p>
                 For Military: In addition to the above we accept Veterans’
                 benefits including the GI Bill®
@@ -149,6 +121,15 @@
                   >https://www.benefits.va.gov/gibill/</a
                 >.
               </p>
+              <div class="mt-10">
+                <nuxt-link
+                  to="/financial-aid"
+                  class="text-base font-medium text-orange-600"
+                >
+                  Learn more
+                  <span aria-hidden="true">&rarr;</span>
+                </nuxt-link>
+              </div>
             </div>
           </div>
         </div>

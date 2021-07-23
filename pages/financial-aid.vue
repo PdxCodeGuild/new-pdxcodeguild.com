@@ -206,7 +206,7 @@
             </dd>
             <dd class="mt-2 ml-16 text-base text-gray-500">
               <nuxt-link
-                to="/prospective/veterans"
+                to="/veterans"
                 class="text-xs text-orange-500 hover:text-orange-600"
               >
                 Learn More
