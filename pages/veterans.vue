@@ -102,8 +102,8 @@
             >
               <img
                 class="absolute inset-0 h-full w-full object-cover"
-                src="/images/team/Austen2.jpeg"
-                alt=""
+                src="/images/team/Austen.jpeg"
+                alt="Veteran and PDX Code Guild graduate Austen Cote climbs the side of a cliff."
               />
               <div class="absolute inset-0 bg-orange-500 mix-blend-multiply" />
               <div
@@ -117,13 +117,6 @@
                 "
               />
               <div class="relative px-8">
-                <!-- <div>
-                  <img
-                    class="h-12"
-                    src="https://tailwindui.com/img/logos/workcation.svg?color=white"
-                    alt="Workcation"
-                  />
-                </div> -->
                 <blockquote class="mt-8">
                   <div
                     class="relative text-lg font-medium text-white md:flex-grow"

@@ -31,7 +31,7 @@
                 <img
                   class="object-cover shadow-lg rounded-lg"
                   :src="person.imageUrl"
-                  alt=""
+                  :alt="person.name"
                 />
               </div>
               <div class="sm:col-span-2">
