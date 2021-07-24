@@ -8,8 +8,6 @@
       color-filter="orange"
       color-filter-weight="300"
     />
-    <!-- frog alt text: -->
-    <!-- img-alt="A stuffed animal sits on a a shelf among books, a flowerpot, a model airplane, and a sign reading 'YOUR FUTURE STARTS TODAY'" -->
 
     <div
       class="
