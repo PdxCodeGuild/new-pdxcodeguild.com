@@ -1,8 +1,9 @@
 <template>
-  <div>
-    <PageHeader
-      header-text="Authentic, Local &amp; Committed"
-      post-header-text="Our passion is serving our community by making tech jobs accessible to as many people as possible."
+  <main>
+    <HeaderSimpleCentered
+      title="Financial Aid"
+      subtitle="Authentic, Local &amp; Committed"
+      description="Our passion is serving our community by making tech jobs accessible to as many people as possible."
     />
 
     <div class="max-w-7xl mx-auto mt-16 px-4 sm:px-6 lg:px-8">
@@ -424,7 +425,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 <script>
 export default {

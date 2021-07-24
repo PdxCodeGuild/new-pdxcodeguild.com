@@ -1,16 +1,8 @@
 <template>
-  <div>
+  <main>
+    <HeaderSimpleCentered title="Contact" />
     <Contact />
-    <CTA
-      title="Want to Learn Web Development?"
-      description="We're just a phone call or email away!"
-      color="orange"
-      cta="Call Us"
-      href="tel:+15034448836"
-      cta-alt="Email Us"
-      href-alt="mailto:admissions@pdxcodeguild.com"
-    />
-  </div>
+  </main>
 </template>
 <script>
 export default {
