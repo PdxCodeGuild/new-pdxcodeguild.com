@@ -111,7 +111,7 @@ const courses = [
     imgAlt: 'PDX Code Guild Lounge Area',
     href: '/courses/evening',
     stack: 'Python, JavaScript, HTML, CSS, Django',
-    nextCourse: 'Aug. 2',
+    nextCourse: 'Sep. 13',
     buttonText: 'Evening Courses',
     info: [
       '18 weeks',
