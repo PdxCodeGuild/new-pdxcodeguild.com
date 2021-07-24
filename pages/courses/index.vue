@@ -143,7 +143,7 @@ const courses = [
     ],
   },
 ]
-
+console.log(process.env)
 export default {
   components: { Courses }, // CoursesFeatures }, // NewCourseCards },
   layout: 'courses',
