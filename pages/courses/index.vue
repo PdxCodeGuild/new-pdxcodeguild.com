@@ -144,6 +144,7 @@ const courses = [
   },
 ]
 console.log(process.env)
+console.log(process.env.NODE_ENV)
 export default {
   components: { Courses }, // CoursesFeatures }, // NewCourseCards },
   layout: 'courses',
