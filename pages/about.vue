@@ -8,7 +8,7 @@
       color-filter="orange"
       color-filter-weight="300"
     />
-    <Team1 :team="team" />
+    <Team :team="team" />
   </main>
 </template>
 
