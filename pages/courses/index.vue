@@ -3,9 +3,8 @@
     <HeaderSimpleCentered
       title="Courses"
       subtitle="PDX Code Guild Developer Bootcamps"
-      description="Until further notice, every bootcamp at PDX Code Guild will be remote.  Attend classes virtually."
     />
-    <!-- <CoursesFeatures /> -->
+    <CovidNote />
     <Courses :courses="courses" />
     <section class="px-4 lg:px-16 lg:grid lg:grid-cols-2">
       <article class="prose prose-orange">
