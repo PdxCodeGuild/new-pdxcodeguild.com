@@ -26,6 +26,15 @@
           who are LGBTQ.
           <nuxt-link to="/financial-aid">Learn More.</nuxt-link>
         </p>
+
+        <h3>* Licensure</h3>
+        <p>
+          The Full Stack Day, Full Stack Evening, and Advanced JavaScript
+          courses are all licensed by Oregon's
+          <a href="https://www.oregon.gov/highered/Pages/index.aspx"
+            >Higher Education Coordinating Commission</a
+          >.
+        </p>
       </article>
       <article class="prose prose-orange">
         <h3>Resources, Equipment &amp; Facilities</h3>
@@ -95,6 +104,7 @@ const courses = [
       'Python & JavaScript',
       'HTML & CSS',
       'Django',
+      'Licensed *',
     ],
   },
   {
@@ -114,6 +124,7 @@ const courses = [
       'Python & JavaScript',
       'HTML & CSS',
       'Django',
+      'Licensed *',
     ],
   },
   {
@@ -134,6 +145,7 @@ const courses = [
       'Express',
       'Node',
       'React',
+      'Licensed *',
     ],
   },
 ]
