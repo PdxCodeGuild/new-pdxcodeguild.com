@@ -1,0 +1,32 @@
+{
+	"dayCourses": [
+		{
+			"start": "July 26, 2021",
+			"end": "Nov. 5, 2021"
+		},
+		{
+			"start": "Sept. 13, 2021",
+			"end": "Dec. 17, 2021"
+		},
+		{
+			"start": "Oct. 4, 2021",
+			"end": "Jan. 14, 2021"
+		},
+		{
+			"start": "Nov. 15, 2021",
+			"end": "Feb. 25, 2021"
+		}
+	],
+	"eveningCourses": [
+		{
+			"start": "Sept. 13, 2021",
+			"end": "Feb. 4, 2021"
+		}
+	],
+	"advancedCourses": [
+		{
+			"start": "Oct. 4, 2021",
+			"end": "Dec. 23, 2021"
+		}
+	]
+}
