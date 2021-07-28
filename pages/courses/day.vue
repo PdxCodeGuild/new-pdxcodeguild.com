@@ -20,27 +20,13 @@ const headerProps = {
 // milliseconds in 8 days
 const eightDays = 691200000
 const now = Date.now()
-dayCourses
-  .filter((course) => now - new Date(course.start) <= eightDays)
-  .forEach(console.log)
 
 const tableProps = {
   courseDays: 'Monday - Friday',
   courseTimes: '9:30 am - 4:30 pm',
-  scheduledCourses: [
-    {
-      startDate: 'Sept. 13, 2021',
-      endDate: 'Dec. 17, 2021',
-    },
-    {
-      startDate: 'Oct. 4, 2021',
-      endDate: 'Jan. 14, 2022',
-    },
-    {
-      startDate: 'Nov. 15, 2021',
-      endDate: 'Feb. 25, 2022',
-    },
-  ],
+  scheduledCourses: dayCourses.filter(
+    (course) => now - new Date(course.start) <= eightDays
+  ),
   tableHeading: 'Upcoming Day Bootcamps',
 }
 

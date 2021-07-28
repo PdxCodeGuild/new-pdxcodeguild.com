@@ -70,9 +70,29 @@
   </main>
 </template>
 <script>
+import {
+  dayCourses,
+  eveningCourses,
+  advancedCourses,
+} from '~/data/schedule.json'
 import Courses from '~/components/courses/Courses.vue'
-// import CoursesFeatures from '~/components/courses/CoursesFeatures.vue'
-// import NewCourseCards from '~/components/courses/NewCourseCards.vue'
+
+// milliseconds in 8 days
+const eightDays = 691200000
+const now = Date.now()
+
+const nextDayCourse = dayCourses
+  .filter((course) => now - new Date(course.start) <= eightDays)[0]
+  .start.split(', ')[0]
+
+const nextEveningCourse = eveningCourses
+  .filter((course) => now - new Date(course.start) <= eightDays)[0]
+  .start.split(', ')[0]
+
+const nextAdvancedCourse = advancedCourses
+  .filter((course) => now - new Date(course.start) <= eightDays)[0]
+  .start.split(', ')[0]
+
 const courses = [
   {
     name: 'Programming 101/102',
@@ -95,7 +115,7 @@ const courses = [
     imgAlt: 'PDX Code Guild Classroom',
     href: '/courses/day',
     stack: 'Python, JavaScript, HTML, CSS, Django',
-    nextCourse: 'July 26',
+    nextCourse: nextDayCourse,
     buttonText: 'Day Courses',
     info: [
       '14 weeks',
@@ -115,7 +135,7 @@ const courses = [
     imgAlt: 'PDX Code Guild Lounge Area',
     href: '/courses/evening',
     stack: 'Python, JavaScript, HTML, CSS, Django',
-    nextCourse: 'Sep. 13',
+    nextCourse: nextEveningCourse,
     buttonText: 'Evening Courses',
     info: [
       '18 weeks',
@@ -135,7 +155,7 @@ const courses = [
     imgAlt: 'Laptop and Notepad',
     href: '/courses/advanced-js',
     stack: 'Mongo, Express, Node, React',
-    nextCourse: 'Oct. 4',
+    nextCourse: nextAdvancedCourse,
     buttonText: 'Advanced Courses',
     info: [
       '11 weeks',
