@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import { dayCourses } from '~/data/schedule.json'
 import CourseDetail from '~/components/courses/CourseDetail.vue'
 const headerProps = {
   title: 'Full Stack Developer Day Bootcamps',
@@ -16,27 +17,16 @@ const headerProps = {
     'Break into tech.  Learn Python, JavaScript, HTML, CSS.  Finish with a full stack capstone project built in Django.',
 }
 
+// milliseconds in 8 days
+const eightDays = 691200000
+const now = Date.now()
+
 const tableProps = {
   courseDays: 'Monday - Friday',
   courseTimes: '9:30 am - 4:30 pm',
-  scheduledCourses: [
-    {
-      startDate: 'July 6, 2021',
-      endDate: 'Nov. 5, 2021',
-    },
-    {
-      startDate: 'Sept. 7, 2021',
-      endDate: 'Dec. 17, 2021',
-    },
-    {
-      startDate: 'Oct. 4, 2021',
-      endDate: 'Jan. 14, 2022',
-    },
-    {
-      startDate: 'Nov. 15, 2021',
-      endDate: 'Feb. 25, 2022',
-    },
-  ],
+  scheduledCourses: dayCourses.filter(
+    (course) => now - new Date(course.start) <= eightDays
+  ),
   tableHeading: 'Upcoming Day Bootcamps',
 }
 

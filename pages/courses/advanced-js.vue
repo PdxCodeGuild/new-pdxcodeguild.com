@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import { advancedCourses } from '~/data/schedule.json'
 import CourseDetail from '~/components/courses/CourseDetail.vue'
 const headerProps = {
   title: 'Advanced JavaScript Bootcamps',
@@ -16,15 +17,16 @@ const headerProps = {
     'Learn the MERN stack: Mongo, Express, React & Node.  Build another portfolio project and reach new coding heights.',
 }
 
+// milliseconds in 8 days
+const eightDays = 691200000
+const now = Date.now()
+
 const tableProps = {
   courseDays: 'Monday - Friday',
   courseTimes: '6:00 pm - 9:36 pm',
-  scheduledCourses: [
-    {
-      startDate: 'Oct. 4, 2021',
-      endDate: 'Dec. 23, 2021',
-    },
-  ],
+  scheduledCourses: advancedCourses.filter(
+    (course) => now - new Date(course.start) <= eightDays
+  ),
   courseDescriptionHeader: 'Full Stack Web Development with Node and React',
   tableHeading: 'Upcoming Advanced JS Bootcamps',
 }

@@ -96,7 +96,7 @@
                     w-6/12
                   "
                 >
-                  {{ course.startDate }}
+                  {{ course.start }}
                 </td>
                 <td
                   class="
@@ -107,7 +107,7 @@
                     w-6/12
                   "
                 >
-                  {{ course.endDate }}
+                  {{ course.end }}
                 </td>
               </tr>
             </tbody>
