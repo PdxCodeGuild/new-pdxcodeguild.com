@@ -7,9 +7,10 @@
           relative
           py-24
           px-8
-          bg-gradient-to-r
-          from-orange-600
-          to-orange-400
+          bg-orange-500
+          sm:bg-gradient-to-r
+          sm:from-orange-600
+          sm:to-orange-400
           rounded-xl
           shadow-2xl
           overflow-hidden
@@ -22,7 +23,7 @@
           class="
             absolute
             inset-0
-            opacity-50
+            opacity-40
             filter
             saturate-0
             mix-blend-multiply
