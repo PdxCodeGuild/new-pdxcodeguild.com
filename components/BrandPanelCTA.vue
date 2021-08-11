@@ -15,7 +15,7 @@
   ```
 -->
 <template>
-  <div class="relative py-16 bg-white">
+  <div class="relative py-16 pt-20 bg-white">
     <div
       class="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block"
       aria-hidden="true"

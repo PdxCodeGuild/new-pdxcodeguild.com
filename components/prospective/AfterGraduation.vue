@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <section class="relative bg-white pt-12 pb-16 sm:py-24 lg:py-32">
+  <section class="relative bg-white pt-12 pb-8 sm:py-24 lg:pt-32">
     <div
       id="after"
       class="
