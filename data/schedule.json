@@ -2,35 +2,49 @@
 	"dayCourses": [
 		{
 			"start": "July 26, 2021",
-			"end": "Nov. 5, 2021"
+			"end": "Nov. 5, 2021",
+			"startTime": "9:30 AM",
+			"endTime": "4:30 PM"
 		},
 		{
 			"start": "Sept. 13, 2021",
-			"end": "Dec. 17, 2021"
+			"end": "Dec. 17, 2021",
+			"startTime": "9:30 AM",
+			"endTime": "4:30 PM"
 		},
 		{
 			"start": "Nov. 15, 2021",
-			"end": "Feb. 25, 2021"
-		}
+			"end": "Feb. 25, 2021",
+			"startTime": "9:30 AM",
+			"endTime": "4:30 PM"
+		},
 		{
 			"start": "Dec. 27, 2021",
-			"end": "Apr. 15, 2022"
+			"end": "Apr. 15, 2022",
+			"startTime": "9:30 AM",
+			"endTime": "4:30 PM"
 		}
 	],
 	"eveningCourses": [
 		{
 			"start": "Sept. 13, 2021",
-			"end": "Feb. 4, 2021"
+			"end": "Feb. 4, 2021",
+			"startTime": "6:00 PM",
+			"endTime": "9:36 PM"
 		},
 		{
 			"start": "Oct. 11, 2021",
-			"end": "Feb. 23, 2021"
+			"end": "Feb. 23, 2021",
+			"startTime": "5:00 PM",
+			"endTime": "8:36 PM"
 		}
 	],
 	"advancedCourses": [
 		{
 			"start": "Oct. 4, 2021",
-			"end": "Dec. 23, 2021"
+			"end": "Dec. 23, 2021",
+			"startTime": "6:00 PM",
+			"endTime": "9:36 PM"
 		}
 	]
 }
