@@ -14,7 +14,7 @@
 		},
 		{
 			"start": "Nov. 15, 2021",
-			"end": "Feb. 25, 2021",
+			"end": "Feb. 25, 2022",
 			"startTime": "9:30 AM",
 			"endTime": "4:30 PM"
 		},
@@ -28,7 +28,7 @@
 	"eveningCourses": [
 		{
 			"start": "Sept. 13, 2021",
-			"end": "Feb. 4, 2021",
+			"end": "Feb. 4, 2022",
 			"startTime": "6:00 PM",
 			"endTime": "9:36 PM"
 		},
@@ -42,7 +42,7 @@
 	"advancedCourses": [
 		{
 			"start": "Oct. 4, 2021",
-			"end": "Dec. 23, 2021",
+			"end": "Dec. 23, 2022",
 			"startTime": "6:00 PM",
 			"endTime": "9:36 PM"
 		}
