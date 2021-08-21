@@ -41,6 +41,8 @@ export default {
     '@nuxtjs/netlify-files',
     // https://google-analytics.nuxtjs.org/
     '@nuxtjs/google-analytics',
+    // https://prismic.nuxtjs.org
+    '@nuxtjs/prismic',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -98,6 +100,12 @@ export default {
   // https://google-analytics.nuxtjs.org/
   googleAnalytics: {
     id: 'UA-49506024-1',
+  },
+
+  // https://prismic.nuxtjs.org/installation
+  prismic: {
+    endpoint: 'https://pdxcodeguild.cdn.prismic.io/api/v2',
+    modern: true,
   },
 
   router,

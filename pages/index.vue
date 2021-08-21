@@ -527,6 +527,38 @@
 </template>
 
 <script>
+// console.log(this.$prismic)
+// console.log($prismic)
+import { PrismicLink } from 'apollo-link-prismic'
+import { InMemoryCache } from 'apollo-cache-inmemory'
+import ApolloClient from 'apollo-client'
+import gql from 'graphql-tag'
+
+const client = new ApolloClient({
+  link: PrismicLink({
+    uri: 'https://pdxcodeguild.cdn.prismic.io/graphql',
+  }),
+  cache: new InMemoryCache(),
+})
+
+client
+  .query({
+    query: gql`
+      query {
+        scheduled_course {
+          name
+        }
+      }
+    `,
+  })
+  .then((response) => {
+    console.log(response)
+  })
+  .catch((error) => {
+    console.error(error)
+  })
+
+console.log(client)
 export default {
   layout: 'home',
 }
