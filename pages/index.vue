@@ -577,26 +577,33 @@
 //   .catch((error) => console.log(error))
 // var PrismicDOM = require('prismic-dom');
 
-import Prismic from '@prismicio/client'
+// import Prismic from '@prismicio/client'
 
-console.log(Prismic)
+// console.log($prismic)
+// console.log(Prismic)
 
-const apiEndpoint = 'https://pdxcodeguild.cdn.prismic.io/api/v2'
-
-Prismic.client(apiEndpoint)
-  .then(function (api) {
-    return api.query('') // An empty query will return all the documents
-  })
-  .then(
-    function (response) {
-      console.log('Documents: ', response.results)
-    },
-    function (err) {
-      console.log('Something went wrong: ', err)
-    }
-  )
+// const apiEndpoint = 'https://pdxcodeguild.cdn.prismic.io/api/v2'
+// Prismic.client(apiEndpoint)
+//   .then(function (api) {
+//     return api.query('') // An empty query will return all the documents
+//   })
+//   .then(
+//     function (response) {
+//       console.log('Documents: ', response.results)
+//     },
+//     function (err) {
+//       console.log('Something went wrong: ', err)
+//     }
+//   )
 
 export default {
   layout: 'home',
+  created() {
+    this.$prismic.api
+      .query('')
+      // .then((response) => response.json())
+      .then((response) => console.log(response))
+      .catch((err) => console.log(err))
+  },
 }
 </script>
