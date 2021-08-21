@@ -122,7 +122,7 @@
                     w-6/12
                   "
                 >
-                  {{ course.start }}
+                  {{ course.start_date }}
                 </td>
                 <td
                   class="
@@ -133,7 +133,7 @@
                     w-6/12
                   "
                 >
-                  {{ course.end }}
+                  {{ course.end_date }}
                 </td>
                 <td
                   class="
@@ -155,7 +155,7 @@
                     w-6/12
                   "
                 >
-                  {{ course.startTime }} &#8212; {{ course.endTime }}
+                  {{ course.start_time }} &#8212; {{ course.end_time }}
                 </td>
               </tr>
             </tbody>
@@ -167,7 +167,14 @@
 </template>
 
 <script>
+import dateFormatter from '~/aux-functions/dateFormatter'
 export default {
   props: ['scheduledCourses', 'courseDays', 'courseTimes', 'tableHeading'],
+  created() {
+    this.scheduledCourses.forEach((course) => {
+      course.start_date = dateFormatter(course.start_date)
+      course.end_date = dateFormatter(course.end_date)
+    })
+  },
 }
 </script>

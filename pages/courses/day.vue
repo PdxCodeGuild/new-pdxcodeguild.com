@@ -72,5 +72,13 @@ export default {
       },
     ],
   },
+  created() {
+    this.$prismic.api.query('').then((response) => {
+      const courses = response.results
+        .map((course) => course.data)
+        .filter((course) => course.type === 'day')
+      this.tableProps.scheduledCourses = courses
+    })
+  },
 }
 </script>
