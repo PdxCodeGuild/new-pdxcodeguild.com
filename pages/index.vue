@@ -529,36 +529,73 @@
 <script>
 // console.log(this.$prismic)
 // console.log($prismic)
-import { PrismicLink } from 'apollo-link-prismic'
-import { InMemoryCache } from 'apollo-cache-inmemory'
-import ApolloClient from 'apollo-client'
-import gql from 'graphql-tag'
+// import { PrismicLink } from 'apollo-link-prismic'
+// import { InMemoryCache } from 'apollo-cache-inmemory'
+// import ApolloClient from 'apollo-client'
+// import gql from 'graphql-tag'
 
-const client = new ApolloClient({
-  link: PrismicLink({
-    uri: 'https://pdxcodeguild.cdn.prismic.io/graphql',
-  }),
-  cache: new InMemoryCache(),
-})
+// const client = new ApolloClient({
+//   link: PrismicLink({
+//     uri: 'https://pdxcodeguild.cdn.prismic.io/graphql',
+//   }),
+//   cache: new InMemoryCache(),
+// })
 
-client
-  .query({
-    query: gql`
-      query {
-        scheduled_course {
-          name
-        }
-      }
-    `,
-  })
-  .then((response) => {
-    console.log(response)
-  })
-  .catch((error) => {
-    console.error(error)
-  })
+// client
+//   .query({
+//     query: gql`
+//       query {
+//         scheduled_course {
+//           name
+//         }
+//       }
+//     `,
+//   })
+//   .then((response) => {
+//     console.log(response)
+//   })
+//   .catch((error) => {
+//     console.error(error)
+//   })
 
-console.log(client)
+// console.log(client)
+
+// fetch('https://pdxcodeguild.prismic.io/api/v2/', {
+//   method: 'get',
+// })
+//   .then((response) => response.json())
+//   .then((response) => {
+//     const ref = response.refs[0].ref
+//     fetch('https://pdxcodeguild.prismic.io/api/documents/search', {
+//       method: 'get',
+//       headers: { ref },
+//     })
+//       .then((response) => response.json())
+//       .then((response) => console.log(response))
+//       .catch((error) => console.log(error))
+//   })
+//   .catch((error) => console.log(error))
+// var PrismicDOM = require('prismic-dom');
+
+import Prismic from '@prismicio/client'
+
+console.log(Prismic)
+
+const apiEndpoint = 'https://pdxcodeguild.cdn.prismic.io/api/v2'
+
+Prismic.client(apiEndpoint)
+  .then(function (api) {
+    return api.query('') // An empty query will return all the documents
+  })
+  .then(
+    function (response) {
+      console.log('Documents: ', response.results)
+    },
+    function (err) {
+      console.log('Something went wrong: ', err)
+    }
+  )
+
 export default {
   layout: 'home',
 }
