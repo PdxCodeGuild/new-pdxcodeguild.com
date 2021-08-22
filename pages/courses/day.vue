@@ -28,6 +28,7 @@ const tableProps = {
     (course) => now - new Date(course.start) <= eightDays
   ),
   tableHeading: 'Upcoming Day Bootcamps',
+  courseType: 'day,',
 }
 
 const tuitionProps = {

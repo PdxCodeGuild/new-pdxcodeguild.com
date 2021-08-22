@@ -180,46 +180,100 @@ export default {
   data() {
     return { scheduledCourses: [] }
   },
+  // computed: {
+  //   scheduledCourses() {
+  //     const coursesArray = []
+  //     const eightDays = 691200000
+  //     const now = Date.now()
+  //     const eightDaysAgo = new Date(now - eightDays)
+  //     this.$prismic.api
+  //       .query([
+  //         this.$prismic.predicates.dateAfter(
+  //           'my.scheduled_courses.start_date',
+  //           eightDaysAgo
+  //         ),
+  //       ])
+  //       .then((response) => {
+  //         response.results.forEach((course) => {
+  //           course.start_date = dateFormatter(course.start_date)
+  //           course.end_date = dateFormatter(course.end_date)
+  //           coursesArray.push(course)
+  //         })
+  //       })
+  //     return coursesArray
+  //   },
+  // },
   created() {
-    // milliseconds in 8 days
+    let i = 0
+    console.log(this.scheduledCourses)
     const eightDays = 691200000
     const now = Date.now()
-    const eightDaysAgo = now - eightDays
-
-    // https://prismic.nuxtjs.org/injected-kits
-    // use this.$prismic inside of the export object
-    // generally `Prismic` in prismic docs === `this.$prismic` in vue/nuxt
-
-    // https://prismic.io/docs/technologies/query-content-from-cms-nuxtjs#use-cases
-    // this.$prismic.api
-    //   .query([
-
-    this.$prismic.getByUID('scheduled_course')
-        this.$prismic.predicates.at('document.type', 'scheduled_course'),
-        // https://prismic.io/docs/technologies/rest-api-technical-reference#at
-        this.$prismic.predicates.at(
-          'my.scheduled_course.course_type',
-          this.courseType
-        ),
-        // https://prismic.io/docs/technologies/rest-api-technical-reference#date-predicates
+    const eightDaysAgo = new Date(now - eightDays)
+    this.$prismic.api
+      .query([
         this.$prismic.predicates.dateAfter(
-          'document.start_date',
-          new Date(eightDaysAgo).toISOString()
+          'my.scheduled_courses.start_date',
+          eightDaysAgo
         ),
+        // this.$prismic.predicates.at(
+        //   'my.scheduled_courses.course_type',
+        //   this.courseType
+        // ),
       ])
       .then((response) => {
-        console.log(response)
-        this.scheduledCourses = response.results.map((course) => {
+        console.log({ response })
+        response.results.forEach((course) => {
+          console.log({ course })
+          console.log('hello' + i)
+          console.log('goodbye')
+          i++
           course.start_date = dateFormatter(course.start_date)
           course.end_date = dateFormatter(course.end_date)
-          return course
+          this.scheduledCourses.push(course)
+          console.log(this.scheduledCourses)
         })
       })
-      .catch((error) => console.log(error.message))
-    // this.scheduledCourses = this.scheduledCourses
-    //   .filter((course) => cou)
-    // this.scheduledCourses.forEach((course) => {
-    // })
   },
+  //   // milliseconds in 8 days
+  //   const eightDays = 691200000
+  //   const now = Date.now()
+  //   const eightDaysAgo = new Date(now - eightDays)
+
+  //   // https://prismic.nuxtjs.org/injected-kits
+  //   // use this.$prismic inside of the export object
+  //   // generally `Prismic` in prismic docs === `this.$prismic` in vue/nuxt
+
+  //   // this.$prismic
+  //   //   .getByUID('scheduled_course', [
+  //   //     https://prismic.io/docs/technologies/query-content-from-cms-nuxtjs#use-cases
+  //   this.$prismic.api
+  //     .query([
+  //       // this.$prismic.predicates.at('document.type', 'scheduled_courses'),
+  //       // https://prismic.io/docs/technologies/rest-api-technical-reference#at
+  //       // this.$prismic.predicates.at(
+  //       //   'my.scheduled_course.course_type',
+  //       //   this.courseType
+  //       // ),
+  //       // https://prismic.io/docs/technologies/rest-api-technical-reference#date-predicates
+  //       this.$prismic.predicates.dateAfter(
+  //         'my.scheduled_courses.start_date',
+  //         eightDaysAgo
+  //       ),
+  //     ])
+  //     .then((response) => {
+  //       console.log(response)
+  //       response.
+  //       // this.scheduledCourses = response.results.map((course) => {
+  //       //   course.start_date = dateFormatter(course.start_date)
+  //       //   course.end_date = dateFormatter(course.end_date)
+  //       //   return course
+  //       // })
+  //     })
+  //     .catch((error) => console.log(error.message))
+  //   // this.scheduledCourses = this.scheduledCourses
+  //   //   .filter((course) => cou)
+  //   // this.scheduledCourses.forEach((course) => {
+  //   // })
+  // },
 }
 </script>
