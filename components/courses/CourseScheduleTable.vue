@@ -168,13 +168,58 @@
 
 <script>
 import dateFormatter from '~/aux-functions/dateFormatter'
+// import filterOutOldDates from '~/aux-functions/filterOutOldDates'
 export default {
-  props: ['scheduledCourses', 'courseDays', 'courseTimes', 'tableHeading'],
+  props: [
+    // 'scheduledCourses',
+    'courseDays',
+    'courseTimes',
+    'tableHeading',
+    'courseType',
+  ],
+  data() {
+    return { scheduledCourses: [] }
+  },
   created() {
-    this.scheduledCourses.forEach((course) => {
-      course.start_date = dateFormatter(course.start_date)
-      course.end_date = dateFormatter(course.end_date)
-    })
+    // milliseconds in 8 days
+    const eightDays = 691200000
+    const now = Date.now()
+    const eightDaysAgo = now - eightDays
+
+    // https://prismic.nuxtjs.org/injected-kits
+    // use this.$prismic inside of the export object
+    // generally `Prismic` in prismic docs === `this.$prismic` in vue/nuxt
+
+    // https://prismic.io/docs/technologies/query-content-from-cms-nuxtjs#use-cases
+    // this.$prismic.api
+    //   .query([
+
+    this.$prismic.getByUID('scheduled_course')
+        this.$prismic.predicates.at('document.type', 'scheduled_course'),
+        // https://prismic.io/docs/technologies/rest-api-technical-reference#at
+        this.$prismic.predicates.at(
+          'my.scheduled_course.course_type',
+          this.courseType
+        ),
+        // https://prismic.io/docs/technologies/rest-api-technical-reference#date-predicates
+        this.$prismic.predicates.dateAfter(
+          'document.start_date',
+          new Date(eightDaysAgo).toISOString()
+        ),
+      ])
+      .then((response) => {
+        console.log(response)
+        this.scheduledCourses = response.results.map((course) => {
+          course.start_date = dateFormatter(course.start_date)
+          course.end_date = dateFormatter(course.end_date)
+          return course
+        })
+      })
+      .catch((error) => console.log(error.message))
+    // this.scheduledCourses = this.scheduledCourses
+    //   .filter((course) => cou)
+    // this.scheduledCourses.forEach((course) => {
+    // })
   },
 }
 </script>

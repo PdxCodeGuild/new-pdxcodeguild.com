@@ -11,6 +11,7 @@
         :course-times="tableProps.courseTimes"
         :scheduled-courses="tableProps.scheduledCourses"
         :table-heading="tableProps.tableHeading"
+        :course-type="tableProps.courseType"
       />
       <CourseDetailTuitionInfo
         :full-tuition="tuitionProps.fullTuition"
