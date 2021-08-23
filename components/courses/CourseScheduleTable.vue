@@ -204,7 +204,7 @@ export default {
   //   },
   // },
   created() {
-    let i = 0
+    console.log(this.courseType)
     console.log(this.scheduledCourses)
     const eightDays = 691200000
     const now = Date.now()
@@ -215,6 +215,13 @@ export default {
           'my.scheduled_courses.start_date',
           eightDaysAgo
         ),
+        this.$prismic.predicates.at(
+          'my.scheduled_courses.type',
+          this.courseType,
+          {
+            orderings: '[my.scheduled_courses.start_date]',
+          }
+        ),
         // this.$prismic.predicates.at(
         //   'my.scheduled_courses.course_type',
         //   this.courseType
@@ -222,8 +229,11 @@ export default {
       ])
       .then((response) => {
         console.log({ response })
+        let i = 0
         response.results.forEach((course) => {
+          course = course.data
           console.log({ course })
+          // console.log(course.data.start_date)
           console.log('hello' + i)
           console.log('goodbye')
           i++
