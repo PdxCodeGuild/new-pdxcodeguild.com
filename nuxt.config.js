@@ -55,6 +55,8 @@ export default {
     '@nuxtjs/robots',
     // https://github.com/WilliamDASILVA/nuxt-facebook-pixel-module#readme
     'nuxt-facebook-pixel-module',
+		// https://github.com/nuxt-community/google-gtag-module
+		'@nuxtjs/google-gtag',
   ],
 
   // https://github.com/nuxt-community/sitemap-module/blob/dev/docs/content/en/usage/sitemap.md
@@ -107,6 +109,11 @@ export default {
     endpoint: 'https://pdxcodeguild.cdn.prismic.io/api/v2',
     modern: true,
   },
+	
+	// https://github.com/nuxt-community/google-gtag-module
+	'google-gtag': {
+		id: 'UA-49506024-1',
+	},
 
   router,
 }
