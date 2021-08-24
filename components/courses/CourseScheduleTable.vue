@@ -210,23 +210,25 @@ export default {
     const now = Date.now()
     const eightDaysAgo = new Date(now - eightDays)
     this.$prismic.api
-      .query([
-        this.$prismic.predicates.dateAfter(
-          'my.scheduled_courses.start_date',
-          eightDaysAgo
-        ),
-        this.$prismic.predicates.at(
-          'my.scheduled_courses.type',
-          this.courseType,
-          {
-            orderings: '[my.scheduled_courses.start_date]',
-          }
-        ),
+      .query(
+        [
+          this.$prismic.predicates.dateAfter(
+            'my.scheduled_courses.start_date',
+            eightDaysAgo
+          ),
+          this.$prismic.predicates.at(
+            'my.scheduled_courses.type',
+            this.courseType
+          ),
+        ],
+        {
+          orderings: '[my.scheduled_courses.start_date]',
+        }
         // this.$prismic.predicates.at(
         //   'my.scheduled_courses.course_type',
         //   this.courseType
         // ),
-      ])
+      )
       .then((response) => {
         console.log({ response })
         let i = 0

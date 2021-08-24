@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { dayCourses } from '~/data/schedule.json'
+// import { dayCourses } from '~/data/schedule.json'
 import CourseDetail from '~/components/courses/CourseDetail.vue'
 const headerProps = {
   title: 'Full Stack Developer Day Bootcamps',
@@ -18,15 +18,15 @@ const headerProps = {
 }
 
 // milliseconds in 8 days
-const eightDays = 691200000
-const now = Date.now()
+// const eightDays = 691200000
+// const now = Date.now()
 
 const tableProps = {
-  courseDays: 'Monday - Friday',
-  courseTimes: '9:30 am - 4:30 pm',
-  scheduledCourses: dayCourses.filter(
-    (course) => now - new Date(course.start) <= eightDays
-  ),
+  // courseDays: 'Monday - Friday',
+  // courseTimes: '9:30 am - 4:30 pm',
+  // scheduledCourses: dayCourses.filter(
+  //   (course) => now - new Date(course.start) <= eightDays
+  // ),
   tableHeading: 'Upcoming Day Bootcamps',
   courseType: 'day',
 }
