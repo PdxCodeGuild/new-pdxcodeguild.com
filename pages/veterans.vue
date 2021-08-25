@@ -206,7 +206,7 @@
             <dl class="grid grid-cols-2 gap-x-4 gap-y-8">
               <div
                 v-for="stat in stats"
-                :key="stat.label"
+                :key="stat.key"
                 class="border-t-2 border-gray-100 pt-6"
               >
                 <dt class="text-base font-medium text-gray-500">
@@ -237,10 +237,10 @@
 
 <script>
 const stats = [
-  { label: '', value: 'GI Bill™' },
-  { label: '', value: 'VetTec' },
-  { label: '', value: 'VRRAP' },
-  { label: '', value: 'VOC Rehab' },
+  { key: 1, label: '', value: 'GI Bill™' },
+  { key: 2, label: '', value: 'VetTec' },
+  { key: 3, label: '', value: 'VRRAP' },
+  { key: 4, label: '', value: 'VOC Rehab' },
   // { label: 'Founded', value: '2021' },
   // { label: 'Employees', value: '5' },
   // { label: 'Beta Users', value: '521' },

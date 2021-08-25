@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { advancedCourses } from '~/data/schedule.json'
+// import { advancedCourses } from '~/data/schedule.json'
 import CourseDetail from '~/components/courses/CourseDetail.vue'
 const headerProps = {
   title: 'Advanced JavaScript Bootcamps',
@@ -18,15 +18,16 @@ const headerProps = {
 }
 
 // milliseconds in 8 days
-const eightDays = 691200000
-const now = Date.now()
+// const eightDays = 691200000
+// const now = Date.now()
 
 const tableProps = {
   courseDays: 'Monday - Friday',
-  courseTimes: '6:00 pm - 9:36 pm',
-  scheduledCourses: advancedCourses.filter(
-    (course) => now - new Date(course.start) <= eightDays
-  ),
+  // courseTimes: '6:00 pm - 9:36 pm',
+  // scheduledCourses: advancedCourses.filter(
+  //   (course) => now - new Date(course.start) <= eightDays
+  // ),
+  courseType: 'advanced',
   courseDescriptionHeader: 'Full Stack Web Development with Node and React',
   tableHeading: 'Upcoming Advanced JS Bootcamps',
 }
@@ -72,6 +73,14 @@ export default {
           'PDX Code Guild Advanced JavaScript Bootcamp.  Part-Time Evening Classes 6:00 pm - 9:36 pn.  JavaScript, Mongo, Express, Node & React',
       },
     ],
+  },
+  created() {
+    this.$prismic.api.query('').then((response) => {
+      const courses = response.results
+        .map((course) => course.data)
+        .filter((course) => course.type === 'advanced')
+      this.tableProps.scheduledCourses = courses
+    })
   },
 }
 </script>
