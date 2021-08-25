@@ -122,7 +122,7 @@
                     w-6/12
                   "
                 >
-                  {{ course.start }}
+                  {{ course.start_date }}
                 </td>
                 <td
                   class="
@@ -133,7 +133,7 @@
                     w-6/12
                   "
                 >
-                  {{ course.end }}
+                  {{ course.end_date }}
                 </td>
                 <td
                   class="
@@ -155,7 +155,7 @@
                     w-6/12
                   "
                 >
-                  {{ course.startTime }} &#8212; {{ course.endTime }}
+                  {{ course.start_time }} &#8212; {{ course.end_time }}
                 </td>
               </tr>
             </tbody>
@@ -167,7 +167,41 @@
 </template>
 
 <script>
+import dateFormatter from '~/aux-functions/dateFormatter'
 export default {
-  props: ['scheduledCourses', 'courseDays', 'courseTimes', 'tableHeading'],
+  props: ['courseDays', 'courseTimes', 'tableHeading', 'courseType'],
+  data() {
+    return { scheduledCourses: [] }
+  },
+  created() {
+    const eightDays = 691200000
+    const now = Date.now()
+    const eightDaysAgo = new Date(now - eightDays)
+    this.$prismic.api
+      .query(
+        [
+          this.$prismic.predicates.dateAfter(
+            'my.scheduled_courses.start_date',
+            eightDaysAgo
+          ),
+          this.$prismic.predicates.at(
+            'my.scheduled_courses.type',
+            this.courseType
+          ),
+        ],
+        {
+          orderings: '[my.scheduled_courses.start_date]',
+          pageSize: 100,
+        }
+      )
+      .then((response) => {
+        response.results.forEach((course) => {
+          course = course.data
+          course.start_date = dateFormatter(course.start_date)
+          course.end_date = dateFormatter(course.end_date)
+          this.scheduledCourses.push(course)
+        })
+      })
+  },
 }
 </script>
