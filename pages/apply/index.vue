@@ -1,32 +1,21 @@
 <template>
   <main class="relative">
     <TailwindUIHeader1
-      title="Get Started"
-      subtitle="Ready to start your coding adventure?  Tell us a litle bit about yourself and we'll follow up with an informational interview."
+      title="Ready to start your coding adventure?"
       img-src="images/orange/AlumniHackerspace.jpg"
-      img-alt="In a classroom, an instructor assists a student with coding at a podium."
+      img-alt="Programmers gather at a long table to work and socialize."
       color-filter="orange"
       color-filter-weight="300"
+      :center="true"
     />
 
-    <div
-      class="
-        mt-6
-        pb-5
-        border-b border-gray-200
-        px-4
-        md:px-8
-        lg:mx-auto
-        lg:w-2/3
-      "
-    >
+    <div class="mt-6 pb-5 px-4 md:px-8 lg:mx-auto lg:w-2/3">
       <h3 class="text-lg lg:text-2xl leading-6 font-medium text-gray-900">
-        PDX Code Guild Application
+        Contact Form
       </h3>
       <p class="mt-2 max-w-4xl text-sm lg:text-base text-gray-500">
-        If you're ready to apply, we'll send you the official application and
-        invite you to an informal interview. If you'd like more information
-        first, simply put a note in the last field.
+        Have questions about PDX Code Guild? Fill out this form and we will
+        reach out to you.
       </p>
     </div>
     <Form />
@@ -35,7 +24,7 @@
         border-t border-gray-200
         mt-5
         leading-6
-        text-gray-500 text-center text-xs
+        text-gray-500 text-left text-xs
         px-4
         md:px-8
         lg:mx-auto
