@@ -10,14 +10,15 @@
     </div>
     <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
       <h1
-        class="
+        :class="`
           text-4xl
           font-extrabold
           tracking-tight
           text-white
           sm:text-5xl
           lg:text-6xl
-        "
+          ${center ? 'text-center' : ''}
+        `"
       >
         {{ title }}
       </h1>
@@ -36,6 +37,7 @@ export default {
     'imgAlt',
     'colorFilter',
     'colorFilterWeight',
+    'center',
   ],
 }
 </script>

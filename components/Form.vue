@@ -141,7 +141,8 @@
           <div class="mt-4">
             <fieldset>
               <legend class="text-base font-medium text-gray-900">
-                Will you be applying to use your Veteran's Benefits?
+                Are you interested in using Veteran's Benefits to attend PDX
+                Code Guild?
               </legend>
               <div class="mt-4 space-y-4">
                 <div class="relative flex items-start">
@@ -294,7 +295,7 @@
             for="about"
             class="block text-base lg:text-lg font-medium text-gray-700"
           >
-            Why do you want to join PDX Code Guild?
+            How can we help you?
           </label>
           <div class="mt-2">
             <textarea
