@@ -7,6 +7,7 @@
       img-alt="Two students discuss code with an American flag in the background."
       color-filter="orange"
       color-filter-weight="200"
+      center
     />
     <section class="relative bg-white py-16 sm:py-24">
       <div
