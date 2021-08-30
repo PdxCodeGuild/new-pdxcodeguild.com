@@ -100,9 +100,9 @@ export default {
   },
 
   // https://google-analytics.nuxtjs.org/
-  googleAnalytics: {
-    id: 'UA-49506024-1',
-  },
+  // googleAnalytics: {
+  //   id: 'UA-49506024-1',
+  // },
 
   // https://prismic.nuxtjs.org/installation
   prismic: {
@@ -112,7 +112,10 @@ export default {
 
   // https://github.com/nuxt-community/google-gtag-module
   'google-gtag': {
-    id: 'AW-757120445',
+		id: 'AW-757120445',
+		additionalAccounts: [{
+			id: 'UA-49506024-1',
+		}],
   },
 
   router,
