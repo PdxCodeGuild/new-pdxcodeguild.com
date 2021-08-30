@@ -112,7 +112,10 @@ export default {
 
   // https://github.com/nuxt-community/google-gtag-module
   'google-gtag': {
-    id: 'AW-757120445',
+    id: 'UA-49506024-1',
+		additionalAccounts: [{
+			id: 'AW-757120445',
+		}],
   },
 
   router,
