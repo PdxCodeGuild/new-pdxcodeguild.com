@@ -161,3 +161,13 @@
     </div>
   </main>
 </template>
+
+<script>
+export default {
+  created() {
+    this.$gtag('event', 'conversion', {
+      send_to: 'AW-757120445/wKMJCLvt6O0CEL37gukC',
+    })
+  },
+}
+</script>
