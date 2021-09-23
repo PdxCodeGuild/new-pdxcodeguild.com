@@ -185,7 +185,7 @@ export default {
             eightDaysAgo
           ),
           this.$prismic.predicates.at(
-            'my.scheduled_courses.type',
+            'my.scheduled_courses.course_type',
             this.courseType
           ),
         ],
