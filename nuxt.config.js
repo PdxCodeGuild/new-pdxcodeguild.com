@@ -100,9 +100,9 @@ export default {
   },
 
   // https://google-analytics.nuxtjs.org/
-  // googleAnalytics: {
-  //   id: 'UA-49506024-1',
-  // },
+  googleAnalytics: {
+    id: 'UA-49506024-1',
+  },
 
   // https://prismic.nuxtjs.org/installation
   prismic: {
