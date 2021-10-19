@@ -44,12 +44,6 @@ const team = [
   //   bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
   // },
   {
-    name: 'June Bremmer',
-    role: 'Career Services Specialist',
-    imageUrl: '/images/team/June.png',
-    bio: 'Guided by personal job search experience and years of professional experience supporting hundreds of students with career and academic options, June has developed a career services curriculum that enables students to quickly realize their potential as programmers by providing opportunities to grow skills, network, develop job search strategies and define goals.  It is her personal goal to move students beyond job seekers into new and exciting technical opportunities.',
-  },
-  {
     name: 'Merritt Lawrenson',
     role: 'Lead Instructor',
     imageUrl: '/images/team/Merritt.jpg',
@@ -63,7 +57,7 @@ const team = [
   },
   {
     name: 'Keegan Good',
-    role: 'Programming 101/102 Instructor',
+    role: 'Career Services Advisor',
     imageUrl: '/images/team/Keegan.jpg',
     bio: "Keegan's coding journey began in 2019 with Ruby on Rails, but he switched to Python & Javascript when he joined PDX Code Guild. He is a musician of twenty years, multimedia artist, gardener, amateur mycologist and father of two. He loves to learn and to teach and believes that no matter what your background and interests are, you’ll be able to find a way to compliment them with code.",
   },
