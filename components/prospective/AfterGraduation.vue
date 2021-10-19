@@ -93,7 +93,7 @@ const features = [
     name: 'Career Services',
     icon: AcademicCapIcon,
     description:
-      'We have a dedicated Career Services Specialist to assist our alumni with resumés, LinkedIn & interview prep.',
+      'We have a dedicated Career Services Advisor to assist our alumni with resumés, LinkedIn & interview prep.',
   },
   {
     name: 'Mock Technical Interviews',

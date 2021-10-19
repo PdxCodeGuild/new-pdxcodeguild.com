@@ -13,8 +13,8 @@
     <AfterGraduation />
     <TestimonialWithBackgroundImage
       author="Ayola Mgqolozana"
-      quote="Career Services was there when I really needed it! I was stuck on informational interviews. The information I received on how to ask for an informational interview and the support from the weekly job group was invaluable. When I received a quick response back from a hiring manager available to meet, I was really nervous. I contacted June Bremmer and she was immediately available to meet with me to practice and prepare for the interview. As a result, I now have four mentors and a job shadow as a Jr. Developer."
-      author-title="Student, PDX Code Guild"
+      quote="Career Services was there when I really needed it! I was stuck on informational interviews. The information I received on how to ask for an informational interview and the support from the weekly job group was invaluable. When I received a quick response back from a hiring manager available to meet, I was really nervous. I contacted Career Services and was immediately able to meet to practice and prepare for the interview. As a result, I now have four mentors and a job shadow as a Jr. Developer."
+      author-title="Graduate, PDX Code Guild"
       img-src="images/orange/Frog.jpg"
       img-alt="A stuffed animal frog sits on a a shelf among books, a flowerpot, a model airplane, and a sign reading 'YOUR FUTURE STARTS TODAY'"
     />
