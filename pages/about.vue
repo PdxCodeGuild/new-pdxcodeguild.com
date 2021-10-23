@@ -56,16 +56,22 @@ const team = [
     bio: 'Alexander is originally from Italy. He has a past in photography and design and enjoys combining his technical and creative skills. He is currently working as an engineer for Squarespace and is a former graduate of PDX Code Guild. ',
   },
   {
-    name: 'Keegan Good',
-    role: 'Career Services Advisor',
-    imageUrl: '/images/team/Keegan.jpg',
-    bio: "Keegan's coding journey began in 2019 with Ruby on Rails, but he switched to Python & Javascript when he joined PDX Code Guild. He is a musician of twenty years, multimedia artist, gardener, amateur mycologist and father of two. He loves to learn and to teach and believes that no matter what your background and interests are, you’ll be able to find a way to compliment them with code.",
-  },
-  {
     name: 'Pete Jones (he/him/his)',
     role: 'Instructor',
     imageUrl: '/images/team/Pete.jpg',
     bio: 'After visiting Oregon with family in 2019, Pete moved to Portland the next month.  His passions include music, coding, and teaching.  He works as a frontend developer for Zaelot.',
+  },
+  {
+    name: 'Keegan Good',
+    role: 'Instructor/Career Services Advisor',
+    imageUrl: '/images/team/Keegan.jpg',
+    bio: 'Keegan is a Code Guild graduate and web developer working in Python and Javascript. He loves to learn and to teach and believes that no matter what your background and interests are, you’ll be able to find a way to compliment them with code. As Career Services Advisor for the Guild, Keegan provides resources and interview practice for students and alumni. He also works to create professional relationships in the community to increase access to potential job opportunities for PDX Code Guild members.',
+  },
+  {
+    name: 'Matt Chimenti',
+    role: 'Programming 101/102 Instructor',
+    imageUrl: '/images/team/Matt.jpg',
+    bio: 'Matt is a former PDX Code Guild student. He received an undergraduate degree in literature and worked in finance for many years. Needing a change, he decided one day to research programming bootcamps. He made contact with the staff and, since then, never looked back. He couldn’t be happier with the decision to change his career trajectory and end up in coding and loves sharings his experiences and passion with the new programmers of 101 and 102.',
   },
 ]
 

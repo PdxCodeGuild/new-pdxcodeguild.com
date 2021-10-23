@@ -2,7 +2,7 @@
   <main class="lg:h-screen">
     <Nav scroll-snap="true" />
     <ProspectiveHeader
-      title="Prospective Students"
+      title="Learn Coding &amp; Kickstart Your Career In Tech"
       img-src="images/orange/StudentsConcentrating.jpg"
       img-alt="Two students study code at a table."
       color-filter="orange"
