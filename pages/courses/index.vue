@@ -70,28 +70,30 @@
   </main>
 </template>
 <script>
-import {
-  dayCourses,
-  eveningCourses,
-  advancedCourses,
-} from '~/data/schedule.json'
+// import {
+//   dayCourses,
+//   eveningCourses,
+//   advancedCourses,
+// } from '~/data/schedule.json'
+import dateFormatter from '~/aux-functions/dateFormatter'
+
 import Courses from '~/components/courses/Courses.vue'
 
 // milliseconds in 8 days
-const eightDays = 691200000
-const now = Date.now()
+// const eightDays = 691200000
+// const now = Date.now()
 
-const nextDayCourse = dayCourses
-  .filter((course) => now - new Date(course.start) <= eightDays)[0]
-  .start.split(', ')[0]
+// const nextDayCourse = dayCourses
+//   .filter((course) => now - new Date(course.start_date) <= eightDays)[0]
+//   .start.split(', ')[0]
 
-const nextEveningCourse = eveningCourses
-  .filter((course) => now - new Date(course.start) <= eightDays)[0]
-  .start.split(', ')[0]
+// const nextEveningCourse = eveningCourses
+//   .filter((course) => now - new Date(course.start_date) <= eightDays)[0]
+//   .start.split(', ')[0]
 
-const nextAdvancedCourse = advancedCourses
-  .filter((course) => now - new Date(course.start) <= eightDays)[0]
-  .start.split(', ')[0]
+// const nextAdvancedCourse = advancedCourses
+//   .filter((course) => now - new Date(course.start_date) <= eightDays)[0]
+//   .start.split(', ')[0]
 
 const courses = [
   {
@@ -115,7 +117,7 @@ const courses = [
     imgAlt: 'PDX Code Guild Classroom',
     href: '/courses/day',
     stack: 'Python, JavaScript, HTML, CSS, Django',
-    nextCourse: nextDayCourse,
+    nextCourse: null,
     buttonText: 'Day Courses',
     info: [
       '14 weeks',
@@ -135,7 +137,7 @@ const courses = [
     imgAlt: 'PDX Code Guild Lounge Area',
     href: '/courses/evening',
     stack: 'Python, JavaScript, HTML, CSS, Django',
-    nextCourse: nextEveningCourse,
+    nextCourse: null,
     buttonText: 'Evening Courses',
     info: [
       '18 weeks',
@@ -155,7 +157,7 @@ const courses = [
     imgAlt: 'Laptop and Notepad',
     href: '/courses/advanced-js',
     stack: 'Mongo, Express, Node, React',
-    nextCourse: nextAdvancedCourse,
+    nextCourse: null,
     buttonText: 'Advanced Courses',
     info: [
       '11 weeks',
@@ -186,6 +188,47 @@ export default {
           'PDX Code Guild Full Time Day & Part Time Evening Bootcamps.  Python, JavaScript, HTML, CSS, Django, Node & React. Coding Bootcamps. Programming Bootcamps. Portland Coding Bootcamps. Online Coding Bootcamps',
       },
     ],
+  },
+  created() {
+    const courseInfo = [
+      { type: 'day', index: 1 },
+      { type: 'evening', index: 2 },
+      { type: 'advanced', index: 3 },
+    ]
+    const eightDays = 691200000
+    const now = Date.now()
+    const eightDaysAgo = new Date(now - eightDays)
+
+    courseInfo.forEach((course) => {
+      this.$prismic.api
+        .query(
+          [
+            this.$prismic.predicates.dateAfter(
+              'my.scheduled_courses.start_date',
+              eightDaysAgo
+            ),
+            this.$prismic.predicates.at(
+              'my.scheduled_courses.course_type',
+              course.type
+            ),
+          ],
+          {
+            orderings: '[my.scheduled_courses.start_date]',
+            pageSize: 100,
+          }
+        )
+        .then((response) => {
+          this.courses[course.index].nextCourse = dateFormatter(
+            response.results[0].data.start_date
+          )
+          // response.results.forEach((course) => {
+          //   course = course.data
+          //   course.start_date = dateFormatter(course.start_date)
+          //   course.end_date = dateFormatter(course.end_date)
+          //   this.scheduledCourses.push(course)
+          // })
+        })
+    })
   },
 }
 </script>
