@@ -44,7 +44,7 @@ const faqs = [
     id: 1,
     question: 'Are PDX Code Guild courses online?',
     answer:
-      'Yes.  Until further notice, all courses will continue to be conducted online.  However, nothing has changed in the content of the courses and the availability of assistance to students as compared to in-person courses.  We hope to return to in-person classes soon, as safety permits.',
+      'Until December 22nd, 2021, all courses will be taught online in a live remote format. Starting on  December 22, bootcamps and the 2-bootcamp programs will be offered both in-person and online. Programming 101 and 102 will continue to be live remote online classes.',
   },
   {
     id: 2,

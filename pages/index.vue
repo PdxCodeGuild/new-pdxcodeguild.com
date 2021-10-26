@@ -240,7 +240,7 @@
                 <img
                   class="object-cover lg:h-full lg:w-full"
                   src="/images/AlumniHackerspace.jpg"
-                  alt="A young woman uses her smartphone in an artist's studio."
+                  alt="PDX Code Guild Alumni Hackerspace"
                 />
               </div>
             </div>
