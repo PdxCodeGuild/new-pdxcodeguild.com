@@ -4,6 +4,7 @@
     :table-props="tableProps"
     :tuition-props="tuitionProps"
     :course-concepts="courseConcepts"
+    :additional-info-stats="additionalInfoStats"
   />
 </template>
 
@@ -12,6 +13,7 @@
 import CourseDetail from '~/components/courses/CourseDetail.vue'
 const headerProps = {
   title: 'Full Stack Developer Evening Bootcamps',
+  // title: 'Evening Python/JavaScript Web Developer Bootcamp',
   subtitle: 'Become a web developer',
   description:
     'Break into tech.  Learn Python, JavaScript, HTML, CSS.  Finish with a full stack capstone project built in Django.',
@@ -57,11 +59,32 @@ const courseConcepts = [
   },
 ]
 
+const additionalInfoStats = [
+  {
+    name: 'Official course name',
+    stat: 'Evening Python/JavaScript Web Developer Bootcamp',
+  },
+  {
+    name: 'Also listed with the VA as',
+    stat: '18-week Python-Based Developer Bootcamp',
+  },
+  {
+    name: 'Prerequisite',
+    stat: 'Successful Completion of Programming 101/102',
+  },
+]
+
 export default {
   components: { CourseDetail },
   layout: 'courses',
   data() {
-    return { headerProps, tableProps, tuitionProps, courseConcepts }
+    return {
+      headerProps,
+      tableProps,
+      tuitionProps,
+      courseConcepts,
+      additionalInfoStats,
+    }
   },
   head: {
     title: 'PDX Code Guild | Full Stack Developer Bootcamp: Evening',

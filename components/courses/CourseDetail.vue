@@ -5,6 +5,9 @@
       :subtitle="headerProps.subtitle"
       :description="headerProps.description"
     />
+    <section class="px-4 md:px-16">
+      <CourseAdditionalInfo :stats="additionalInfoStats" />
+    </section>
     <section class="xl:grid xl:grid-cols-2 justify-between px-4 md:px-16">
       <CourseScheduleTable
         :course-days="tableProps.courseDays"
@@ -30,18 +33,23 @@
 </template>
 <script>
 import CourseOverviewNew from './CourseOverviewNew.vue'
-// import CoursesHeader from '~/components/courses/CoursesHeader.vue'
 import CourseScheduleTable from '~/components/courses/CourseScheduleTable.vue'
 import CourseDetailTuitionInfo from '~/components/courses/CourseDetailTuitionInfo.vue'
-// import CourseOverviewTable from '~/components/courses/CourseOverviewTable.vue'
+import CourseAdditionalInfo from '~/components/courses/CourseAdditionalInfo.vue'
+
 export default {
   components: {
-    // CoursesHeader,
     CourseScheduleTable,
     CourseDetailTuitionInfo,
-    // CourseOverviewTable,
     CourseOverviewNew,
+    CourseAdditionalInfo,
   },
-  props: ['headerProps', 'tableProps', 'tuitionProps', 'courseConcepts'],
+  props: [
+    'headerProps',
+    'tableProps',
+    'tuitionProps',
+    'courseConcepts',
+    'additionalInfoStats',
+  ],
 }
 </script>
