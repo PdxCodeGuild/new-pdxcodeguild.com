@@ -4,6 +4,7 @@
     :table-props="tableProps"
     :tuition-props="tuitionProps"
     :course-concepts="courseConcepts"
+    :additional-info-stats="additionalInfoStats"
   />
 </template>
 
@@ -57,11 +58,28 @@ const courseConcepts = [
   },
 ]
 
+const additionalInfoStats = [
+  {
+    name: 'Official course name',
+    stat: 'Advanced Node & React Fullstack Bootcamp',
+  },
+  {
+    name: 'Prerequisite',
+    stat: 'Successful Completion of Day or Evening Fullstack Bootcamp',
+  },
+]
+
 export default {
   components: { CourseDetail },
   layout: 'courses',
   data() {
-    return { headerProps, tableProps, tuitionProps, courseConcepts }
+    return {
+      headerProps,
+      tableProps,
+      tuitionProps,
+      courseConcepts,
+      additionalInfoStats,
+    }
   },
   head: {
     title: 'PDX Code Guild | Advanced JavaScript Bootcamp: React & Node',
