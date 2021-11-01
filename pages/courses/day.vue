@@ -4,6 +4,7 @@
     :table-props="tableProps"
     :tuition-props="tuitionProps"
     :course-concepts="courseConcepts"
+    :additional-info-stats="additionalInfoStats"
   />
 </template>
 
@@ -56,11 +57,32 @@ const courseConcepts = [
   },
 ]
 
+const additionalInfoStats = [
+  {
+    name: 'Official course name',
+    stat: 'Fulltime Python/JavaScript Fullstack Developer Bootcamp',
+  },
+  {
+    name: 'Also listed with the VA as',
+    stat: '14-week Python-Based developer bootcamp',
+  },
+  {
+    name: 'Prerequisite',
+    stat: 'Successful Completion of Programming 101/102',
+  },
+]
+
 export default {
   components: { CourseDetail },
   layout: 'courses',
   data() {
-    return { headerProps, tableProps, tuitionProps, courseConcepts }
+    return {
+      headerProps,
+      tableProps,
+      tuitionProps,
+      courseConcepts,
+      additionalInfoStats,
+    }
   },
   head: {
     title: 'PDX Code Guild | Full Stack Developer Bootcamp: Day',

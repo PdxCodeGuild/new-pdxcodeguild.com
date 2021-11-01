@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="relative">
-        <svg
+        <!-- <svg
           class="hidden md:block absolute top-0 right-0 -mt-20 -mr-20"
           width="404"
           height="384"
@@ -84,7 +84,7 @@
             height="384"
             fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)"
           />
-        </svg>
+        </svg> -->
         <div class="relative md:bg-white md:p-6">
           <div class="">
             <div
