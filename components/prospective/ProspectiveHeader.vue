@@ -31,7 +31,9 @@
         >
           {{ title }}
         </h1>
-        <p class="mt-6 max-w-3xl text-xl text-gray-300">{{ subtitle }}</p>
+        <p class="mt-6 max-w-3xl text-xl md:text-3xl text-white mx-auto">
+          {{ subtitle }}
+        </p>
       </div>
     </div>
 
