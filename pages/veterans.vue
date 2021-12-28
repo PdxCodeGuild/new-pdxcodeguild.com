@@ -179,9 +179,9 @@
             </h2>
             <div class="mt-6 text-gray-500 space-y-6">
               <p class="text-lg">
-                Having worked with numerous successful veterans in the past, PDX
-                Code Guild is thrilled that students can use their GI Bill
-                &#174; to attend bootcamps at PDX Code Guild!
+                PDX Code Guild has a proven track record of helping veterans
+                gain strong technical skills. You can use your GI Bill&#174; or
+                other veteran's benefits to attend our bootcamps.
               </p>
               <p class="text-sm leading-7">
                 GI Bill&#174; is a registered trademark of the U.S. Department
@@ -241,7 +241,7 @@ const stats = [
   { key: 1, label: '', value: 'GI Bill™' },
   { key: 2, label: '', value: 'VetTec' },
   { key: 3, label: '', value: 'VRRAP' },
-  { key: 4, label: '', value: 'VOC Rehab' },
+  { key: 4, label: '', value: 'VR&E' },
   // { label: 'Founded', value: '2021' },
   // { label: 'Employees', value: '5' },
   // { label: 'Beta Users', value: '521' },
