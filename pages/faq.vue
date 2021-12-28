@@ -44,7 +44,7 @@ const faqs = [
     id: 1,
     question: 'Are PDX Code Guild courses online?',
     answer:
-      'Until December 22nd, 2021, all courses will be taught online in a live remote format. Starting on  December 22, bootcamps and the 2-bootcamp programs will be offered both in-person and online. Programming 101 and 102 will continue to be live remote online classes.',
+      'Until June 1st, 2022, all courses will be taught online in a live remote format. Starting on  June 1st, bootcamps and the 2-bootcamp programs will be offered both in-person and online. Programming 101 and 102 will continue to be live remote online classes.',
   },
   {
     id: 2,
@@ -57,7 +57,7 @@ const faqs = [
     question:
       'Is help available to PDX Code Guild students outside of class hours?',
     answer:
-      'Yes.  Students may schedule to meet with their instructor for additional help with class material outside of class hours.  We also hold Study Hall from 4:30 pm - 6:00 pm Mon-Fri, where students can work, hang out, study, and get help with course work from PDX Code Guild staff.',
+      'Yes.  Students may schedule to meet with their instructor for additional help with class material outside of class hours.  We also hold Study Hall from 4:00 pm - 6:00 pm Mon-Fri, where students can work, hang out, study, and get help with course work from PDX Code Guild staff.',
   },
   {
     id: 4,
@@ -67,13 +67,19 @@ const faqs = [
   },
   {
     id: 5,
+    question: 'What veterans benefits does PDX Code Guild accept?',
+    answer:
+      'VetTec, GI bill&#174;, VR&E, VRRAP and more are accepted at PDX Code Guild.',
+  },
+  {
+    id: 6,
     question:
       'Do veterans receive BAH (Basic Allowance for Housing) while attending PDX Code Guild with their benefits?',
     answer:
       'Yes.  Veterans receive a monthly housing allowance when attending our Full Stack Day, Full Stack Evening, and Advanced JavaScript Bootcamps with their benefits.',
   },
   {
-    id: 6,
+    id: 7,
     question:
       'Do PDX Code Guild evening bootcamps qualify as full time for veterans using their benefits?',
     answer:
