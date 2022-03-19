@@ -141,7 +141,7 @@ const courses = [
     buttonText: 'Evening Courses',
     info: [
       '18 weeks',
-      'Part time',
+      'Full time',
       'Evenings',
       'Python & JavaScript',
       'HTML & CSS',
@@ -161,7 +161,7 @@ const courses = [
     buttonText: 'Advanced Courses',
     info: [
       '11 weeks',
-      'Part time',
+      'Full time',
       'Evenings',
       'MongoDB',
       'Express',
