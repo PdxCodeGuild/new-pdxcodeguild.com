@@ -34,7 +34,7 @@
                 border-gray-300
                 rounded-md
               "
-            />
+            required>
           </div>
         </div>
 
@@ -61,7 +61,7 @@
                 border-gray-300
                 rounded-md
               "
-            />
+            required>
           </div>
         </div>
 
@@ -85,7 +85,7 @@
                 border-gray-300
                 rounded-md
               "
-            />
+            required>
           </div>
         </div>
 
@@ -134,7 +134,7 @@
                 rounded-md
               "
               placeholder="+1 (555) 987-6543"
-            />
+            required>
           </div>
         </div>
         <div class="pt-4 md:col-span-6">
@@ -181,7 +181,7 @@
                         text-orange-600
                         border-gray-300
                       "
-                    />
+                    required>
                   </div>
                   <div class="ml-3 text-sm">
                     <label for="vet-benefits" class="font-medium text-gray-700"
