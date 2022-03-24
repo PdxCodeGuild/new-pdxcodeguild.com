@@ -134,7 +134,7 @@
                 rounded-md
               "
               placeholder="+1 (555) 987-6543"
-            required>
+            />
           </div>
         </div>
         <div class="pt-4 md:col-span-6">
