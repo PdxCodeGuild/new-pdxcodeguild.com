@@ -115,10 +115,9 @@ export default {
     id: 'AW-757120445',
     additionalAccounts: [
       {
-        id: 'UA-49506024-1',
+        id: 'GTM-MRVHFHR', // perviously UA-49506024-1 until GA4 switch
       },
     ],
   },
-
   router,
 }
