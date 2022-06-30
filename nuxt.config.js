@@ -24,7 +24,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['@/plugins/gtag'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -57,6 +57,8 @@ export default {
     'nuxt-facebook-pixel-module',
     // https://github.com/nuxt-community/google-gtag-module
     '@nuxtjs/google-gtag',
+
+		'@nuxtjs/gtm',
   ],
 
   // https://github.com/nuxt-community/sitemap-module/blob/dev/docs/content/en/usage/sitemap.md
@@ -119,5 +121,10 @@ export default {
       },
     ],
   },
+
+	gtm: {
+		id: 'GTM-MRVHFHR',
+	},
+
   router,
 }
