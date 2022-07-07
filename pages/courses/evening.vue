@@ -16,7 +16,7 @@ const headerProps = {
   // title: 'Evening Python/JavaScript Web Developer Bootcamp',
   subtitle: 'Become a web developer',
   description:
-    'Break into tech.  Learn Python, JavaScript, HTML, CSS.  Finish with a full stack capstone project built in Django.',
+    'New choices of hours for evening bootcamps! In addition to 6 pm - 9: 36 pm, we now have bootcamp offered at 3 pm-6:36 pm PST (6 pm-9:36 pm EST) The first date with the earlier hours is July 25th, 2022. \nBreak into tech.  Learn Python, JavaScript, HTML, CSS.  Finish with a full stack capstone project built in Django.',
 }
 
 // // milliseconds in 8 days
