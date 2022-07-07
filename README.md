@@ -21,4 +21,4 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 # Heroicons
 
-We used svgs for our heroicons you can find some via this link https://heroicons.com/
+We used `.svg` files for our heroicons you can find some via this link https://heroicons.com/
