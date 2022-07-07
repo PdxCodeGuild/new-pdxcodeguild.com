@@ -18,3 +18,7 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+# Heroicons
+
+We used svgs for our heroicons you can find some via this link https://heroicons.com/
