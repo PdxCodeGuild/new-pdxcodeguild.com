@@ -57,8 +57,8 @@ export default {
     'nuxt-facebook-pixel-module',
     // https://github.com/nuxt-community/google-gtag-module
     '@nuxtjs/google-gtag',
-
-		'@nuxtjs/gtm',
+		// https://github.com/nuxt-community/gtm-module
+    '@nuxtjs/gtm',
   ],
 
   // https://github.com/nuxt-community/sitemap-module/blob/dev/docs/content/en/usage/sitemap.md
@@ -122,9 +122,9 @@ export default {
     ],
   },
 
-	gtm: {
-		id: 'GTM-MRVHFHR',
-	},
+  gtm: {
+    id: 'GTM-MRVHFHR',
+  },
 
   router,
 }

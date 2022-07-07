@@ -369,6 +369,44 @@
               be refunded.
             </dd>
           </div>
+          <div class="relative mt-10">
+            <dt>
+              <div
+                class="
+                  absolute
+                  flex
+                  items-center
+                  justify-center
+                  h-12
+                  w-12
+                  rounded-md
+                  bg-orange-500
+                  text-white
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+              </div>
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+                Veteran's Friend Discount
+              </p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">
+              Help a veteran who otherwise wouldn't be able to attend bootcamp and receive an additional $2500 off tuition. 
+            </dd>
+          </div>
         </dl>
       </div>
     </div>

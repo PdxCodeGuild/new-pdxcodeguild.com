@@ -34,7 +34,8 @@
                 border-gray-300
                 rounded-md
               "
-            required>
+              required
+            />
           </div>
         </div>
 
@@ -61,7 +62,8 @@
                 border-gray-300
                 rounded-md
               "
-            required>
+              required
+            />
           </div>
         </div>
 
@@ -85,7 +87,8 @@
                 border-gray-300
                 rounded-md
               "
-            required>
+              required
+            />
           </div>
         </div>
 
@@ -141,8 +144,8 @@
           <div class="mt-4">
             <fieldset>
               <legend class="text-base font-medium text-gray-900">
-                Are you planning on using Veteran's Benefits to attend PDX
-                Code Guild?
+                Are you planning on using Veteran's Benefits to attend PDX Code
+                Guild?
               </legend>
               <div class="mt-4 space-y-4">
                 <div class="relative flex items-start">
@@ -181,7 +184,8 @@
                         text-orange-600
                         border-gray-300
                       "
-                    required>
+                      required
+                    />
                   </div>
                   <div class="ml-3 text-sm">
                     <label for="vet-benefits" class="font-medium text-gray-700"
