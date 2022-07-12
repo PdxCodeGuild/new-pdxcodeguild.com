@@ -55,7 +55,7 @@ const capstones = [
     description:
       'Salieri is a music composition app that allows you to quickly write your own music as multi-track MIDI.  It was designed to be helpful and accessible to all kinds of users, from casual experimenters to seasoned musicians.  The ability to read sheet music or play an instrument is not required.',
     student: 'Logan Douglass',
-    imageSrc: '/images/capstones/salieri/salfix.png',
+    imageSrc: '/images/capstones/salieri/salfix2.png',
   },
 ]
 export default {

@@ -57,7 +57,7 @@ export default {
     'nuxt-facebook-pixel-module',
     // https://github.com/nuxt-community/google-gtag-module
     '@nuxtjs/google-gtag',
-		// https://github.com/nuxt-community/gtm-module
+    // https://github.com/nuxt-community/gtm-module
     '@nuxtjs/gtm',
   ],
 

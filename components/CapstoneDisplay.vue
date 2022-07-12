@@ -23,6 +23,26 @@
 -->
 <template>
   <figure class="bg-white">
+    <div class="content-center ml-auto">
+      <div
+        class="
+          justify-center
+          flex
+          space-x-2
+          lg:border-r lg:border-gray-200
+          lg:pr-8
+        "
+      >
+        <h1 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+          {{ capstone.name }}
+        </h1>
+        <h4
+          class="text-center text-2xl font-extrabold text-gray-700 sm:text-3xl"
+        >
+          by {{ capstone.student }}
+        </h4>
+      </div>
+    </div>
     <div>
       <!-- Image gallery -->
       <div
@@ -106,43 +126,16 @@
           mx-auto
           py-10
           px-4
+          text-center
           sm:px-6
           lg:max-w-7xl
           lg:py-16
           lg:px-8
-          lg:grid lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr]
           lg:gap-x-8
         "
       >
-        <div class="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-          <h1
-            class="
-              text-2xl
-              font-extrabold
-              tracking-tight
-              text-gray-900
-              sm:text-3xl
-            "
-          >
-            {{ capstone.name }}
-          </h1>
-        </div>
-
-        <!-- Options -->
-        <div class="mt-4 lg:mt-0 lg:row-span-3">
-          <h2 class="sr-only">Student</h2>
-          <p class="text-3xl text-gray-900">by {{ capstone.student }}</p>
-        </div>
-
         <div
-          class="
-            py-10
-            lg:pt-6
-            lg:pb-16
-            lg:col-start-1 lg:col-span-2
-            lg:border-r lg:border-gray-200
-            lg:pr-8
-          "
+          class="py-10 lg:pt-6 lg:pb-16 lg:col-start-1 lg:col-span-2 lg:pr-8"
         >
           <!-- Description and details -->
           <div>
