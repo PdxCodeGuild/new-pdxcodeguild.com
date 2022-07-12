@@ -23,7 +23,7 @@
 -->
 <template>
   <figure class="bg-white">
-    <div class="content-center ml-auto">
+    <div class="content-center ml-auto mt-10 pt-10">
       <div
         class="
           justify-center
@@ -48,12 +48,12 @@
       <div
         v-if="capstone.images"
         class="
-          mt-6
+          mt-4
           max-w-2xl
           mx-auto
-          sm:px-6
+          sm:px-5
           lg:max-w-7xl
-          lg:px-8
+          lg:px-5
           lg:grid lg:grid-cols-3
           lg:gap-x-8
         "
@@ -127,16 +127,15 @@
           py-10
           px-4
           text-center
+          border-b-2
           sm:px-6
-          lg:max-w-7xl
+          lg:max-w-5xl
           lg:py-16
           lg:px-8
           lg:gap-x-8
         "
       >
-        <div
-          class="py-10 lg:pt-6 lg:pb-16 lg:col-start-1 lg:col-span-2 lg:pr-8"
-        >
+        <div class="py-10 lg:pt-6 lg:pr-8 lg:m-0">
           <!-- Description and details -->
           <div>
             <h3 class="sr-only">Description</h3>
