@@ -15,7 +15,7 @@ const headerProps = {
   title: 'Full Stack Developer Day Bootcamps',
   subtitle: 'Become a web developer',
   description:
-    'Break into tech.  Learn Python, JavaScript, HTML, CSS.  Finish with a full stack capstone project built in Django.',
+    'Break into tech.  Learn Python, JavaScript, HTML, CSS.  Finish with a full stack capstone project built in Django. Our cohorts are taught by licensed instructors.',
 }
 
 // milliseconds in 8 days

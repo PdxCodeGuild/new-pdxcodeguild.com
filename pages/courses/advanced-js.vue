@@ -15,7 +15,7 @@ const headerProps = {
   title: 'Advanced JavaScript Bootcamps',
   subtitle: 'Take your skills to the next level',
   description:
-    'Learn the MERN stack: Mongo, Express, React & Node.  Build another portfolio project and reach new coding heights.',
+    'Learn the MERN stack: Mongo, Express, React & Node.  Build another portfolio project and reach new coding heights. Our cohorts are taught by licensed instructors.',
 }
 
 // milliseconds in 8 days
