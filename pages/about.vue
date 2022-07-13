@@ -62,12 +62,6 @@ const team = [
     bio: 'After visiting Oregon with family in 2019, Pete moved to Portland the next month.  His passions include music, coding, and teaching.  He works as a frontend developer for Zaelot.',
   },
   {
-    name: 'Keegan Good',
-    role: 'Instructor/Career Services Advisor',
-    imageUrl: '/images/team/Keegan.jpg',
-    bio: 'Keegan is a Code Guild graduate and web developer working in Python and Javascript. He loves to learn and to teach and believes that no matter what your background and interests are, you’ll be able to find a way to compliment them with code. As Career Services Advisor for the Guild, Keegan provides resources and interview practice for students and alumni. He also works to create professional relationships in the community to increase access to potential job opportunities for PDX Code Guild members.',
-  },
-  {
     name: 'Matt Chimenti',
     role: 'Programming 101/102 Instructor',
     imageUrl: '/images/team/Matt.jpg',
