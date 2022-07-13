@@ -84,7 +84,7 @@
                 <li>
                   <!-- <div class="ml-3">
                     <p class="text-lg font-medium text-gray-900"> -->
-                  Instructor-led, classroom setting
+                  Taught by top graduates of the Full Stack bootcamp
                   <!-- </p>
                   </div> -->
                 </li>
@@ -92,13 +92,6 @@
                   <!-- <div class="ml-3">
                     <p class="text-lg font-medium text-gray-900"> -->
                   Set up your environment and learn the tools
-                  <!-- </p>
-                  </div> -->
-                </li>
-                <li>
-                  <!-- <div class="ml-3">
-                    <p class="text-lg font-medium text-gray-900"> -->
-                  Access to instructors and teaching assistants
                   <!-- </p>
                   </div> -->
                 </li>
