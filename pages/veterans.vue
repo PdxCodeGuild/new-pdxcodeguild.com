@@ -238,7 +238,7 @@
 
 <script>
 const stats = [
-  { key: 1, label: '', value: 'GI Bill™' },
+  { key: 1, label: '', value: 'GI Bill®' },
   { key: 2, label: '', value: 'VetTec' },
   { key: 3, label: '', value: 'VRRAP' },
   { key: 4, label: '', value: 'VR&E' },

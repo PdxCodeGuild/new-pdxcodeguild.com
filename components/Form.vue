@@ -243,7 +243,7 @@
                     for="gi-bill"
                     class="ml-3 block text-sm font-medium text-gray-700"
                   >
-                    GI Bill™
+                    GI Bill®
                   </label>
                 </div>
                 <div class="flex items-center">
