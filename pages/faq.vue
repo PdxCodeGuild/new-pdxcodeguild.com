@@ -30,6 +30,7 @@
               <p class="text-base text-gray-500">
                 {{ faq.answer }}
               </p>
+              <p class="text-xs text-gray-400">{{ faq.note }}</p>
             </dd>
           </div>
         </dl>
@@ -50,26 +51,27 @@ const faqs = [
     id: 2,
     question: 'Do PDX Code Guild courses have homework?',
     answer:
-      'PDX Code Guild courses have built-in lab time during class hours.  We understand our students have busy lives and provide ample in-class time for students to work.  However, students are strongly encouraged to spend additional time outside of class to practice coding and work on assigned labs.  PDX Code Guild offers an additional 90 minutes of Study Hall every weekday for students to get help outside of class.',
+      'PDX Code Guild courses have built-in time during class hours to work on labs with the help of instructors and teaching assistants. Courses are designed so that the average student can complete most labs during class, and study hall is provided for an additional 90 minutes  of TA-led peer mentoring every week day.',
   },
   {
     id: 3,
     question:
       'Is help available to PDX Code Guild students outside of class hours?',
     answer:
-      'Yes.  Students may schedule to meet with their instructor for additional help with class material outside of class hours.  We also hold Study Hall from 4:00 pm - 6:00 pm Mon-Fri, where students can work, hang out, study, and get help with course work from PDX Code Guild staff.',
+      'Yes. Teaching Assistants provide peer mentoring in study hall Mon-Fri, 4:00 pm - 6:00 pm  Pacific Time. Students can work, hang out, study, and get help with course work. Additionally, PDX Code Guild has an active community of alumni, staff, and graduates that will answer questions.',
   },
   {
     id: 4,
     question: 'What does PDX Code Guild offer to its graduates?',
     answer:
-      'PDX Code Guild offers a variety of services to graduates in good standing.  We have a dedicated Career Services Specialist hosting weekly Career Club meetups and available for one-on-one counseling.  Alumni are also welcome at Study Hall and all PDX Code Guild events.',
+      'PDX Code Guild offers a variety of services to graduates in good standing. We have a dedicated Career Services Specialist hosting Career Club meetups and available for one-on-one counseling. Alumni are also welcome at Study Hall and all PDX Code Guild events.',
   },
   {
     id: 5,
     question: 'What veterans benefits does PDX Code Guild accept?',
     answer:
-      'VetTec, GI bill&#174;, VR&E, VRRAP and more are accepted at PDX Code Guild.',
+      'VetTec, GI Bill®, VR&E, VRRAP and more are accepted at PDX Code Guild.',
+    note: 'GI Bill® is a registered trademark of the U.S. Department of Veterans Affairs (VA). More information about education benefits offered by VA is available at the official U.S. government Web site at https://www.benefits.va.gov/gibill.',
   },
   {
     id: 6,
