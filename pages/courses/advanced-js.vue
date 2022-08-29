@@ -34,7 +34,7 @@ const tableProps = {
 }
 
 const tuitionProps = {
-  fullTuition: '15,700',
+  fullTuition: '17,500',
   needsBasedLow: '7,500',
   needsBasedHigh: '8,000',
 }
