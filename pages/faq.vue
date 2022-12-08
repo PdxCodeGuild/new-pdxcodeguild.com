@@ -45,7 +45,7 @@ const faqs = [
     id: 1,
     question: 'Are PDX Code Guild courses online?',
     answer:
-      'Until June 1st, 2022, all courses will be taught online in a live remote format. Starting on  June 1st, bootcamps and the 2-bootcamp programs will be offered both in-person and online. Programming 101 and 102 will continue to be live remote online classes.',
+      'All bootcamps are available in a live-remote format with select cohorts offered both in-person and live-remote. Programming 101 and 102 will continue to be live-remote online classes.',
   },
   {
     id: 2,
