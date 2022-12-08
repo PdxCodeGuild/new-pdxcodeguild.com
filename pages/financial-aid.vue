@@ -103,7 +103,7 @@
             <dd class="mt-2 ml-16 text-base text-gray-500">
               Applicants whose yearly household income is approximately 300% or
               less of the 2019 federal poverty level will qualify for reduced
-              tuition.This Discount is handled on a sliding scale.
+              tuition. This Discount is handled on a sliding scale.
             </dd>
             <dd class="mt-2 ml-16 text-sm text-gray-500">
               <!-- Sometimes a partial discount will be applied to applicants who
@@ -154,7 +154,7 @@
                 </svg>
               </div>
               <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-                Divsesity Discount
+                Diversity Discount
               </p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
@@ -217,8 +217,8 @@
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
               Applicants demonstrate advanced aptitude in the pre-requisite
-              courses and an economic need will qualify for reduced tuition.This
-              Scholarship is handled on a sliding scale.
+              courses and an economic need will qualify for reduced tuition.
+              This Scholarship is handled on a sliding scale.
             </dd>
             <dd class="mt-2 ml-16 text-sm text-gray-500">
               <!-- Sometimes a partial discount will be applied to applicants who
