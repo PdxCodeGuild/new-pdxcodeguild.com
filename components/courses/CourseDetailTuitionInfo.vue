@@ -106,7 +106,7 @@
                 previously mentioned discounts.
               </p>
               <!-- <br /> -->
-              <p>
+              <!-- <p>
                 For Military: In addition to the above we accept Veterans’
                 benefits including the GI Bill®
               </p>
@@ -120,7 +120,7 @@
                   class="text-orange"
                   >https://www.benefits.va.gov/gibill/</a
                 >.
-              </p>
+              </p> -->
               <div class="mt-10">
                 <nuxt-link
                   to="/financial-aid"

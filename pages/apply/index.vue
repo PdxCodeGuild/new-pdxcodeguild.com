@@ -31,7 +31,7 @@
         lg:w-2/3
       "
     >
-      <p class="mt-4">
+      <!-- <p class="mt-4">
         GI Bill® is a registered trademark of the U.S. Department of Veterans
         Affairs (VA). More information about education benefits offered by VA is
         available at the official U.S. government Web site at
@@ -43,7 +43,7 @@
           >https://www.benefits.va.gov/gibill</a
         >
         .
-      </p>
+      </p> -->
       <p class="mt-5">
         PDX Code Guild does not discriminate on the basis of race, creed, color,
         ethnicity, national origin, religion, sex, sexual orientation, gender
@@ -61,8 +61,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          'Quick and Easy PDX Code Guild Application. GI Bill VetTec Coding Bootcamp',
+        content: 'Quick and Easy PDX Code Guild Application. Coding Bootcamp',
       },
     ],
   },

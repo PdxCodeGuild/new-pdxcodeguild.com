@@ -18,9 +18,13 @@
             How can we assist you?
           </h2>
           <p class="mt-3 text-lg leading-6 text-gray-500">
+            An Advisor is standing by to answer any questions you may have. We
+            are just a phone call or email away.
+          </p>
+          <!-- <p class="mt-3 text-lg leading-6 text-gray-500">
             An Advisor/School Certifying Official is standing by to answer any
             questions you may have. We are just a phone call or email away.
-          </p>
+          </p> -->
           <dl class="mt-8 text-base text-gray-500">
             <div>
               <dt class="sr-only">Postal address</dt>

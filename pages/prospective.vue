@@ -49,7 +49,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          "PDX Code Guild Course Information, Enrollment Information, Veteran's Benefits & More.  Coding Bootcamps. Programming Bootcamps. Portland Coding Bootcamps. Online Coding Bootcamps.",
+          'PDX Code Guild Course Information, Enrollment Information & More.  Coding Bootcamps. Programming Bootcamps. Portland Coding Bootcamps. Online Coding Bootcamps.',
       },
     ],
   },
