@@ -65,9 +65,7 @@
           lunches and snacks in, a microwave, tables to eat at and a coffee
           maker.
         </p>
-        <p>
-          Access to peer mentoring in Study hall from 4:30 PM - 6:00 PM PST.
-        </p>
+        <p>Access to peer mentoring in Study hall.</p>
       </article>
     </section>
   </main>

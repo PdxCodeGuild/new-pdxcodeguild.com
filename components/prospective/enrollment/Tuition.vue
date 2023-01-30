@@ -4,10 +4,10 @@
     who is passionate about programming. We offer
     <nuxt-link to="/financial-aid" class="text-orange"
       >income-based discounts</nuxt-link
-    >
-    and accept
+    >!
+    <!-- and accept
     <nuxt-link to="/veterans" class="text-orange"
       >veteran's benefits!</nuxt-link
-    >
+    > -->
   </dd>
 </template>

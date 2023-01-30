@@ -66,27 +66,27 @@ const faqs = [
     answer:
       'PDX Code Guild offers a variety of services to graduates in good standing. We have a dedicated Career Services Specialist hosting Career Club meetups and available for one-on-one counseling. Alumni are also welcome at Study Hall and all PDX Code Guild events.',
   },
-  {
-    id: 5,
-    question: 'What veterans benefits does PDX Code Guild accept?',
-    answer:
-      'VetTec, GI Bill®, VR&E, VRRAP and more are accepted at PDX Code Guild.',
-    note: 'GI Bill® is a registered trademark of the U.S. Department of Veterans Affairs (VA). More information about education benefits offered by VA is available at the official U.S. government Web site at https://www.benefits.va.gov/gibill.',
-  },
-  {
-    id: 6,
-    question:
-      'Do veterans receive BAH (Basic Allowance for Housing) while attending PDX Code Guild with their benefits?',
-    answer:
-      'Yes.  Veterans receive a monthly housing allowance when attending our Full Stack Day, Full Stack Evening, and Advanced JavaScript Bootcamps with their benefits.',
-  },
-  {
-    id: 7,
-    question:
-      'Do PDX Code Guild evening bootcamps qualify as full time for veterans using their benefits?',
-    answer:
-      'Yes.  The Full Stack Day, Full Stack Evening, and Advanced JavaScript Bootcamps all qualify as full time classes for veterans using their benefits.',
-  },
+  // {
+  //   id: 5,
+  //   question: 'What veterans benefits does PDX Code Guild accept?',
+  //   answer:
+  //     'VetTec, GI Bill®, VR&E, VRRAP and more are accepted at PDX Code Guild.',
+  //   note: 'GI Bill® is a registered trademark of the U.S. Department of Veterans Affairs (VA). More information about education benefits offered by VA is available at the official U.S. government Web site at https://www.benefits.va.gov/gibill.',
+  // },
+  // {
+  //   id: 6,
+  //   question:
+  //     'Do veterans receive BAH (Basic Allowance for Housing) while attending PDX Code Guild with their benefits?',
+  //   answer:
+  //     'Yes.  Veterans receive a monthly housing allowance when attending our Full Stack Day, Full Stack Evening, and Advanced JavaScript Bootcamps with their benefits.',
+  // },
+  // {
+  //   id: 7,
+  //   question:
+  //     'Do PDX Code Guild evening bootcamps qualify as full time for veterans using their benefits?',
+  //   answer:
+  //     'Yes.  The Full Stack Day, Full Stack Evening, and Advanced JavaScript Bootcamps all qualify as full time classes for veterans using their benefits.',
+  // },
 ]
 
 export default {

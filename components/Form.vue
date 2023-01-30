@@ -140,7 +140,7 @@
             />
           </div>
         </div>
-        <div class="pt-4 md:col-span-6">
+        <!-- <div class="pt-4 md:col-span-6">
           <div class="mt-4">
             <fieldset>
               <legend class="text-base font-medium text-gray-900">
@@ -293,7 +293,7 @@
               </div>
             </fieldset>
           </div>
-        </div>
+        </div> -->
         <div class="pt-4 sm:col-span-6">
           <label
             for="about"
