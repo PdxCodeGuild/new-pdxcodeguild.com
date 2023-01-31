@@ -129,7 +129,7 @@
               </nuxt-link>
             </li> -->
 
-            <li class="text-base truncate">
+            <!-- <li class="text-base truncate">
               <nuxt-link
                 to="/veterans"
                 class="
@@ -143,7 +143,7 @@
               >
                 For Veterans
               </nuxt-link>
-            </li>
+            </li> -->
             <li class="text-base truncate">
               <nuxt-link
                 to="/capstones"

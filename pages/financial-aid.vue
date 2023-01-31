@@ -102,7 +102,7 @@
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
               Applicants whose yearly household income is approximately 300% or
-              less of the 2019 federal poverty level will qualify for reduced
+              less of the 2023 federal poverty level will qualify for reduced
               tuition. This Discount is handled on a sliding scale.
             </dd>
             <dd class="mt-2 ml-16 text-sm text-gray-500">
@@ -282,7 +282,7 @@
             you qualify for an additional $500 discount. -->
             </dd>
           </div>
-          <div class="relative">
+          <!-- <div class="relative">
             <dt>
               <div
                 class="
@@ -328,7 +328,7 @@
                 Learn More
               </nuxt-link>
             </dd>
-          </div>
+          </div> -->
           <div class="relative mt-10">
             <dt>
               <div
@@ -432,11 +432,11 @@
               of your tuition paid before the 26th day of the bootcamp.
             </dd>
 
-            <dd class="mt-2 ml-16 text-xs text-gray-500">
+            <!-- <dd class="mt-2 ml-16 text-xs text-gray-500">
               Due to VA requirements, payments must be received on time. Because
               of this, any eligible discounts are awarded when the second
               payment is made.
-            </dd>
+            </dd> -->
           </div>
           <div class="relative mt-10">
             <dt>
@@ -484,7 +484,7 @@
               be refunded.
             </dd>
           </div>
-          <div class="relative mt-10">
+          <!-- <div class="relative mt-10">
             <dt>
               <div
                 class="
@@ -522,7 +522,7 @@
               Help a veteran who otherwise wouldn't be able to attend bootcamp
               and receive an additional $2500 off tuition.
             </dd>
-          </div>
+          </div> -->
         </dl>
       </div>
     </div>
@@ -589,8 +589,10 @@ export default {
       {
         hid: 'description',
         name: 'description',
+        //       content:
+        // "Income-Based Discounts, Veteran's Benefits, Grants & Payment Plans GI Bill Coding Bootcamps",
         content:
-          "Income-Based Discounts, Veteran's Benefits, Grants & Payment Plans GI Bill Coding Bootcamps",
+          'Income-Based Discounts, Grants & Payment Plans, Coding Bootcamps',
       },
     ],
   },
