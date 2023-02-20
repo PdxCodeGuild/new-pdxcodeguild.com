@@ -120,7 +120,7 @@ const sections = [
     name: 'After Graduation',
     hash: '#after',
     description:
-      "Graduation is just the beginning.  We're here for our grads with a dedicated Career Services Specialist, technical interview workshops, and 90 minutes of Study Hall every weekday.",
+      "Graduation is just the beginning.  We're here for our grads with Career Services, technical interview workshops, Study Hall, and events",
     icon: AcademicCap,
   },
 ]
