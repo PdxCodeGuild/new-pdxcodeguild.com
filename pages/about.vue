@@ -18,7 +18,7 @@ const team = [
     name: 'Sheri Dover',
     role: 'Director',
     imageUrl: '/images/team/Sheri.jpg',
-    bio: "Coming from a background in plant pathology, Sheri became involved in Portland's budding tech startup community.  Recognizing the need for individual, economic empowerment in tech, she assisted with the founding of PDX Code Guild in 2013.  Sheri views the school as a social cause, not an investment.  She can be found walking trails with her dog, Violet.",
+    bio: "Coming from a background in plant pathology, Sheri became involved in Portland's budding tech startup community.  Recognizing the need for individual, economic empowerment in tech, she founded PDX Code Guild in 2013.  Sheri views the school as a social cause, not an investment.  She can be found walking trails or gardening.",
 
     // plant pathology in grad school in corvalis
     // community service energized her more
@@ -45,7 +45,7 @@ const team = [
   // },
   {
     name: 'Merritt Lawrenson',
-    role: 'Lead Instructor',
+    role: 'Curriculum and Instruction Manager',
     imageUrl: '/images/team/Merritt.jpg',
     bio: "Merritt is a web developer and educator who teaches computer science and programming to students from kindergarten to adult. His favorite development projects use data visualizations and maps to tell stories. When he's not behind the computer, you can find Merritt exploring the city, leading architectural history tours, or watching a movie.",
   },

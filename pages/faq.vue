@@ -58,13 +58,13 @@ const faqs = [
     question:
       'Is help available to PDX Code Guild students outside of class hours?',
     answer:
-      'Yes. Teaching Assistants provide peer mentoring in study hall Mon-Fri, 4:00 pm - 6:00 pm  Pacific Time. Students can work, hang out, study, and get help with course work. Additionally, PDX Code Guild has an active community of alumni, staff, and graduates that will answer questions.',
+      'Yes. Teaching Assistants provide peer mentoring in study hall. Students can work, hang out, study, and get help with course work. Additionally, PDX Code Guild has an active community of alumni, staff, and graduates that will answer questions.',
   },
   {
     id: 4,
     question: 'What does PDX Code Guild offer to its graduates?',
     answer:
-      'PDX Code Guild offers a variety of services to graduates in good standing. We have a dedicated Career Services Specialist hosting Career Club meetups and available for one-on-one counseling. Alumni are also welcome at Study Hall and all PDX Code Guild events.',
+      'PDX Code Guild offers a variety of services to graduates in good standing. We offer Career Services and alumni are also welcome at Study Hall and all PDX Code Guild events.',
   },
   // {
   //   id: 5,
