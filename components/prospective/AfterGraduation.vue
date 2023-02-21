@@ -93,7 +93,7 @@ const features = [
     name: 'Career Services',
     icon: AcademicCapIcon,
     description:
-      'We have a dedicated Career Services Advisor to assist our alumni with resumés, LinkedIn & interview prep.',
+      'We offer Career Services to recent graduates to assist our alumni with resumés, LinkedIn, interview prep, and how to leverage their skills to build their portfolio.',
   },
   {
     name: 'Mock Technical Interviews',
@@ -105,13 +105,13 @@ const features = [
     name: 'Study Hall',
     icon: AcademicCapIcon,
     description:
-      'Study Hall is available to Alumni as well as Students.  Come by to hang out, work and ask questions of our TAs.',
+      'Study Hall is available to alumni as well as students.  Come by to ask career questions and build your skills by helping others with code and teaming up with other alumni on projects.',
   },
   {
     name: 'Tech Talks',
     icon: AcademicCapIcon,
     description:
-      'Attend one of our monthly presentations on a wide array of coding topics––from git and test-driven development to ray tracing and game design!',
+      'Attend one of our presentations on a wide array of coding topics––from git and test-driven development to ray tracing and game design!',
   },
   {
     name: 'Advanced JavaScript Course',
@@ -120,9 +120,10 @@ const features = [
       'Take your skills to the next level with our Advanced JavaScript course.',
   },
   {
-    name: 'In-Person Events... Soon',
+    name: 'In-Person Events',
     icon: AcademicCapIcon,
-    description: "We can't wait to have in-person events again!  Stay tuned.",
+    description:
+      'We offer regular in-person and hybrid meetups through Portland Programmer Network.',
   },
 ]
 
