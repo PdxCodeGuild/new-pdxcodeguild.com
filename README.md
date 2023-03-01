@@ -1,5 +1,9 @@
 # pdx
 
+## Prereqs
+
+Merritt's Note: things crash on current versions of node. use node 16 (hint: nvm) and everything works perfectly
+
 ## Build Setup
 
 ```bash
