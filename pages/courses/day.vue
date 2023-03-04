@@ -33,7 +33,7 @@ const tableProps = {
 }
 
 const tuitionProps = {
-  fullTuition: '26,000',
+  fullTuition: '24,400',
   needsBasedLow: '8,500',
   needsBasedHigh: '18,000',
 }
@@ -62,10 +62,10 @@ const additionalInfoStats = [
     name: 'Official course name',
     stat: 'Fulltime Python/JavaScript Fullstack Developer Bootcamp',
   },
-  {
-    name: 'Also listed with the VA as',
-    stat: '14-week Python-Based developer bootcamp',
-  },
+  // {
+  //   name: 'Also listed with the VA as',
+  //   stat: '14-week Python-Based developer bootcamp',
+  // },
   {
     name: 'Prerequisite',
     stat: 'Successful Completion of Programming 101/102',

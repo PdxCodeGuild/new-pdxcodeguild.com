@@ -34,9 +34,9 @@ const tableProps = {
 }
 
 const tuitionProps = {
-  fullTuition: '17,500',
+  fullTuition: '17,400',
   needsBasedLow: '7,500',
-  needsBasedHigh: '8,000',
+  needsBasedHigh: '15,000',
 }
 
 const courseConcepts = [
