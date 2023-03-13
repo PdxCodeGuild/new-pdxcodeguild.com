@@ -64,7 +64,7 @@
           language.
         </p>
         <p class="mt-5 max-w-prose mx-auto text-base text-gray-500">
-          Our instructors are proven programmers whose expertise falls within,
+          Our instructors are proven developers whose expertise falls within,
           and extends beyond, the scope of the curriculum. This allows our
           students tremendous flexibility when selecting capstone projects for
           themselves because they will receive support they need at any level of

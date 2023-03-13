@@ -374,7 +374,7 @@ const techImmersionFeatures = [
   },
   {
     id: 2,
-    name: 'Think like a programmer',
+    name: 'Think like a developer',
     description:
       'Write, test, debug.  Learn to see every problem as a potential solution.  Find the joy in problem solving.',
     icon: CodeIcon,
