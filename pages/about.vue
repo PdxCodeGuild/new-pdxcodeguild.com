@@ -65,7 +65,7 @@ const team = [
     name: 'Matt Chimenti',
     role: 'Programming 101/102 Instructor',
     imageUrl: '/images/team/Matt.jpg',
-    bio: 'Matt is a former PDX Code Guild student. He received an undergraduate degree in literature and worked in finance for many years. Needing a change, he decided one day to research programming bootcamps. He made contact with the staff and, since then, never looked back. He couldn’t be happier with the decision to change his career trajectory and end up in coding and loves sharings his experiences and passion with the new programmers of 101 and 102.',
+    bio: 'Matt is a former PDX Code Guild student. He received an undergraduate degree in literature and worked in finance for many years. Needing a change, he decided one day to research programming bootcamps. He made contact with the staff and, since then, never looked back. He couldn’t be happier with the decision to change his career trajectory and end up in coding and loves sharings his experiences and passion with the new developers of 101 and 102.',
   },
 ]
 

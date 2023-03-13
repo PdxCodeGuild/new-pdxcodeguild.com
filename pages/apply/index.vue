@@ -3,7 +3,7 @@
     <TailwindUIHeader1
       title="Ready to start your coding adventure?"
       img-src="images/orange/AlumniHackerspace.jpg"
-      img-alt="Programmers gather at a long table to work and socialize."
+      img-alt="Developers gather at a long table to work and socialize."
       color-filter="orange"
       color-filter-weight="300"
       :center="true"

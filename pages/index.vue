@@ -90,7 +90,7 @@
                 </p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-gray-500">
-                Our instructors are proven programmers whose expertise falls
+                Our instructors are proven developers whose expertise falls
                 within, and extends beyond, the scope of the curriculum.
               </dd>
             </div>
