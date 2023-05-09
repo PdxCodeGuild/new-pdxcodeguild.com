@@ -62,7 +62,7 @@
             </ul>
           </div>
 
-          <div>
+          <!-- <div>
             <h3
               class="
                 text-sm
@@ -93,28 +93,28 @@
                 </nuxt-link>
               </li>
 
-              <!-- <li>
+              <li>
                 <nuxt-link
                   to="/faq"
                   class="text-base text-gray-500 hover:text-gray-900"
                 >
                   Frequently Asked Questions
                 </nuxt-link>
-              </li> -->
+              </li>
 
-              <!-- <li>
+              <li>
                 <a href="#" class="text-base text-gray-500 hover:text-gray-900">
                   Press
                 </a>
-              </li> -->
+              </li>
 
-              <!-- <li>
+              <li>
                 <a href="#" class="text-base text-gray-500 hover:text-gray-900">
                   Partners
                 </a>
-              </li> -->
+              </li>
             </ul>
-          </div>
+          </div> -->
           <div class="mt-12 md:mt-0">
             <h3
               class="
