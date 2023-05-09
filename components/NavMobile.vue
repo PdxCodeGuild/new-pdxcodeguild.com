@@ -90,7 +90,7 @@
         </div>
         <div class="mt-12">
           <nav class="grid grid-cols-1 gap-7">
-            <nuxt-link
+            <!-- <nuxt-link
               to="/courses"
               class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
             >
@@ -106,7 +106,6 @@
                   text-white
                 "
               >
-                <!-- Heroicon name: outline/calendar -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
@@ -143,7 +142,6 @@
                   text-white
                 "
               >
-                <!-- Heroicon name: outline/academic-cap -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
@@ -184,7 +182,6 @@
                   text-white
                 "
               >
-                <!-- Heroicon name: outline/star -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
@@ -221,7 +218,6 @@
                   text-white
                 "
               >
-                <!-- Heroicon name: outline/support -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
@@ -240,7 +236,7 @@
               <div class="ml-4 text-base font-medium text-gray-900">
                 Financial Aid
               </div>
-            </nuxt-link>
+            </nuxt-link> -->
 
             <nuxt-link
               to="/contact"
@@ -316,7 +312,7 @@
           </nav>
         </div>
       </div>
-      <div class="py-6 px-5">
+      <!-- <div class="py-6 px-5">
         <div>
           <nuxt-link
             to="/apply"
@@ -340,7 +336,7 @@
             Get Started
           </nuxt-link>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

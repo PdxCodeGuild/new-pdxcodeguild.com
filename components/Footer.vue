@@ -93,14 +93,14 @@
                 </nuxt-link>
               </li>
 
-              <li>
+              <!-- <li>
                 <nuxt-link
                   to="/faq"
                   class="text-base text-gray-500 hover:text-gray-900"
                 >
                   Frequently Asked Questions
                 </nuxt-link>
-              </li>
+              </li> -->
 
               <!-- <li>
                 <a href="#" class="text-base text-gray-500 hover:text-gray-900">

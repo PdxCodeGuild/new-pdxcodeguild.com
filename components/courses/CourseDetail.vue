@@ -8,7 +8,7 @@
     <section class="px-4 md:px-16">
       <CourseAdditionalInfo :stats="additionalInfoStats" />
     </section>
-    <section class="xl:grid xl:grid-cols-2 justify-between px-4 md:px-16">
+    <!-- <section class="xl:grid xl:grid-cols-2 justify-between px-4 md:px-16">
       <CourseScheduleTable
         :course-days="tableProps.courseDays"
         :course-times="tableProps.courseTimes"
@@ -21,26 +21,26 @@
         :needs-based-low="tuitionProps.needsBasedLow"
         :needs-based-high="tuitionProps.needsBasedHigh"
       />
-    </section>
+    </section> -->
     <CourseOverviewNew :course-concepts="courseConcepts" />
-    <CTALight
+    <!-- <CTALight
       line1="Ready to level up?"
       line2="Invest in your future today"
       href="/apply"
       button-text="Get started"
-    />
+    /> -->
   </main>
 </template>
 <script>
 import CourseOverviewNew from './CourseOverviewNew.vue'
-import CourseScheduleTable from '~/components/courses/CourseScheduleTable.vue'
-import CourseDetailTuitionInfo from '~/components/courses/CourseDetailTuitionInfo.vue'
+// import CourseScheduleTable from '~/components/courses/CourseScheduleTable.vue'
+// import CourseDetailTuitionInfo from '~/components/courses/CourseDetailTuitionInfo.vue'
 import CourseAdditionalInfo from '~/components/courses/CourseAdditionalInfo.vue'
 
 export default {
   components: {
-    CourseScheduleTable,
-    CourseDetailTuitionInfo,
+    // CourseScheduleTable,
+    // CourseDetailTuitionInfo,
     CourseOverviewNew,
     CourseAdditionalInfo,
   },
