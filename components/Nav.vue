@@ -124,7 +124,7 @@
 
           <FlyoutCourses v-if="coursesOpen" />
 
-          <button
+          <!-- <button
             ref="prospectiveButton"
             type="button"
             class="
@@ -148,11 +148,6 @@
             @click="showProspective(!prospectiveOpen)"
           >
             <span>Prospective Students</span>
-            <!--
-            Heroicon name: solid/chevron-down
-
-            Item active: "text-gray-600", Item inactive: "text-gray-400"
-          -->
             <svg
               class="ml-2 h-5 w-5 group-hover:text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -170,11 +165,11 @@
                 clip-rule="evenodd"
               />
             </svg>
-          </button>
+          </button> -->
 
           <FlyoutProspective v-if="prospectiveOpen" />
 
-          <button
+          <!-- <button
             type="button"
             class="
               group
@@ -195,7 +190,7 @@
             }"
           >
             <nuxt-link to="/financial-aid">Financial Aid</nuxt-link>
-          </button>
+          </button> -->
 
           <button
             type="button"
@@ -236,7 +231,7 @@
         >
           Contact
         </NuxtLink>
-        <nuxt-link
+        <!-- <nuxt-link
           to="/apply"
           class="
             ml-8
@@ -257,7 +252,7 @@
           "
         >
           Get Started
-        </nuxt-link>
+        </nuxt-link> -->
       </div>
     </div>
 

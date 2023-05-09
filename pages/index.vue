@@ -291,7 +291,7 @@
     </div>
 
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="py-12 bg-white">
+    <!-- <div class="py-12 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h2
@@ -346,7 +346,6 @@
                     text-white
                   "
                 >
-                  <!-- Heroicon name: outline/globe-alt -->
                   <svg
                     class="h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -390,7 +389,6 @@
                     text-white
                   "
                 >
-                  <!-- Heroicon name: outline/scale -->
                   <svg
                     class="h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -434,7 +432,6 @@
                     text-white
                   "
                 >
-                  <!-- Heroicon name: outline/lightning-bolt -->
                   <svg
                     class="h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -466,10 +463,10 @@
           </dl>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="bg-orange-100">
+    <!-- <div class="bg-orange-100">
       <div
         class="
           max-w-7xl
@@ -522,7 +519,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </main>
 </template>
 

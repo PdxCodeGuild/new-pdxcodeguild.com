@@ -239,7 +239,7 @@
           </div>
         </nuxt-link>
       </div>
-      <div class="p-5 bg-gray-50 sm:p-8">
+      <!-- <div class="p-5 bg-gray-50 sm:p-8">
         <nuxt-link
           to="/courses"
           class="-m-3 p-3 flow-root rounded-md hover:bg-gray-100"
@@ -270,7 +270,7 @@
             Not sure? Take a look at all of the classes we have at the guild.
           </p>
         </nuxt-link>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
