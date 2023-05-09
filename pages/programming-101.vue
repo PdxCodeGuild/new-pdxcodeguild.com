@@ -184,7 +184,7 @@
         </dl>
       </div>
     </div>
-    <div class="bg-orange-100">
+    <!-- <div class="bg-orange-100">
       <div
         class="
           max-w-7xl
@@ -236,7 +236,7 @@
           </button>
         </div>
       </div>
-    </div>
+    </div> -->
   </main>
 </template>
 <script>
