@@ -33,10 +33,9 @@
                 <p>Portland, OR 97232</p>
               </dd>
             </div>
-            <div class="mt-6">
+            <!-- <div class="mt-6">
               <dt class="sr-only">Phone number</dt>
               <dd class="flex">
-                <!-- Heroicon name: outline/phone -->
                 <svg
                   class="flex-shrink-0 h-6 w-6 text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +55,7 @@
                   <a href="tel:+15034448836"> +1 (503) 444-8836 </a>
                 </span>
               </dd>
-            </div>
+            </div> -->
             <div class="mt-3">
               <dt class="sr-only">Email</dt>
               <dd class="flex">
