@@ -2,8 +2,8 @@
   <main class="relative bg-white">
     <HeaderSimpleCentered
       title="Programming 101/102"
-      subtitle="Dive in"
-      description="The quickest way to get started writing code"
+      subtitle="We've moved!"
+      description="Intro to programming classes are now run by the Portland Programmer Network."
     />
     <div class="relative bg-white">
       <div class="lg:absolute lg:inset-0 rounded-2">
@@ -80,14 +80,6 @@
                   <!-- </p>
                   </div> -->
                 </li>
-
-                <li>
-                  <!-- <div class="ml-3">
-                    <p class="text-lg font-medium text-gray-900"> -->
-                  Taught by top graduates of the Full Stack bootcamp
-                  <!-- </p>
-                  </div> -->
-                </li>
                 <li>
                   <!-- <div class="ml-3">
                     <p class="text-lg font-medium text-gray-900"> -->
@@ -108,7 +100,7 @@
                 >
                   <div class="inline-flex rounded-md shadow">
                     <a
-                      href="https://pdxcodeguild.eventbrite.com"
+                      href="https://portlandprogrammernetwork.eventbrite.com"
                       class="
                         inline-flex
                         items-center
@@ -124,7 +116,7 @@
                         hover:bg-orange-700
                       "
                     >
-                      Learn More
+                      Learn More @ Portland Programmer Network
                     </a>
                   </div>
                 </div>
