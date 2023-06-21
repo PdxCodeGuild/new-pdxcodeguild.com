@@ -220,7 +220,7 @@
       </nav>
       <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
         <NuxtLink
-          to="contact"
+          to="/contact"
           class="whitespace-nowrap text-base font-medium"
           :class="{
             'hover:text-gray-900': !transparent,
