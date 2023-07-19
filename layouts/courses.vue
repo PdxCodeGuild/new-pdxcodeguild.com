@@ -1,8 +1,8 @@
 <template>
   <div class="font-default">
-    <Nav />
+    <!-- <Nav /> -->
     <Nuxt />
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 <style>

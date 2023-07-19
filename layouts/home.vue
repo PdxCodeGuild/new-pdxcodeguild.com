@@ -1,9 +1,9 @@
 <template>
   <div class="font-default">
     <!-- <Banner /> -->
-    <Nav transparent="true" />
+    <!-- <Nav transparent="true" /> -->
     <Nuxt />
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 
